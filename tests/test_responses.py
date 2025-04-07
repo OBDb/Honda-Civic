@@ -404,28 +404,18 @@ def load_signalset(filename: str) -> str:
 )
 def test_signals(test_group: Dict[str, Any]):
     """Test signal decoding against known responses."""
-    # Check if 'signalset' key exists, provide default or handle error if needed
-    signalset_file = test_group.get("signalset", "default.json") # Assuming default.json if not specified
-    signalset_json = load_signalset(signalset_file)
-
-    # Run each test case in the group
     for response_hex, expected_values in test_group["tests"]:
         try:
-            # Assuming obd_testrunner exists and is correctly imported
-            # If obd_testrunner_by_year should be used, replace obd_testrunner below
-            # Also, ensure the function signature matches (e.g., if model_year is needed)
-            obd_testrunner_by_year( # Changed from obd_testrunner based on imports
-                test_group["model_year"],
-                signalset_json,
+            obd_testrunner_by_year(
+                test_group['model_year'],
                 response_hex,
                 expected_values,
-                can_id_format=CANIDFormat.ELEVEN_BIT
+                can_id_format=CANIDFormat.TWENTY_NINE_BIT
             )
         except Exception as e:
             pytest.fail(
                 f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {signalset_file}): {e}"
+                f"(Model Year: {test_group['model_year']}: {e}"
             )
 
 def get_json_files():
