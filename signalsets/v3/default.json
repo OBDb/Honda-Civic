@@ -17,7 +17,7 @@
   ]},
 { "hdr": "DA60", "cmd": {"22": "7029"}, "freq": 5,
   "signals": [
-    {"id": "CIVIC_FUEL_LEVEL", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 32, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "CIVIC_FUEL_LEVEL", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level"}
   ]},
 { "hdr": "DB33", "cmd": {"01": "05"}, "freq": 5,
   "signals": [
