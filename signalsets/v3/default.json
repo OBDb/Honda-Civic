@@ -17,7 +17,7 @@
   ]},
 { "hdr": "DA60", "dbg": true, "cmd": {"22": "7029"}, "freq": 5,
   "signals": [
-    {"id": "CIVIC_FUEL_LEVEL", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level"}
+    {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
 { "hdr": "DB33", "cmd": {"01": "05"}, "freq": 5,
   "signals": [
@@ -25,7 +25,7 @@
   ]},
 { "hdr": "DB33", "dbg": true, "cmd": {"01": "2F"}, "freq": 5,
   "signals": [
-    {"id": "CIVIC_FUEL_LEVEL_PERCENT", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "Fuel level"}
+    {"id": "CIVIC_FLI", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "Fuel level"}
   ]}
 ]
 }
