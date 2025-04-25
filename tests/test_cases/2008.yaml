@@ -1,0 +1,14 @@
+model_year: 2008
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+supported_commands_by_ecu: {}
+unsupported_commands_by_ecu:
+  DA26:
+  - DA26.226001
+  DA60:
+  - DA60.227029
+test_cases:
+- response: 18DAF11003412F23
+  expected_values: {}
+- response: 18DAF11003412F27
+  expected_values: {}

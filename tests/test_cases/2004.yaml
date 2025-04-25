@@ -1,0 +1,8 @@
+model_year: 2004
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+supported_commands_by_ecu: null
+unsupported_commands_by_ecu:
+  DA26:
+  - DA26.226001
+test_cases: []
