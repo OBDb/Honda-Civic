@@ -8037,251 +8037,199 @@ test_cases:
     18DAF1100341054B
     18DAF11E0341054B
   expected_values:
-    CIVIC_ECT: 35
     ECT: 35
 - response: |-
     18DAF1100341054E
     18DAF11E0341054E
   expected_values:
-    CIVIC_ECT: 38
     ECT: 38
 - response: |-
     18DAF1100341054F
     18DAF11E0341054F
   expected_values:
-    CIVIC_ECT: 39
     ECT: 39
 - response: 18DAF11003410553
   expected_values:
-    CIVIC_ECT: 43
     ECT: 43
 - response: |-
     18DAF11003410553
     18DAF11E03410553
   expected_values:
-    CIVIC_ECT: 43
     ECT: 43
 - response: |-
     18DAF11003410554
     18DAF11E03410554
   expected_values:
-    CIVIC_ECT: 44
     ECT: 44
 - response: 18DAF11003410557
   expected_values:
-    CIVIC_ECT: 47
     ECT: 47
 - response: |-
     18DAF11003410557
     18DAF11E03410557
   expected_values:
-    CIVIC_ECT: 47
     ECT: 47
 - response: |-
     18DAF11003410558
     18DAF11E03410558
   expected_values:
-    CIVIC_ECT: 48
     ECT: 48
 - response: 18DAF1100341055D
   expected_values:
-    CIVIC_ECT: 53
     ECT: 53
 - response: |-
     18DAF1100341055D
     18DAF11E0341055D
   expected_values:
-    CIVIC_ECT: 53
     ECT: 53
 - response: 18DAF1100341055E
   expected_values:
-    CIVIC_ECT: 54
     ECT: 54
 - response: 18DAF11003410561
   expected_values:
-    CIVIC_ECT: 57
     ECT: 57
 - response: |-
     18DAF11003410561
     18DAF11E03410561
   expected_values:
-    CIVIC_ECT: 57
     ECT: 57
 - response: 18DAF11003410563
   expected_values:
-    CIVIC_ECT: 59
     ECT: 59
 - response: 18DAF11003410564
   expected_values:
-    CIVIC_ECT: 60
     ECT: 60
 - response: 18DAF11003410565
   expected_values:
-    CIVIC_ECT: 61
     ECT: 61
 - response: 18DAF11003410566
   expected_values:
-    CIVIC_ECT: 62
     ECT: 62
 - response: |-
     18DAF11003410566
     18DAF11E03410566
   expected_values:
-    CIVIC_ECT: 62
     ECT: 62
 - response: 18DAF11003410567
   expected_values:
-    CIVIC_ECT: 63
     ECT: 63
 - response: 18DAF11003410568
   expected_values:
-    CIVIC_ECT: 64
     ECT: 64
 - response: |-
     18DAF11003410568
     18DAF11E03410568
   expected_values:
-    CIVIC_ECT: 64
     ECT: 64
 - response: 18DAF11003410569
   expected_values:
-    CIVIC_ECT: 65
     ECT: 65
 - response: 18DAF1100341056A
   expected_values:
-    CIVIC_ECT: 66
     ECT: 66
 - response: |-
     18DAF1100341056A
     18DAF11E0341056A
   expected_values:
-    CIVIC_ECT: 66
     ECT: 66
 - response: |-
     18DAF1100341056B
     18DAF11E0341056B
   expected_values:
-    CIVIC_ECT: 67
     ECT: 67
 - response: 18DAF1100341056C
   expected_values:
-    CIVIC_ECT: 68
     ECT: 68
 - response: |-
     18DAF1100341056C
     18DAF11E0341056C
   expected_values:
-    CIVIC_ECT: 68
     ECT: 68
 - response: 18DAF1100341056D
   expected_values:
-    CIVIC_ECT: 69
     ECT: 69
 - response: |-
     18DAF1100341056D
     18DAF11E0341056D
   expected_values:
-    CIVIC_ECT: 69
     ECT: 69
 - response: 18DAF1100341056E
   expected_values:
-    CIVIC_ECT: 70
     ECT: 70
 - response: 18DAF1100341056F
   expected_values:
-    CIVIC_ECT: 71
     ECT: 71
 - response: |-
     18DAF1100341056F
     18DAF11E0341056F
   expected_values:
-    CIVIC_ECT: 71
     ECT: 71
 - response: 18DAF11003410570
   expected_values:
-    CIVIC_ECT: 72
     ECT: 72
 - response: 18DAF11003410571
   expected_values:
-    CIVIC_ECT: 73
     ECT: 73
 - response: 18DAF11003410572
   expected_values:
-    CIVIC_ECT: 74
     ECT: 74
 - response: |-
     18DAF11003410572
     18DAF11E03410572
   expected_values:
-    CIVIC_ECT: 74
     ECT: 74
 - response: 18DAF11003410573
   expected_values:
-    CIVIC_ECT: 75
     ECT: 75
 - response: 18DAF11003410574
   expected_values:
-    CIVIC_ECT: 76
     ECT: 76
 - response: 18DAF11003410575
   expected_values:
-    CIVIC_ECT: 77
     ECT: 77
 - response: 18DAF11003410576
   expected_values:
-    CIVIC_ECT: 78
     ECT: 78
 - response: 18DAF11003410577
   expected_values:
-    CIVIC_ECT: 79
     ECT: 79
 - response: |-
     18DAF11003410577
     18DAF11E03410577
   expected_values:
-    CIVIC_ECT: 79
     ECT: 79
 - response: 18DAF11003410578
   expected_values:
-    CIVIC_ECT: 80
     ECT: 80
 - response: 18DAF11003410579
   expected_values:
-    CIVIC_ECT: 81
     ECT: 81
 - response: |-
     18DAF11003410579
     18DAF11E03410579
   expected_values:
-    CIVIC_ECT: 81
     ECT: 81
 - response: 18DAF1100341057A
   expected_values:
-    CIVIC_ECT: 82
     ECT: 82
 - response: 18DAF1100341057B
   expected_values:
-    CIVIC_ECT: 83
     ECT: 83
 - response: |-
     18DAF1100341057B
     18DAF11E0341057B
   expected_values:
-    CIVIC_ECT: 83
     ECT: 83
 - response: 18DAF1100341057C
   expected_values:
-    CIVIC_ECT: 84
     ECT: 84
 - response: |-
     18DAF1100341057C
     18DAF11E0341057C
   expected_values:
-    CIVIC_ECT: 84
     ECT: 84
 - response: 18DAF1100341057D
   expected_values:
-    CIVIC_ECT: 85
     ECT: 85
 - response: 18DAF11003412F28
   expected_values:
@@ -8465,85 +8413,67 @@ test_cases:
     FLI: 100
 - response: 18DAF11E03410559
   expected_values:
-    CIVIC_ECT: 49
     ECT: 49
 - response: 18DAF11E03410561
   expected_values:
-    CIVIC_ECT: 57
     ECT: 57
 - response: 18DAF11E03410566
   expected_values:
-    CIVIC_ECT: 62
     ECT: 62
 - response: |-
     18DAF11E03410568
     18DAF11003410568
   expected_values:
-    CIVIC_ECT: 64
     ECT: 64
 - response: |-
     18DAF11E03410569
     18DAF11003410569
   expected_values:
-    CIVIC_ECT: 65
     ECT: 65
 - response: 18DAF11E0341056C
   expected_values:
-    CIVIC_ECT: 68
     ECT: 68
 - response: 18DAF11E0341056E
   expected_values:
-    CIVIC_ECT: 70
     ECT: 70
 - response: |-
     18DAF11E0341056E
     18DAF1100341056E
   expected_values:
-    CIVIC_ECT: 70
     ECT: 70
 - response: 18DAF11E0341056F
   expected_values:
-    CIVIC_ECT: 71
     ECT: 71
 - response: |-
     18DAF11E03410575
     18DAF11003410575
   expected_values:
-    CIVIC_ECT: 77
     ECT: 77
 - response: 18DAF11E03410577
   expected_values:
-    CIVIC_ECT: 79
     ECT: 79
 - response: |-
     18DAF11E03410577
     18DAF11003410577
   expected_values:
-    CIVIC_ECT: 79
     ECT: 79
 - response: 18DAF11E03410578
   expected_values:
-    CIVIC_ECT: 80
     ECT: 80
 - response: 18DAF11E03410579
   expected_values:
-    CIVIC_ECT: 81
     ECT: 81
 - response: 18DAF11E0341057B
   expected_values:
-    CIVIC_ECT: 83
     ECT: 83
 - response: 18DAF11E0341057C
   expected_values:
-    CIVIC_ECT: 84
     ECT: 84
 - response: |-
     18DAF11E0341057C
     18DAF1100341057C
   expected_values:
-    CIVIC_ECT: 84
     ECT: 84
 - response: 18DAF11E0341057D
   expected_values:
-    CIVIC_ECT: 85
     ECT: 85
