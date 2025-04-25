@@ -40,6 +40,8 @@ unsupported_commands_by_ecu:
   - DA60.227029
 test_cases:
 - response: 18DAF11003412F23
-  expected_values: {}
+  expected_values:
+    FLI: 13.72549
 - response: 18DAF11003412F27
-  expected_values: {}
+  expected_values:
+    FLI: 15.29412

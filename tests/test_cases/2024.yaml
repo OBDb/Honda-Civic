@@ -37757,238 +37757,379 @@ test_cases:
 - response: 18DAF1601039627028F8F000
   expected_values: {}
 - response: 18DAF11003412F26
-  expected_values: {}
+  expected_values:
+    FLI: 14.90196
 - response: 18DAF11003412F2655555555
-  expected_values: {}
+  expected_values:
+    FLI: 14.90196
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F28
-  expected_values: {}
+  expected_values:
+    FLI: 15.68627
 - response: 18DAF11003412F2B55555555
-  expected_values: {}
+  expected_values:
+    FLI: 16.86275
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F2D55555555
-  expected_values: {}
+  expected_values:
+    FLI: 17.64706
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F2E55555555
-  expected_values: {}
+  expected_values:
+    FLI: 18.03922
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F3355555555
-  expected_values: {}
+  expected_values:
+    FLI: 20
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F3655555555
-  expected_values: {}
+  expected_values:
+    FLI: 21.17647
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F3B55555555
-  expected_values: {}
+  expected_values:
+    FLI: 23.13725
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F3C55555555
-  expected_values: {}
+  expected_values:
+    FLI: 23.52941
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F3E
-  expected_values: {}
+  expected_values:
+    FLI: 24.31373
 - response: 18DAF11003412F3F55555555
-  expected_values: {}
+  expected_values:
+    FLI: 24.70588
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F41
-  expected_values: {}
+  expected_values:
+    FLI: 25.4902
 - response: 18DAF11003412F4155555555
-  expected_values: {}
+  expected_values:
+    FLI: 25.4902
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F42
-  expected_values: {}
+  expected_values:
+    FLI: 25.88235
 - response: 18DAF11003412F4255555555
-  expected_values: {}
+  expected_values:
+    FLI: 25.88235
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F45
-  expected_values: {}
+  expected_values:
+    FLI: 27.05882
 - response: 18DAF11003412F4555555555
-  expected_values: {}
+  expected_values:
+    FLI: 27.05882
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F48
-  expected_values: {}
+  expected_values:
+    FLI: 28.23529
 - response: 18DAF11003412F4B
-  expected_values: {}
+  expected_values:
+    FLI: 29.41176
 - response: 18DAF11003412F4C
-  expected_values: {}
+  expected_values:
+    FLI: 29.80392
 - response: 18DAF11003412F4E55555555
-  expected_values: {}
+  expected_values:
+    FLI: 30.58824
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F4F55555555
-  expected_values: {}
+  expected_values:
+    FLI: 30.98039
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F51
-  expected_values: {}
+  expected_values:
+    FLI: 31.76471
 - response: 18DAF11003412F5155555555
-  expected_values: {}
+  expected_values:
+    FLI: 31.76471
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F54
-  expected_values: {}
+  expected_values:
+    FLI: 32.94118
 - response: 18DAF11003412F5455555555
-  expected_values: {}
+  expected_values:
+    FLI: 32.94118
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F55
-  expected_values: {}
+  expected_values:
+    FLI: 33.33333
 - response: 18DAF11003412F5755555555
-  expected_values: {}
+  expected_values:
+    FLI: 34.11765
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F58
-  expected_values: {}
+  expected_values:
+    FLI: 34.5098
 - response: 18DAF11003412F5855555555
-  expected_values: {}
+  expected_values:
+    FLI: 34.5098
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F5A
-  expected_values: {}
+  expected_values:
+    FLI: 35.29412
 - response: 18DAF11003412F5C
-  expected_values: {}
+  expected_values:
+    FLI: 36.07843
 - response: 18DAF11003412F5D
-  expected_values: {}
+  expected_values:
+    FLI: 36.47059
 - response: 18DAF11003412F5D55555555
-  expected_values: {}
+  expected_values:
+    FLI: 36.47059
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F5F
-  expected_values: {}
+  expected_values:
+    FLI: 37.2549
 - response: 18DAF11003412F60
-  expected_values: {}
+  expected_values:
+    FLI: 37.64706
 - response: 18DAF11003412F6255555555
-  expected_values: {}
+  expected_values:
+    FLI: 38.43137
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F63
-  expected_values: {}
+  expected_values:
+    FLI: 38.82353
 - response: 18DAF11003412F64
-  expected_values: {}
+  expected_values:
+    FLI: 39.21569
 - response: 18DAF11003412F66
-  expected_values: {}
+  expected_values:
+    FLI: 40
 - response: 18DAF11003412F68
-  expected_values: {}
+  expected_values:
+    FLI: 40.78431
 - response: 18DAF11003412F6855555555
-  expected_values: {}
+  expected_values:
+    FLI: 40.78431
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F6B
-  expected_values: {}
+  expected_values:
+    FLI: 41.96078
 - response: 18DAF11003412F6B55555555
-  expected_values: {}
+  expected_values:
+    FLI: 41.96078
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F6E
-  expected_values: {}
+  expected_values:
+    FLI: 43.13725
 - response: 18DAF11003412F70
-  expected_values: {}
+  expected_values:
+    FLI: 43.92157
 - response: 18DAF11003412F72
-  expected_values: {}
+  expected_values:
+    FLI: 44.70588
 - response: 18DAF11003412F75
-  expected_values: {}
+  expected_values:
+    FLI: 45.88235
 - response: 18DAF11003412F76
-  expected_values: {}
+  expected_values:
+    FLI: 46.27451
 - response: 18DAF11003412F78
-  expected_values: {}
+  expected_values:
+    FLI: 47.05882
 - response: 18DAF11003412F7B
-  expected_values: {}
+  expected_values:
+    FLI: 48.23529
 - response: 18DAF11003412F7B55555555
-  expected_values: {}
+  expected_values:
+    FLI: 48.23529
+    STSO2FT1: -33.59375
 - response: 18DAF11003412F7D
-  expected_values: {}
+  expected_values:
+    FLI: 49.01961
 - response: 18DAF11003412F7E
-  expected_values: {}
+  expected_values:
+    FLI: 49.41176
 - response: 18DAF11003412F81
-  expected_values: {}
+  expected_values:
+    FLI: 50.58824
 - response: 18DAF11003412F82
-  expected_values: {}
+  expected_values:
+    FLI: 50.98039
 - response: 18DAF11003412F84
-  expected_values: {}
+  expected_values:
+    FLI: 51.76471
 - response: 18DAF11003412F85
-  expected_values: {}
+  expected_values:
+    FLI: 52.15686
 - response: 18DAF11003412F88
-  expected_values: {}
+  expected_values:
+    FLI: 53.33333
 - response: 18DAF11003412F89
-  expected_values: {}
+  expected_values:
+    FLI: 53.72549
 - response: 18DAF11003412F8A
-  expected_values: {}
+  expected_values:
+    FLI: 54.11765
 - response: 18DAF11003412F8E
-  expected_values: {}
+  expected_values:
+    FLI: 55.68627
 - response: 18DAF11003412F8F
-  expected_values: {}
+  expected_values:
+    FLI: 56.07843
 - response: 18DAF11003412F91
-  expected_values: {}
+  expected_values:
+    FLI: 56.86275
 - response: 18DAF11003412F94
-  expected_values: {}
+  expected_values:
+    FLI: 58.03922
 - response: 18DAF11003412F95
-  expected_values: {}
+  expected_values:
+    FLI: 58.43137
 - response: 18DAF11003412F97
-  expected_values: {}
+  expected_values:
+    FLI: 59.21569
 - response: 18DAF11003412F98
-  expected_values: {}
+  expected_values:
+    FLI: 59.60784
 - response: 18DAF11003412F9A
-  expected_values: {}
+  expected_values:
+    FLI: 60.39216
 - response: 18DAF11003412F9B
-  expected_values: {}
+  expected_values:
+    FLI: 60.78431
 - response: 18DAF11003412F9D
-  expected_values: {}
+  expected_values:
+    FLI: 61.56863
 - response: 18DAF11003412F9F
-  expected_values: {}
+  expected_values:
+    FLI: 62.35294
 - response: 18DAF11003412FA2
-  expected_values: {}
+  expected_values:
+    FLI: 63.52941
 - response: 18DAF11003412FA3
-  expected_values: {}
+  expected_values:
+    FLI: 63.92157
 - response: 18DAF11003412FA5
-  expected_values: {}
+  expected_values:
+    FLI: 64.70588
 - response: 18DAF11003412FA6
-  expected_values: {}
+  expected_values:
+    FLI: 65.09804
 - response: 18DAF11003412FA8
-  expected_values: {}
+  expected_values:
+    FLI: 65.88235
 - response: 18DAF11003412FA9
-  expected_values: {}
+  expected_values:
+    FLI: 66.27451
 - response: 18DAF11003412FAB
-  expected_values: {}
+  expected_values:
+    FLI: 67.05882
 - response: 18DAF11003412FAC
-  expected_values: {}
+  expected_values:
+    FLI: 67.45098
 - response: 18DAF11003412FAE
-  expected_values: {}
+  expected_values:
+    FLI: 68.23529
 - response: 18DAF11003412FB0
-  expected_values: {}
+  expected_values:
+    FLI: 69.01961
 - response: 18DAF11003412FB2
-  expected_values: {}
+  expected_values:
+    FLI: 69.80392
 - response: 18DAF11003412FB4
-  expected_values: {}
+  expected_values:
+    FLI: 70.58824
 - response: 18DAF11003412FB5
-  expected_values: {}
+  expected_values:
+    FLI: 70.98039
 - response: 18DAF11003412FB6
-  expected_values: {}
+  expected_values:
+    FLI: 71.37255
 - response: 18DAF11003412FB8
-  expected_values: {}
+  expected_values:
+    FLI: 72.15686
 - response: 18DAF11003412FB9
-  expected_values: {}
+  expected_values:
+    FLI: 72.54902
 - response: 18DAF11003412FBA
-  expected_values: {}
+  expected_values:
+    FLI: 72.94118
 - response: 18DAF11003412FBC
-  expected_values: {}
+  expected_values:
+    FLI: 73.72549
 - response: 18DAF11003412FBE
-  expected_values: {}
+  expected_values:
+    FLI: 74.5098
 - response: 18DAF11003412FC0
-  expected_values: {}
+  expected_values:
+    FLI: 75.29412
 - response: 18DAF11003412FC1
-  expected_values: {}
+  expected_values:
+    FLI: 75.68627
 - response: 18DAF11003412FC2
-  expected_values: {}
+  expected_values:
+    FLI: 76.07843
 - response: 18DAF11003412FC4
-  expected_values: {}
+  expected_values:
+    FLI: 76.86275
 - response: 18DAF11003412FC6
-  expected_values: {}
+  expected_values:
+    FLI: 77.64706
 - response: 18DAF11003412FC8
-  expected_values: {}
+  expected_values:
+    FLI: 78.43137
 - response: 18DAF11003412FC9
-  expected_values: {}
+  expected_values:
+    FLI: 78.82353
 - response: 18DAF11003412FCC
-  expected_values: {}
+  expected_values:
+    FLI: 80
 - response: 18DAF11003412FCD
-  expected_values: {}
+  expected_values:
+    FLI: 80.39216
 - response: 18DAF11003412FD1
-  expected_values: {}
+  expected_values:
+    FLI: 81.96078
 - response: 18DAF11003412FD3
-  expected_values: {}
+  expected_values:
+    FLI: 82.7451
 - response: 18DAF11003412FD4
-  expected_values: {}
+  expected_values:
+    FLI: 83.13725
 - response: 18DAF11003412FD5
-  expected_values: {}
+  expected_values:
+    FLI: 83.52941
 - response: 18DAF11003412FD6
-  expected_values: {}
+  expected_values:
+    FLI: 83.92157
 - response: 18DAF11003412FD8
-  expected_values: {}
+  expected_values:
+    FLI: 84.70588
 - response: 18DAF11003412FD9
-  expected_values: {}
+  expected_values:
+    FLI: 85.09804
 - response: 18DAF11003412FDA
-  expected_values: {}
+  expected_values:
+    FLI: 85.4902
 - response: 18DAF11003412FDC
-  expected_values: {}
+  expected_values:
+    FLI: 86.27451
 - response: 18DAF11003412FDD
-  expected_values: {}
+  expected_values:
+    FLI: 86.66667
 - response: 18DAF11003412FDF
-  expected_values: {}
+  expected_values:
+    FLI: 87.45098
 - response: 18DAF11003412FE0
-  expected_values: {}
+  expected_values:
+    FLI: 87.84314
 - response: 18DAF11003412FE2
-  expected_values: {}
+  expected_values:
+    FLI: 88.62745
 - response: 18DAF11003412FE4
-  expected_values: {}
+  expected_values:
+    FLI: 89.41176
 - response: 18DAF11003412FE7
-  expected_values: {}
+  expected_values:
+    FLI: 90.58824
 - response: 18DAF11003412FED
-  expected_values: {}
+  expected_values:
+    FLI: 92.94118
 - response: 18DAF11003412FEE
-  expected_values: {}
+  expected_values:
+    FLI: 93.33333
