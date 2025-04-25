@@ -18,14 +18,6 @@
 { "hdr": "DA60", "dbg": true, "cmd": {"22": "7029"}, "freq": 5,
   "signals": [
     {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
-  ]},
-{ "hdr": "DB33", "cmd": {"01": "05"}, "freq": 5,
-  "signals": [
-    {"id": "CIVIC_ECT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
-  ]},
-{ "hdr": "DB33", "dbg": true, "cmd": {"01": "2F"}, "freq": 5,
-  "signals": [
-    {"id": "CIVIC_FLI", "path": "Fuel", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "Fuel level"}
   ]}
 ]
 }
