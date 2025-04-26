@@ -1,12 +1,9 @@
-name: Response Tests
+name: Response tests
 
 on:
-  pull_request:
-    paths:
-      - 'signalsets/**'
-      - 'tests/test_cases/**'
-      - 'tests/schemas/**'
-      - 'tests/test_responses.py'
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
