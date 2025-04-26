@@ -37,3 +37,10 @@ jobs:
         id: run_tests
         run: |
           pytest tests/ --ignore=tests/schemas -xvs -n auto
+        continue-on-error: true
+
+      - name: Print fix instructions
+        if: steps.run_tests.outcome == 'failure'
+        run: |
+          echo "::notice title=How to fix failed tests::To fix the failed tests, run: python3 tests/update_yaml_tests.py --verbose"
+          exit 1
