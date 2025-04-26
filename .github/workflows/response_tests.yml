@@ -25,13 +25,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.13'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r tests/schemas/requirements.txt
 
-      - name: Run response tests
+      - name: Run tests
         id: run_tests
         run: |
           python -m pytest tests/test_responses.py -xvs || echo "tests_failed=true" >> $GITHUB_OUTPUT
