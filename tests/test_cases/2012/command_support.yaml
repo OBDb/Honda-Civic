@@ -1,7 +1,6 @@
 model_year: 2012
 can_id_format: TWENTY_NINE_BIT
 extended_addressing_enabled: false
-supported_commands_by_ecu: null
 unsupported_commands_by_ecu:
   DA26:
   - DA26.226001
@@ -9,4 +8,3 @@ unsupported_commands_by_ecu:
   - DA60.227029
   DB33:
   - DB33.012F
-test_cases: []
