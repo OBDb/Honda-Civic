@@ -58,9 +58,7 @@ jobs:
 
             Run the YAML test updater tool to automatically update test cases:
 
-            ```bash
-            python3 tests/update_yaml_tests.py --verbose
-            ```
+                python3 tests/update_yaml_tests.py --verbose
 
             Or use the VS Code task "Update YAML Tests" from the command palette.
 
