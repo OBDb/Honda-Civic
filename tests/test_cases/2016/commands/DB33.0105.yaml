@@ -1,0 +1,268 @@
+command_id: DB33.0105
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    18DAF1100341054B
+    18DAF11E0341054B
+  expected_values:
+    ECT: 35
+- response: |-
+    18DAF1100341054E
+    18DAF11E0341054E
+  expected_values:
+    ECT: 38
+- response: |-
+    18DAF1100341054F
+    18DAF11E0341054F
+  expected_values:
+    ECT: 39
+- response: 18DAF11003410553
+  expected_values:
+    ECT: 43
+- response: |-
+    18DAF11003410553
+    18DAF11E03410553
+  expected_values:
+    ECT: 43
+- response: |-
+    18DAF11003410554
+    18DAF11E03410554
+  expected_values:
+    ECT: 44
+- response: 18DAF11003410557
+  expected_values:
+    ECT: 47
+- response: |-
+    18DAF11003410557
+    18DAF11E03410557
+  expected_values:
+    ECT: 47
+- response: |-
+    18DAF11003410558
+    18DAF11E03410558
+  expected_values:
+    ECT: 48
+- response: 18DAF1100341055D
+  expected_values:
+    ECT: 53
+- response: |-
+    18DAF1100341055D
+    18DAF11E0341055D
+  expected_values:
+    ECT: 53
+- response: 18DAF1100341055E
+  expected_values:
+    ECT: 54
+- response: 18DAF11003410561
+  expected_values:
+    ECT: 57
+- response: |-
+    18DAF11003410561
+    18DAF11E03410561
+  expected_values:
+    ECT: 57
+- response: 18DAF11003410563
+  expected_values:
+    ECT: 59
+- response: 18DAF11003410564
+  expected_values:
+    ECT: 60
+- response: 18DAF11003410565
+  expected_values:
+    ECT: 61
+- response: 18DAF11003410566
+  expected_values:
+    ECT: 62
+- response: |-
+    18DAF11003410566
+    18DAF11E03410566
+  expected_values:
+    ECT: 62
+- response: 18DAF11003410567
+  expected_values:
+    ECT: 63
+- response: 18DAF11003410568
+  expected_values:
+    ECT: 64
+- response: |-
+    18DAF11003410568
+    18DAF11E03410568
+  expected_values:
+    ECT: 64
+- response: 18DAF11003410569
+  expected_values:
+    ECT: 65
+- response: 18DAF1100341056A
+  expected_values:
+    ECT: 66
+- response: |-
+    18DAF1100341056A
+    18DAF11E0341056A
+  expected_values:
+    ECT: 66
+- response: |-
+    18DAF1100341056B
+    18DAF11E0341056B
+  expected_values:
+    ECT: 67
+- response: 18DAF1100341056C
+  expected_values:
+    ECT: 68
+- response: |-
+    18DAF1100341056C
+    18DAF11E0341056C
+  expected_values:
+    ECT: 68
+- response: 18DAF1100341056D
+  expected_values:
+    ECT: 69
+- response: |-
+    18DAF1100341056D
+    18DAF11E0341056D
+  expected_values:
+    ECT: 69
+- response: 18DAF1100341056E
+  expected_values:
+    ECT: 70
+- response: 18DAF1100341056F
+  expected_values:
+    ECT: 71
+- response: |-
+    18DAF1100341056F
+    18DAF11E0341056F
+  expected_values:
+    ECT: 71
+- response: 18DAF11003410570
+  expected_values:
+    ECT: 72
+- response: 18DAF11003410571
+  expected_values:
+    ECT: 73
+- response: 18DAF11003410572
+  expected_values:
+    ECT: 74
+- response: |-
+    18DAF11003410572
+    18DAF11E03410572
+  expected_values:
+    ECT: 74
+- response: 18DAF11003410573
+  expected_values:
+    ECT: 75
+- response: 18DAF11003410574
+  expected_values:
+    ECT: 76
+- response: 18DAF11003410575
+  expected_values:
+    ECT: 77
+- response: 18DAF11003410576
+  expected_values:
+    ECT: 78
+- response: 18DAF11003410577
+  expected_values:
+    ECT: 79
+- response: |-
+    18DAF11003410577
+    18DAF11E03410577
+  expected_values:
+    ECT: 79
+- response: 18DAF11003410578
+  expected_values:
+    ECT: 80
+- response: 18DAF11003410579
+  expected_values:
+    ECT: 81
+- response: |-
+    18DAF11003410579
+    18DAF11E03410579
+  expected_values:
+    ECT: 81
+- response: 18DAF1100341057A
+  expected_values:
+    ECT: 82
+- response: 18DAF1100341057B
+  expected_values:
+    ECT: 83
+- response: |-
+    18DAF1100341057B
+    18DAF11E0341057B
+  expected_values:
+    ECT: 83
+- response: 18DAF1100341057C
+  expected_values:
+    ECT: 84
+- response: |-
+    18DAF1100341057C
+    18DAF11E0341057C
+  expected_values:
+    ECT: 84
+- response: 18DAF1100341057D
+  expected_values:
+    ECT: 85
+- response: 18DAF11E03410559
+  expected_values:
+    ECT: 49
+- response: 18DAF11E03410561
+  expected_values:
+    ECT: 57
+- response: 18DAF11E03410566
+  expected_values:
+    ECT: 62
+- response: |-
+    18DAF11E03410568
+    18DAF11003410568
+  expected_values:
+    ECT: 64
+- response: |-
+    18DAF11E03410569
+    18DAF11003410569
+  expected_values:
+    ECT: 65
+- response: 18DAF11E0341056C
+  expected_values:
+    ECT: 68
+- response: 18DAF11E0341056E
+  expected_values:
+    ECT: 70
+- response: |-
+    18DAF11E0341056E
+    18DAF1100341056E
+  expected_values:
+    ECT: 70
+- response: 18DAF11E0341056F
+  expected_values:
+    ECT: 71
+- response: |-
+    18DAF11E03410575
+    18DAF11003410575
+  expected_values:
+    ECT: 77
+- response: 18DAF11E03410577
+  expected_values:
+    ECT: 79
+- response: |-
+    18DAF11E03410577
+    18DAF11003410577
+  expected_values:
+    ECT: 79
+- response: 18DAF11E03410578
+  expected_values:
+    ECT: 80
+- response: 18DAF11E03410579
+  expected_values:
+    ECT: 81
+- response: 18DAF11E0341057B
+  expected_values:
+    ECT: 83
+- response: 18DAF11E0341057C
+  expected_values:
+    ECT: 84
+- response: |-
+    18DAF11E0341057C
+    18DAF1100341057C
+  expected_values:
+    ECT: 84
+- response: 18DAF11E0341057D
+  expected_values:
+    ECT: 85
