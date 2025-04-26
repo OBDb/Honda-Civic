@@ -9,12 +9,14 @@ on:
 permissions:
   contents: read
   pull-requests: write
+  issues: write
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout main repository
+        uses: actions/checkout@v4
 
       - name: Checkout schemas repo
         uses: actions/checkout@v4
@@ -34,5 +36,36 @@ jobs:
           pip install -r tests/schemas/requirements.txt
 
       - name: Run tests
+        id: run_tests
         run: |
-          pytest tests/ --ignore=tests/schemas -xvs -n auto
+          pytest tests/ --ignore=tests/schemas -xvs -n auto || echo "tests_failed=true" >> $GITHUB_OUTPUT
+
+      - name: Post comment on test failure
+        if: ${{ steps.run_tests.outputs.tests_failed == 'true' }}
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.issue.number;
+            const repo = context.repo;
+
+            github.rest.issues.createComment({
+              owner: repo.owner,
+              repo: repo.repo,
+              issue_number: issueNumber,
+              body: `## ❌ Response Tests Failed
+
+            It looks like some test cases are failing after signal changes in your pull request. This might happen when signals are removed from signalsets or their definitions change.
+
+            ### How to fix:
+
+            Run the YAML test updater tool to automatically update test cases:
+
+                python3 tests/update_yaml_tests.py --verbose
+
+            Or use the VS Code task "Update YAML Tests" from the command palette.
+
+            This will update the test YAML files with the current expected values based on your signalset changes.
+
+            After running the updater, commit the changes to fix the failing tests.`
+            });
