@@ -36,4 +36,3 @@ jobs:
       - name: Run tests
         run: |
           pytest tests/ --ignore=tests/schemas -xvs -n auto
-
