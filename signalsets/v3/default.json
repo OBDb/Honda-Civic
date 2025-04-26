@@ -14,10 +14,6 @@
 { "hdr": "DA60", "cmd": {"22": "7028"}, "freq": 5,
   "signals": [
     {"id": "CIVIC_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
-  ]},
-{ "hdr": "DA60", "dbg": true, "cmd": {"22": "7029"}, "freq": 5,
-  "signals": [
-    {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]}
 ]
 }
