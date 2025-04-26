@@ -35,7 +35,7 @@ jobs:
       - name: Run tests
         id: run_tests
         run: |
-          python -m pytest tests/test_responses.py -xvs || echo "tests_failed=true" >> $GITHUB_OUTPUT
+          pytest tests/ --ignore=tests/schemas -xvs -n auto || echo "tests_failed=true" >> $GITHUB_OUTPUT
 
       - name: Post comment on test failure
         if: ${{ steps.run_tests.outputs.tests_failed == 'true' }}
