@@ -31,3 +31,4 @@ jobs:
           comment: "true"
           base_dir: signalsets/v3/
           json_schema: .schemas/signals.json
+
