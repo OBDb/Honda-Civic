@@ -39,4 +39,3 @@ Contributions are welcome! If you would like to add support for additional model
 ## Issues
 
 If you encounter any issues or would like to discuss improvements, please feel free to open an issue. We encourage collaboration and appreciate feedback to make the repository as accurate and useful as possible.
-
