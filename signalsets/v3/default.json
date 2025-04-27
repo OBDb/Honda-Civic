@@ -9,7 +9,7 @@
   ]},
 { "hdr": "DA0E", "dbg": true, "cmd": {"22": "2612"}, "freq": 2,
   "signals": [
-    {"id": "CIVIC_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"bix": 352, "len": 8, "map": {
+    {"id": "CIVIC_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear", "fmt": {"bix": 352, "len": 8, "map": {
           "1": { "description": "First gear",  "value": "1" },
           "2": { "description": "Second gear", "value": "2" },
           "3": { "description": "Third gear",  "value": "3" },
