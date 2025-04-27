@@ -2,9 +2,27 @@ command_id: DB33.012F
 can_id_format: TWENTY_NINE_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 18DAF11003412F16
+  expected_values:
+    FLI: 8.62745
+- response: 18DAF11003412F1C
+  expected_values:
+    FLI: 10.98039
+- response: 18DAF11003412F1E
+  expected_values:
+    FLI: 11.76471
+- response: 18DAF11003412F23
+  expected_values:
+    FLI: 13.72549
+- response: 18DAF11003412F26
+  expected_values:
+    FLI: 14.90196
 - response: 18DAF11003412F28
   expected_values:
     FLI: 15.68627
+- response: 18DAF11003412F2B
+  expected_values:
+    FLI: 16.86275
 - response: 18DAF11003412F2D
   expected_values:
     FLI: 17.64706
@@ -17,6 +35,9 @@ test_cases:
 - response: 18DAF11003412F38
   expected_values:
     FLI: 21.96078
+- response: 18DAF11003412F3A
+  expected_values:
+    FLI: 22.7451
 - response: 18DAF11003412F3D
   expected_values:
     FLI: 23.92157
@@ -26,6 +47,9 @@ test_cases:
 - response: 18DAF11003412F42
   expected_values:
     FLI: 25.88235
+- response: 18DAF11003412F44
+  expected_values:
+    FLI: 26.66667
 - response: 18DAF11003412F47
   expected_values:
     FLI: 27.84314

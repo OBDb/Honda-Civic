@@ -1,0 +1,12 @@
+command_id: DB33.019D
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF11006419D00300030
+  expected_values:
+    FUEL_RATE_ALT: 0.96
+    VFUEL_RATE: 0.96
+- response: 18DAF11006419D00460046
+  expected_values:
+    FUEL_RATE_ALT: 1.4
+    VFUEL_RATE: 1.4
