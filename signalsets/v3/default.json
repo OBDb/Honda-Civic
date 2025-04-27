@@ -10,7 +10,7 @@
   ]},
 { "hdr": "DA60", "dbg": true, "cmd": {"22": "7029"}, "freq": 5,
   "signals": [
-    {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 112, "len": 16, "max": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+    {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 32, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]}
 ]
 }
