@@ -11,6 +11,9 @@ test_cases:
     18DAF11E03410D00
   expected_values:
     VSS: 0
+- response: 18DAF1EF03410D01
+  expected_values:
+    VSS: 1
 - response: 18DAF1EF03410D02
   expected_values:
     VSS: 2
@@ -23,6 +26,9 @@ test_cases:
     18DAF11E03410D07
   expected_values:
     VSS: 7
+- response: 18DAF1EF03410D08
+  expected_values:
+    VSS: 8
 - response: 18DAF1EF03410D0D
   expected_values:
     VSS: 13
@@ -41,27 +47,60 @@ test_cases:
 - response: 18DAF1EF03410D1A
   expected_values:
     VSS: 26
+- response: 18DAF1EF03410D20
+  expected_values:
+    VSS: 32
 - response: 18DAF1EF03410D23
   expected_values:
     VSS: 35
 - response: 18DAF1EF03410D29
   expected_values:
     VSS: 41
+- response: |-
+    18DAF1EF03410D2C
+    18DAF11003410D2C
+    18DAF11E03410D2C
+  expected_values:
+    VSS: 44
 - response: 18DAF1EF03410D2E
   expected_values:
     VSS: 46
+- response: 18DAF1EF03410D31
+  expected_values:
+    VSS: 49
 - response: 18DAF1EF03410D35
   expected_values:
     VSS: 53
+- response: 18DAF1EF03410D38
+  expected_values:
+    VSS: 56
+- response: 18DAF1EF03410D39
+  expected_values:
+    VSS: 57
 - response: 18DAF1EF03410D3E
   expected_values:
     VSS: 62
 - response: 18DAF1EF03410D3F
   expected_values:
     VSS: 63
+- response: 18DAF1EF03410D40
+  expected_values:
+    VSS: 64
+- response: 18DAF1EF03410D49
+  expected_values:
+    VSS: 73
+- response: 18DAF1EF03410D4C
+  expected_values:
+    VSS: 76
 - response: 18DAF1EF03410D69
   expected_values:
     VSS: 105
+- response: 18DAF1EF03410D6D
+  expected_values:
+    VSS: 109
+- response: 18DAF1EF03410D75
+  expected_values:
+    VSS: 117
 - response: 18DAF1EF03410D78
   expected_values:
     VSS: 120
@@ -77,12 +116,18 @@ test_cases:
 - response: 18DAF1EF03410D7E
   expected_values:
     VSS: 126
+- response: 18DAF1EF03410D7F
+  expected_values:
+    VSS: 127
 - response: 18DAF1EF03410D80
   expected_values:
     VSS: 128
 - response: 18DAF1EF03410D85
   expected_values:
     VSS: 133
+- response: 18DAF1EF03410D87
+  expected_values:
+    VSS: 135
 - response: 18DAF1EF03410D8B
   expected_values:
     VSS: 139
