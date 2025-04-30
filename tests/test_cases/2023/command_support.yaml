@@ -56,9 +56,7 @@ supported_commands_by_ecu:
   - 01A6:ODO
 unsupported_commands_by_ecu:
   DA0E:
-  - DA0E.222610
   - DA0E.222612
-  - DA0E.222662
   DA26:
   - DA26.226001
   DB33:
