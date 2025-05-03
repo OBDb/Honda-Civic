@@ -1,0 +1,64 @@
+command_id: DB33.01A6
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF1100641A60005E0B0
+  expected_values:
+    ODO: 38520
+- response: 18DAF1100641A60005E0BA
+  expected_values:
+    ODO: 38521
+- response: 18DAF1100641A60005E0C4
+  expected_values:
+    ODO: 38522
+- response: 18DAF1100641A60005E0CE
+  expected_values:
+    ODO: 38523
+- response: 18DAF1100641A60005E0D8
+  expected_values:
+    ODO: 38524
+- response: 18DAF1100641A60005E0E2
+  expected_values:
+    ODO: 38525
+- response: 18DAF1100641A60005E0EC
+  expected_values:
+    ODO: 38526
+- response: 18DAF1100641A60005E0F6
+  expected_values:
+    ODO: 38527
+- response: 18DAF1100641A60005E100
+  expected_values:
+    ODO: 38528
+- response: 18DAF1100641A60005E10A
+  expected_values:
+    ODO: 38529
+- response: 18DAF1100641A60005E114
+  expected_values:
+    ODO: 38530
+- response: 18DAF1100641A60005E11E
+  expected_values:
+    ODO: 38531
+- response: 18DAF1100641A60005E1C8
+  expected_values:
+    ODO: 38548
+- response: 18DAF1100641A60005E1D2
+  expected_values:
+    ODO: 38549
+- response: 18DAF1100641A60005E1DC
+  expected_values:
+    ODO: 38550
+- response: 18DAF1100641A60005E1E6
+  expected_values:
+    ODO: 38551
+- response: 18DAF1100641A60005E1F0
+  expected_values:
+    ODO: 38552
+- response: 18DAF1100641A60005E1FA
+  expected_values:
+    ODO: 38553
+- response: 18DAF1100641A60005E204
+  expected_values:
+    ODO: 38554
+- response: 18DAF1100641A60005E20E
+  expected_values:
+    ODO: 38555
