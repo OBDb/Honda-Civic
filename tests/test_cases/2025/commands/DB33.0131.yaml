@@ -1,0 +1,482 @@
+command_id: DB33.0131
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF11004413104FB
+  expected_values:
+    CLR_DIST: 1275
+- response: |-
+    18DAF11004413104FB
+    18DAF11E04413104FC
+  expected_values:
+    CLR_DIST: 1276
+- response: 18DAF11004413104FC
+  expected_values:
+    CLR_DIST: 1276
+- response: 18DAF11004413104FD
+  expected_values:
+    CLR_DIST: 1277
+- response: 18DAF11004413104FE
+  expected_values:
+    CLR_DIST: 1278
+- response: 18DAF11004413104FF
+  expected_values:
+    CLR_DIST: 1279
+- response: 18DAF1100441310501
+  expected_values:
+    CLR_DIST: 1281
+- response: 18DAF1100441310505
+  expected_values:
+    CLR_DIST: 1285
+- response: 18DAF1100441310507
+  expected_values:
+    CLR_DIST: 1287
+- response: 18DAF1100441310508
+  expected_values:
+    CLR_DIST: 1288
+- response: 18DAF1100441310509
+  expected_values:
+    CLR_DIST: 1289
+- response: 18DAF110044131050B
+  expected_values:
+    CLR_DIST: 1291
+- response: 18DAF110044131050C
+  expected_values:
+    CLR_DIST: 1292
+- response: 18DAF110044131050D
+  expected_values:
+    CLR_DIST: 1293
+- response: 18DAF110044131050E
+  expected_values:
+    CLR_DIST: 1294
+- response: 18DAF1100441310511
+  expected_values:
+    CLR_DIST: 1297
+- response: 18DAF1100441310512
+  expected_values:
+    CLR_DIST: 1298
+- response: 18DAF1100441310513
+  expected_values:
+    CLR_DIST: 1299
+- response: 18DAF1100441310514
+  expected_values:
+    CLR_DIST: 1300
+- response: 18DAF1100441310516
+  expected_values:
+    CLR_DIST: 1302
+- response: 18DAF1100441310517
+  expected_values:
+    CLR_DIST: 1303
+- response: 18DAF1100441310518
+  expected_values:
+    CLR_DIST: 1304
+- response: 18DAF1100441310519
+  expected_values:
+    CLR_DIST: 1305
+- response: 18DAF110044131051A
+  expected_values:
+    CLR_DIST: 1306
+- response: 18DAF110044131051B
+  expected_values:
+    CLR_DIST: 1307
+- response: 18DAF110044131051F
+  expected_values:
+    CLR_DIST: 1311
+- response: 18DAF1100441310520
+  expected_values:
+    CLR_DIST: 1312
+- response: 18DAF1100441310524
+  expected_values:
+    CLR_DIST: 1316
+- response: 18DAF1100441310525
+  expected_values:
+    CLR_DIST: 1317
+- response: 18DAF1100441310526
+  expected_values:
+    CLR_DIST: 1318
+- response: 18DAF1100441310527
+  expected_values:
+    CLR_DIST: 1319
+- response: 18DAF1100441310528
+  expected_values:
+    CLR_DIST: 1320
+- response: 18DAF1100441310529
+  expected_values:
+    CLR_DIST: 1321
+- response: 18DAF110044131052A
+  expected_values:
+    CLR_DIST: 1322
+- response: 18DAF110044131052B
+  expected_values:
+    CLR_DIST: 1323
+- response: 18DAF110044131052C
+  expected_values:
+    CLR_DIST: 1324
+- response: 18DAF110044131052D
+  expected_values:
+    CLR_DIST: 1325
+- response: 18DAF110044131052E
+  expected_values:
+    CLR_DIST: 1326
+- response: 18DAF110044131052F
+  expected_values:
+    CLR_DIST: 1327
+- response: 18DAF1100441310531
+  expected_values:
+    CLR_DIST: 1329
+- response: 18DAF1100441310534
+  expected_values:
+    CLR_DIST: 1332
+- response: 18DAF1100441310535
+  expected_values:
+    CLR_DIST: 1333
+- response: 18DAF1100441310536
+  expected_values:
+    CLR_DIST: 1334
+- response: 18DAF1100441310537
+  expected_values:
+    CLR_DIST: 1335
+- response: 18DAF1100441310539
+  expected_values:
+    CLR_DIST: 1337
+- response: 18DAF110044131053B
+  expected_values:
+    CLR_DIST: 1339
+- response: 18DAF110044131053C
+  expected_values:
+    CLR_DIST: 1340
+- response: 18DAF1100441310540
+  expected_values:
+    CLR_DIST: 1344
+- response: 18DAF1100441310541
+  expected_values:
+    CLR_DIST: 1345
+- response: 18DAF1100441310542
+  expected_values:
+    CLR_DIST: 1346
+- response: 18DAF1100441310545
+  expected_values:
+    CLR_DIST: 1349
+- response: 18DAF1100441310546
+  expected_values:
+    CLR_DIST: 1350
+- response: 18DAF1100441310547
+  expected_values:
+    CLR_DIST: 1351
+- response: 18DAF1100441310548
+  expected_values:
+    CLR_DIST: 1352
+- response: 18DAF1100441310549
+  expected_values:
+    CLR_DIST: 1353
+- response: 18DAF110044131054A
+  expected_values:
+    CLR_DIST: 1354
+- response: 18DAF110044131054C
+  expected_values:
+    CLR_DIST: 1356
+- response: 18DAF110044131054D
+  expected_values:
+    CLR_DIST: 1357
+- response: 18DAF110044131054F
+  expected_values:
+    CLR_DIST: 1359
+- response: 18DAF1100441310550
+  expected_values:
+    CLR_DIST: 1360
+- response: 18DAF1100441310551
+  expected_values:
+    CLR_DIST: 1361
+- response: 18DAF1100441310552
+  expected_values:
+    CLR_DIST: 1362
+- response: 18DAF1100441310553
+  expected_values:
+    CLR_DIST: 1363
+- response: 18DAF1100441310554
+  expected_values:
+    CLR_DIST: 1364
+- response: 18DAF1100441310555
+  expected_values:
+    CLR_DIST: 1365
+- response: |-
+    18DAF1100441310555
+    18DAF11E0441310555
+  expected_values:
+    CLR_DIST: 1365
+- response: 18DAF1100441310557
+  expected_values:
+    CLR_DIST: 1367
+- response: 18DAF1100441310558
+  expected_values:
+    CLR_DIST: 1368
+- response: 18DAF1100441310559
+  expected_values:
+    CLR_DIST: 1369
+- response: 18DAF110044131055A
+  expected_values:
+    CLR_DIST: 1370
+- response: 18DAF110044131055D
+  expected_values:
+    CLR_DIST: 1373
+- response: 18DAF110044131055E
+  expected_values:
+    CLR_DIST: 1374
+- response: 18DAF110044131055F
+  expected_values:
+    CLR_DIST: 1375
+- response: |-
+    18DAF110044131055F
+    18DAF11E044131055F
+  expected_values:
+    CLR_DIST: 1375
+- response: 18DAF1100441310562
+  expected_values:
+    CLR_DIST: 1378
+- response: 18DAF1100441310563
+  expected_values:
+    CLR_DIST: 1379
+- response: 18DAF1100441310564
+  expected_values:
+    CLR_DIST: 1380
+- response: 18DAF1100441310566
+  expected_values:
+    CLR_DIST: 1382
+- response: 18DAF1100441310568
+  expected_values:
+    CLR_DIST: 1384
+- response: 18DAF11E04413104FC
+  expected_values:
+    CLR_DIST: 1276
+- response: 18DAF11E04413104FD
+  expected_values:
+    CLR_DIST: 1277
+- response: 18DAF11E04413104FF
+  expected_values:
+    CLR_DIST: 1279
+- response: 18DAF11E0441310501
+  expected_values:
+    CLR_DIST: 1281
+- response: 18DAF11E0441310503
+  expected_values:
+    CLR_DIST: 1283
+- response: 18DAF11E0441310504
+  expected_values:
+    CLR_DIST: 1284
+- response: 18DAF11E0441310505
+  expected_values:
+    CLR_DIST: 1285
+- response: 18DAF11E0441310507
+  expected_values:
+    CLR_DIST: 1287
+- response: 18DAF11E044131050A
+  expected_values:
+    CLR_DIST: 1290
+- response: 18DAF11E044131050B
+  expected_values:
+    CLR_DIST: 1291
+- response: 18DAF11E044131050D
+  expected_values:
+    CLR_DIST: 1293
+- response: 18DAF11E044131050F
+  expected_values:
+    CLR_DIST: 1295
+- response: 18DAF11E0441310510
+  expected_values:
+    CLR_DIST: 1296
+- response: 18DAF11E0441310511
+  expected_values:
+    CLR_DIST: 1297
+- response: 18DAF11E0441310513
+  expected_values:
+    CLR_DIST: 1299
+- response: 18DAF11E0441310514
+  expected_values:
+    CLR_DIST: 1300
+- response: 18DAF11E0441310515
+  expected_values:
+    CLR_DIST: 1301
+- response: 18DAF11E0441310516
+  expected_values:
+    CLR_DIST: 1302
+- response: 18DAF11E0441310518
+  expected_values:
+    CLR_DIST: 1304
+- response: 18DAF11E044131051B
+  expected_values:
+    CLR_DIST: 1307
+- response: 18DAF11E044131051C
+  expected_values:
+    CLR_DIST: 1308
+- response: 18DAF11E044131051E
+  expected_values:
+    CLR_DIST: 1310
+- response: 18DAF11E044131051F
+  expected_values:
+    CLR_DIST: 1311
+- response: 18DAF11E0441310522
+  expected_values:
+    CLR_DIST: 1314
+- response: 18DAF11E0441310524
+  expected_values:
+    CLR_DIST: 1316
+- response: 18DAF11E0441310525
+  expected_values:
+    CLR_DIST: 1317
+- response: 18DAF11E0441310526
+  expected_values:
+    CLR_DIST: 1318
+- response: 18DAF11E0441310527
+  expected_values:
+    CLR_DIST: 1319
+- response: 18DAF11E0441310528
+  expected_values:
+    CLR_DIST: 1320
+- response: 18DAF11E044131052A
+  expected_values:
+    CLR_DIST: 1322
+- response: 18DAF11E044131052B
+  expected_values:
+    CLR_DIST: 1323
+- response: 18DAF11E044131052C
+  expected_values:
+    CLR_DIST: 1324
+- response: 18DAF11E044131052D
+  expected_values:
+    CLR_DIST: 1325
+- response: 18DAF11E044131052F
+  expected_values:
+    CLR_DIST: 1327
+- response: 18DAF11E0441310531
+  expected_values:
+    CLR_DIST: 1329
+- response: 18DAF11E0441310532
+  expected_values:
+    CLR_DIST: 1330
+- response: 18DAF11E0441310533
+  expected_values:
+    CLR_DIST: 1331
+- response: 18DAF11E0441310534
+  expected_values:
+    CLR_DIST: 1332
+- response: 18DAF11E0441310536
+  expected_values:
+    CLR_DIST: 1334
+- response: 18DAF11E0441310537
+  expected_values:
+    CLR_DIST: 1335
+- response: 18DAF11E0441310538
+  expected_values:
+    CLR_DIST: 1336
+- response: |-
+    18DAF11E0441310538
+    18DAF1100441310537
+  expected_values:
+    CLR_DIST: 1335
+- response: 18DAF11E0441310539
+  expected_values:
+    CLR_DIST: 1337
+- response: 18DAF11E044131053B
+  expected_values:
+    CLR_DIST: 1339
+- response: 18DAF11E044131053D
+  expected_values:
+    CLR_DIST: 1341
+- response: 18DAF11E044131053E
+  expected_values:
+    CLR_DIST: 1342
+- response: 18DAF11E044131053F
+  expected_values:
+    CLR_DIST: 1343
+- response: 18DAF11E0441310540
+  expected_values:
+    CLR_DIST: 1344
+- response: 18DAF11E0441310541
+  expected_values:
+    CLR_DIST: 1345
+- response: 18DAF11E0441310543
+  expected_values:
+    CLR_DIST: 1347
+- response: 18DAF11E0441310544
+  expected_values:
+    CLR_DIST: 1348
+- response: 18DAF11E0441310545
+  expected_values:
+    CLR_DIST: 1349
+- response: 18DAF11E0441310548
+  expected_values:
+    CLR_DIST: 1352
+- response: 18DAF11E0441310549
+  expected_values:
+    CLR_DIST: 1353
+- response: 18DAF11E044131054A
+  expected_values:
+    CLR_DIST: 1354
+- response: 18DAF11E044131054B
+  expected_values:
+    CLR_DIST: 1355
+- response: 18DAF11E044131054C
+  expected_values:
+    CLR_DIST: 1356
+- response: |-
+    18DAF11E044131054C
+    18DAF110044131054C
+  expected_values:
+    CLR_DIST: 1356
+- response: 18DAF11E044131054D
+  expected_values:
+    CLR_DIST: 1357
+- response: 18DAF11E044131054E
+  expected_values:
+    CLR_DIST: 1358
+- response: 18DAF11E044131054F
+  expected_values:
+    CLR_DIST: 1359
+- response: 18DAF11E0441310555
+  expected_values:
+    CLR_DIST: 1365
+- response: 18DAF11E0441310556
+  expected_values:
+    CLR_DIST: 1366
+- response: 18DAF11E044131055B
+  expected_values:
+    CLR_DIST: 1371
+- response: 18DAF11E044131055C
+  expected_values:
+    CLR_DIST: 1372
+- response: 18DAF11E044131055D
+  expected_values:
+    CLR_DIST: 1373
+- response: 18DAF11E044131055E
+  expected_values:
+    CLR_DIST: 1374
+- response: 18DAF11E044131055F
+  expected_values:
+    CLR_DIST: 1375
+- response: 18DAF11E0441310560
+  expected_values:
+    CLR_DIST: 1376
+- response: 18DAF11E0441310561
+  expected_values:
+    CLR_DIST: 1377
+- response: 18DAF11E0441310562
+  expected_values:
+    CLR_DIST: 1378
+- response: 18DAF11E0441310563
+  expected_values:
+    CLR_DIST: 1379
+- response: 18DAF11E0441310564
+  expected_values:
+    CLR_DIST: 1380
+- response: 18DAF11E0441310565
+  expected_values:
+    CLR_DIST: 1381
+- response: 18DAF11E0441310567
+  expected_values:
+    CLR_DIST: 1383
+- response: 18DAF11E0441310568
+  expected_values:
+    CLR_DIST: 1384
+- response: 18DAF11E0441310569
+  expected_values:
+    CLR_DIST: 1385
