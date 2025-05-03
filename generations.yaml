@@ -1,0 +1,55 @@
+generations:
+  - name: "First Generation"
+    start_year: 1972
+    end_year: 1979
+    description: "The original Honda Civic was introduced as a fuel-efficient alternative during the 1970s oil crisis. Available as a two-door coupe, three-door hatchback, and later a five-door wagon, it featured front-wheel drive and a transverse engine layout that maximized interior space. Initially powered by a 1.2L four-cylinder engine producing just 50 HP, it emphasized efficiency over performance. The interior was basic but functional, featuring a simple instrument panel and minimal amenities. This generation established the Civic's reputation for fuel efficiency, practicality, and reliability—qualities that would define the nameplate for decades."
+
+  - name: "Second Generation"
+    start_year: 1979
+    end_year: 1983
+    description: "The second-generation Civic grew slightly in size and offered more refined styling with better aerodynamics. Available in hatchback, sedan, and wagon body styles, it continued with front-wheel drive and transverse engine layout. Engine options expanded to include a 1.3L and 1.5L, with the introduction of the sporty S model featuring a twin-carburetor engine. The interior saw improvements in design and comfort, while maintaining a focus on efficient packaging. This generation continued to build the Civic's reputation during a period of increasing Japanese influence in the global automotive market."
+
+  - name: "Third Generation"
+    start_year: 1983
+    end_year: 1987
+    description: "The third-generation Civic featured more angular styling and introduced the distinctive two-level instrument panel that would become a Honda hallmark. Available in hatchback, sedan, wagon, and the new CRX variant, it continued to emphasize efficiency while adding more performance options. Engine choices included refined 1.3L and 1.5L units, with fuel injection available on higher trims. The S and Si models offered enhanced performance for enthusiasts. This generation significantly expanded the Civic's appeal, particularly in North America, establishing it as a benchmark for small cars."
+
+  - name: "Fourth Generation"
+    start_year: 1987
+    end_year: 1991
+    description: "The fourth-generation Civic featured more aerodynamic styling with increased dimensions and refinement. Available in hatchback, sedan, wagon, and CRX body styles, it offered improved handling and comfort. Engine options expanded to include more powerful and refined units, including the 16-valve engines in Si models that made the Civic a favorite among sport compact enthusiasts. The interior grew in size and quality, with better materials and more features. This generation further established the Civic as both a practical commuter car and a potential performance platform."
+
+  - name: "Fifth Generation"
+    start_year: 1991
+    end_year: 1995
+    description: "The fifth-generation Civic adopted a more rounded, aerodynamic design language. Available in hatchback, sedan, and coupe body styles (the latter replacing the CRX in North America), it offered improved refinement and safety features. Engine options included more efficient and powerful units, with VTEC technology bringing enhanced performance to certain models. The interior featured a more upscale design with better ergonomics and materials. This generation maintained the Civic's position as a class leader while adding more sophistication and technology."
+
+  - name: "Sixth Generation"
+    start_year: 1996
+    end_year: 2000
+    description: "The sixth-generation Civic continued the aerodynamic design theme with a focus on improved efficiency and refinement. Available in hatchback, sedan, and coupe body styles, it featured a more rigid body structure and enhanced safety features. Engine options varied by market but generally emphasized efficiency, with VTEC technology available on performance-oriented models. The interior offered improved comfort and quality, with better sound insulation and more premium features on higher trims. This generation further refined the Civic formula while maintaining its core virtues of efficiency and reliability."
+
+  - name: "Seventh Generation"
+    start_year: 2001
+    end_year: 2005
+    description: "The seventh-generation Civic featured more conservative styling but with increased interior space thanks to a flat rear floor and improved packaging. Available in sedan, coupe, and hatchback body styles (though the latter was primarily for European markets), it emphasized refinement and practicality. Engine options included improved i-VTEC units focused on balancing performance and efficiency. The interior adopted a more conventional design compared to previous generations, with better materials and feature content. This generation maintained the Civic's strong market position while appealing to a broader audience with its increased practicality."
+
+  - name: "Eighth Generation"
+    start_year: 2006
+    end_year: 2011
+    description: "The eighth-generation Civic featured a dramatic redesign with futuristic styling and a distinctive two-tier instrument panel. Available in sedan and coupe body styles in North America (with hatchback versions in Europe and Asia), it grew in size and refinement. Engine options emphasized efficiency, with hybrid variants available for the environmentally conscious. The interior space increased significantly, with more technology features and improved materials. This generation represented a bold design direction for the Civic and expanded its appeal, though some critics felt it had lost some of its sporty character."
+
+  - name: "Ninth Generation"
+    start_year: 2012
+    end_year: 2015
+    description: "The ninth-generation Civic featured more conservative styling that evolved the design language of its predecessor. Available in sedan and coupe body styles in North America, it initially received criticism for interior quality, leading to an unusually quick refresh in 2013 that improved materials and features. Engine options included efficient four-cylinders and a hybrid variant, with the Si continuing as the performance option. This generation is generally considered the most conservative modern Civic, developed during economic uncertainty following the 2008 financial crisis."
+
+  - name: "Tenth Generation"
+    start_year: 2016
+    end_year: 2021
+    description: "The tenth-generation Civic featured a dramatic redesign with sporty, distinctive styling that significantly departed from its predecessor. Available in sedan, coupe (until 2020), and the return of the hatchback body style to North America, it offered increased dimensions and a more premium feel. Engine options evolved to focus on turbocharged units, with the 1.5L turbo providing a balance of performance and efficiency. The interior featured improved materials, design, and technology, including available Apple CarPlay and Android Auto. Performance variants expanded to include the Si and the return of the Type R to the US market. This generation was widely acclaimed for restoring the Civic's sporty character while maintaining its practical virtues."
+
+  - name: "Eleventh Generation"
+    start_year: 2022
+    end_year: null
+    description: "The current Civic features a more mature design with cleaner lines and a less complicated appearance compared to its predecessor. Available in sedan and hatchback body styles (with the coupe discontinued), it maintains similar dimensions but with a slightly longer wheelbase for improved rear passenger space. Engine options include a naturally aspirated 2.0L four-cylinder and a turbocharged 1.5L four-cylinder, both offering a balance of performance and efficiency. The interior represents a significant advancement with a horizontal dashboard design featuring a honeycomb mesh element concealing air vents, improved materials, and a standard 7-inch touchscreen (9-inch available). Performance variants include the Si sedan and Type R hatchback, the latter offering over 300 HP from its turbocharged engine. Safety and technology features have been enhanced, with Honda Sensing standard across all trims and available wireless Apple CarPlay and Android Auto integration. This generation aims to refine and mature the Civic formula while maintaining its position as a benchmark in the compact car segment."
