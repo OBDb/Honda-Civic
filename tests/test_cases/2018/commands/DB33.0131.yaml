@@ -68,3 +68,21 @@ test_cases:
 - response: 18DAF1100441310796
   expected_values:
     CLR_DIST: 1942
+- response: 18DAF1100441310797
+  expected_values:
+    CLR_DIST: 1943
+- response: 18DAF1100441310798
+  expected_values:
+    CLR_DIST: 1944
+- response: 18DAF1100441310799
+  expected_values:
+    CLR_DIST: 1945
+- response: 18DAF110044131079A
+  expected_values:
+    CLR_DIST: 1946
+- response: 18DAF110044131079B
+  expected_values:
+    CLR_DIST: 1947
+- response: 18DAF110044131079C
+  expected_values:
+    CLR_DIST: 1948
