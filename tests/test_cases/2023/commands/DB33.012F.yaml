@@ -8,6 +8,9 @@ test_cases:
 - response: 18DAF11003412F13
   expected_values:
     FLI: 7.45098
+- response: 18DAF11003412F17
+  expected_values:
+    FLI: 9.01961
 - response: 18DAF11003412F1A
   expected_values:
     FLI: 10.19608
@@ -26,6 +29,9 @@ test_cases:
 - response: 18DAF11003412F25
   expected_values:
     FLI: 14.5098
+- response: 18DAF11003412F26
+  expected_values:
+    FLI: 14.90196
 - response: 18DAF11003412F28
   expected_values:
     FLI: 15.68627
@@ -128,6 +134,9 @@ test_cases:
 - response: 18DAF11003412F5A
   expected_values:
     FLI: 35.29412
+- response: 18DAF11003412F5C
+  expected_values:
+    FLI: 36.07843
 - response: 18DAF11003412F5D
   expected_values:
     FLI: 36.47059
@@ -149,6 +158,12 @@ test_cases:
 - response: 18DAF11003412F66
   expected_values:
     FLI: 40
+- response: 18DAF11003412F67
+  expected_values:
+    FLI: 40.39216
+- response: 18DAF11003412F68
+  expected_values:
+    FLI: 40.78431
 - response: 18DAF11003412F6A
   expected_values:
     FLI: 41.56863
@@ -194,6 +209,9 @@ test_cases:
 - response: 18DAF11003412F80
   expected_values:
     FLI: 50.19608
+- response: 18DAF11003412F81
+  expected_values:
+    FLI: 50.58824
 - response: 18DAF11003412F82
   expected_values:
     FLI: 50.98039
@@ -203,6 +221,9 @@ test_cases:
 - response: 18DAF11003412F85
   expected_values:
     FLI: 52.15686
+- response: 18DAF11003412F88
+  expected_values:
+    FLI: 53.33333
 - response: 18DAF11003412F89
   expected_values:
     FLI: 53.72549
@@ -239,9 +260,15 @@ test_cases:
 - response: 18DAF11003412F9D
   expected_values:
     FLI: 61.56863
+- response: 18DAF11003412F9E
+  expected_values:
+    FLI: 61.96078
 - response: 18DAF11003412F9F
   expected_values:
     FLI: 62.35294
+- response: 18DAF11003412FA1
+  expected_values:
+    FLI: 63.13725
 - response: 18DAF11003412FA2
   expected_values:
     FLI: 63.52941
@@ -341,6 +368,9 @@ test_cases:
 - response: 18DAF11003412FDC
   expected_values:
     FLI: 86.27451
+- response: 18DAF11003412FDD
+  expected_values:
+    FLI: 86.66667
 - response: 18DAF11003412FDF
   expected_values:
     FLI: 87.45098
