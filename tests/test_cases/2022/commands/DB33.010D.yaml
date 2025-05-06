@@ -37,6 +37,12 @@ test_cases:
 - response: 18DAF1EF03410D05
   expected_values:
     VSS: 5
+- response: |-
+    18DAF1EF03410D05
+    18DAF11003410D05
+    18DAF11E03410D05
+  expected_values:
+    VSS: 5
 - response: 18DAF1EF03410D06
   expected_values:
     VSS: 6
