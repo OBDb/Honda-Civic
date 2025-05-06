@@ -502,6 +502,62 @@ test_cases:
 - response: 18DAF11004413105F8
   expected_values:
     CLR_DIST: 1528
+- response: 18DAF11004413105F9
+  expected_values:
+    CLR_DIST: 1529
+- response: |-
+    18DAF11004413105F9
+    18DAF11E04413105FA
+  expected_values:
+    CLR_DIST: 1530
+- response: 18DAF11004413105FA
+  expected_values:
+    CLR_DIST: 1530
+- response: 18DAF11004413105FB
+  expected_values:
+    CLR_DIST: 1531
+- response: 18DAF11004413105FC
+  expected_values:
+    CLR_DIST: 1532
+- response: 18DAF11004413105FD
+  expected_values:
+    CLR_DIST: 1533
+- response: 18DAF11004413105FE
+  expected_values:
+    CLR_DIST: 1534
+- response: 18DAF1100441310600
+  expected_values:
+    CLR_DIST: 1536
+- response: 18DAF1100441310601
+  expected_values:
+    CLR_DIST: 1537
+- response: 18DAF1100441310602
+  expected_values:
+    CLR_DIST: 1538
+- response: 18DAF1100441310604
+  expected_values:
+    CLR_DIST: 1540
+- response: 18DAF1100441310605
+  expected_values:
+    CLR_DIST: 1541
+- response: 18DAF1100441310606
+  expected_values:
+    CLR_DIST: 1542
+- response: 18DAF1100441310607
+  expected_values:
+    CLR_DIST: 1543
+- response: 18DAF1100441310608
+  expected_values:
+    CLR_DIST: 1544
+- response: 18DAF1100441310609
+  expected_values:
+    CLR_DIST: 1545
+- response: 18DAF110044131060A
+  expected_values:
+    CLR_DIST: 1546
+- response: 18DAF110044131060B
+  expected_values:
+    CLR_DIST: 1547
 - response: 18DAF11E04413104FC
   expected_values:
     CLR_DIST: 1276
@@ -963,3 +1019,36 @@ test_cases:
 - response: 18DAF11E04413105FA
   expected_values:
     CLR_DIST: 1530
+- response: 18DAF11E04413105FB
+  expected_values:
+    CLR_DIST: 1531
+- response: 18DAF11E04413105FD
+  expected_values:
+    CLR_DIST: 1533
+- response: 18DAF11E04413105FE
+  expected_values:
+    CLR_DIST: 1534
+- response: 18DAF11E04413105FF
+  expected_values:
+    CLR_DIST: 1535
+- response: 18DAF11E0441310600
+  expected_values:
+    CLR_DIST: 1536
+- response: 18DAF11E0441310604
+  expected_values:
+    CLR_DIST: 1540
+- response: 18DAF11E0441310605
+  expected_values:
+    CLR_DIST: 1541
+- response: 18DAF11E0441310606
+  expected_values:
+    CLR_DIST: 1542
+- response: 18DAF11E0441310608
+  expected_values:
+    CLR_DIST: 1544
+- response: 18DAF11E0441310609
+  expected_values:
+    CLR_DIST: 1545
+- response: 18DAF11E044131060B
+  expected_values:
+    CLR_DIST: 1547
