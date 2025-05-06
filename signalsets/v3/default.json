@@ -27,7 +27,7 @@
   ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2662"}, "freq": 0.25,
   "signals": [
-    {"id": "CIVIC_VTC_DUTY", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing сontrol duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
+    {"id": "CIVIC_VTC_DUTY", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
   ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
   "signals": [
@@ -43,7 +43,7 @@
   ]},
 { "hdr": "DA11", "rax": "11", "cmd": {"22": "2662"}, "freq": 5,
   "signals": [
-    {"id": "CIVIC_KNOCK_CTRL", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 2,                "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
+    {"id": "CIVIC_KNOCK_CTRL", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
     {"id": "CIVIC_CAT_T",      "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 1,
