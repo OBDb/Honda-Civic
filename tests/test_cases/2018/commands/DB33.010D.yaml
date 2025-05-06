@@ -8,6 +8,9 @@ test_cases:
 - response: 18DAF11003410D01
   expected_values:
     VSS: 1
+- response: 18DAF11003410D02
+  expected_values:
+    VSS: 2
 - response: 18DAF11003410D03
   expected_values:
     VSS: 3
@@ -53,6 +56,9 @@ test_cases:
 - response: 18DAF11003410D13
   expected_values:
     VSS: 19
+- response: 18DAF11003410D15
+  expected_values:
+    VSS: 21
 - response: 18DAF11003410D16
   expected_values:
     VSS: 22
@@ -173,6 +179,9 @@ test_cases:
 - response: 18DAF11003410D41
   expected_values:
     VSS: 65
+- response: 18DAF11003410D42
+  expected_values:
+    VSS: 66
 - response: 18DAF11003410D43
   expected_values:
     VSS: 67
