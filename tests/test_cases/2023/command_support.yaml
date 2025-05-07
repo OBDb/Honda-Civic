@@ -57,9 +57,17 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   DA0E:
   - DA0E.222611
+  - DA0E.222612
   - DA0E.22266D
   DA10:
+  - DA10.010.222612
+  - DA10.010.222666
+  - DA10.222612
   - DA10.222660
+  - DA10.222666
+  DA1D:
+  - DA1D.01D.222201
+  - DA1D.222201
   DA26:
   - DA26.226001
   DA60:

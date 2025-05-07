@@ -12,10 +12,6 @@
     {"id": "CIVIC_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "CIVIC_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
-  "signals": [
-    {"id": "CIVIC_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
-  ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2660"}, "freq": 5,
   "signals": [
     {"id": "CIVIC_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
@@ -27,7 +23,8 @@
   ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2662"}, "freq": 0.25,
   "signals": [
-    {"id": "CIVIC_VTC_DUTY", "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
+    {"id": "CIVIC_KNOCK_CONTROL", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "unknown" }, "name": "Knock control",                "description": "ECU's determination of fuel quality."},
+    {"id": "CIVIC_VTC_DUTY",      "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
   ]},
 { "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
   "signals": [
@@ -36,15 +33,27 @@
     {"id": "CIVIC_MIS_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
     {"id": "CIVIC_MIS_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2612"}, "freq": 1,
   "signals": [
-    {"id": "CIVIC_EOL", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 12.75,             "div": 20,             "unit": "centimeters" }, "name": "Engine oil level"},
-    {"id": "CIVIC_EOT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 215,   "min": -40,            "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature"}
+    {"id": "CIVIC_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
   ]},
 { "hdr": "DA11", "rax": "11", "cmd": {"22": "2662"}, "freq": 5,
   "signals": [
     {"id": "CIVIC_KNOCK_CTRL", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
     {"id": "CIVIC_CAT_T",      "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
+  ]},
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
+  "signals": [
+    {"id": "CIVIC_EOL", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 12.75,             "div": 20,             "unit": "centimeters" }, "name": "Engine oil level"},
+    {"id": "CIVIC_EOT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 215,   "min": -40,            "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "DA1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1,
+  "signals": [
+    {"id": "CIVIC_EOP", "path": "Fluids", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
+  ]},
+{ "hdr": "DA1D", "dbg": true, "cmd": {"22": "2221"}, "freq": 1,
+  "signals": [
+    {"id": "CURRENT_GEAR", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 1,
   "signals": [
