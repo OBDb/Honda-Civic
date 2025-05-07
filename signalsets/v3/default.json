@@ -48,7 +48,7 @@
   ]},
 { "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2201"}, "freq": 1,
   "signals": [
-    {"id": "CIVIC_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
+    {"id": "CIVIC_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "ATF temperature"}
   ]},
 { "hdr": "DA60", "rax": "60", "cmd": {"22": "7028"}, "freq": 5,
   "signals": [
