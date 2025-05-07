@@ -1,10 +1,10 @@
 { "commands": [
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2610"}, "freq": 1,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1,
   "signals": [
     {"id": "CIVIC_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "CIVIC_AC_CLUTCH", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5,
+{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2611"}, "freq": 5,
   "signals": [
     {"id": "CIVIC_AIRGAS_RATIO", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
@@ -13,16 +13,16 @@
     {"id": "CIVIC_ODO",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "CIVIC_RUNTM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2661"}, "freq": 0.25,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2661"}, "freq": 0.25,
   "signals": [
     {"id": "CIVIC_FUELAIR_CAR", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2662"}, "freq": 0.25,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2662"}, "freq": 0.25,
   "signals": [
     {"id": "CIVIC_KNOCK_CONTROL", "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "unknown" }, "name": "Knock control",                "description": "ECU's determination of fuel quality."},
     {"id": "CIVIC_VTC_DUTY",      "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable timing control duty", "description": "How long the valve is energized versus how long it's not energized, expressed as a percentage. The higher the duty percentage, the more the cam timing is advanced toward its maximum potential."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2663"}, "freq": 1,
   "signals": [
     {"id": "CIVIC_MIS_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
     {"id": "CIVIC_MIS_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
