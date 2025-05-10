@@ -1,0 +1,7 @@
+command_id: DB33.01A6
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF1100641A6000CC31C
+  expected_values:
+    ODO: 83638
