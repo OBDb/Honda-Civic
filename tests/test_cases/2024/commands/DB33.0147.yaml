@@ -5,3 +5,6 @@ test_cases:
 - response: 18DAF11003414722
   expected_values:
     TP_B: 13.33333
+- response: 18DAF11003414725
+  expected_values:
+    TP_B: 14.5098

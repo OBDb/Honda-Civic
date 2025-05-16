@@ -1,0 +1,16 @@
+command_id: DB33.010C
+can_id_format: TWENTY_NINE_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 18DAF11004410C0C7C
+  expected_values:
+    RPM: 799
+- response: 18DAF11004410C0ED8
+  expected_values:
+    RPM: 950
+- response: 18DAF11004410C1624
+  expected_values:
+    RPM: 1417
+- response: 18DAF11004410C24C2
+  expected_values:
+    RPM: 2352.5
