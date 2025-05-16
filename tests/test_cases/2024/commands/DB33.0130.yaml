@@ -2,6 +2,9 @@ command_id: DB33.0130
 can_id_format: TWENTY_NINE_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 18DAF11003413025
+  expected_values:
+    WARM_UPS: 37
 - response: 18DAF110034130FF
   expected_values:
     WARM_UPS: 255
