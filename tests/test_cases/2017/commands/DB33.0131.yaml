@@ -2,30 +2,35 @@ command_id: DB33.0131
 can_id_format: TWENTY_NINE_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 18DAF1100441312ABF
+- response: 18DAF1100441310CD3
   expected_values:
-    CLR_DIST: 10943
+    CLR_DIST: 3283
+- response: |-
+    18DAF1100441310CD3
+    18DAF11E044131FFFF
+  expected_values:
+    CLR_DIST: 65535
+- response: 18DAF1100441310CD6
+  expected_values:
+    CLR_DIST: 3286
+- response: |-
+    18DAF1100441310CD6
+    18DAF11E044131FFFF
+  expected_values:
+    CLR_DIST: 65535
 - response: |-
     18DAF1100441312ABF
     18DAF11E0441312ABF
   expected_values:
     CLR_DIST: 10943
-- response: 18DAF1100441312AC9
+- response: 18DAF1100441312D03
   expected_values:
-    CLR_DIST: 10953
+    CLR_DIST: 11523
 - response: |-
-    18DAF1100441312ACB
-    18DAF11E0441312ACB
+    18DAF1100441312D03
+    18DAF11E0441312D03
   expected_values:
-    CLR_DIST: 10955
-- response: 18DAF1100441312C1D
-  expected_values:
-    CLR_DIST: 11293
-- response: |-
-    18DAF1100441312C1D
-    18DAF11E0441312C1D
-  expected_values:
-    CLR_DIST: 11293
+    CLR_DIST: 11523
 - response: 18DAF11E0441312AC0
   expected_values:
     CLR_DIST: 10944

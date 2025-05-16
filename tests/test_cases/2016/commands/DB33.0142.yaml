@@ -2,6 +2,15 @@ command_id: DB33.0142
 can_id_format: TWENTY_NINE_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 18DAF1100441422FF3
+  expected_values:
+    VPWR: 12.275
+- response: 18DAF110044142300C
+  expected_values:
+    VPWR: 12.3
+- response: 18DAF11004414231CE
+  expected_values:
+    VPWR: 12.75
 - response: |-
     18DAF11004414238B0
     18DAF11E04414238A4
