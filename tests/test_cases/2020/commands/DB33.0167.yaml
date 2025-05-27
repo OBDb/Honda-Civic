@@ -1,0 +1,76 @@
+command_id: DB33.0167
+test_cases:
+- response: |-
+    18DAF11005416703714E
+    18DAF11E05416703714E
+  expected_values:
+    ECT_1: 73
+    ECT_1_SUP: 1
+    ECT_2: 38
+    ECT_2_SUP: 1
+- response: |-
+    18DAF11005416703784F
+    18DAF11E05416703784F
+  expected_values:
+    ECT_1: 80
+    ECT_1_SUP: 1
+    ECT_2: 39
+    ECT_2_SUP: 1
+- response: |-
+    18DAF110054167037B6A
+    18DAF11E054167037B6A
+  expected_values:
+    ECT_1: 83
+    ECT_1_SUP: 1
+    ECT_2: 66
+    ECT_2_SUP: 1
+- response: 18DAF110054167037B6F
+  expected_values:
+    ECT_1: 83
+    ECT_1_SUP: 1
+    ECT_2: 71
+    ECT_2_SUP: 1
+- response: |-
+    18DAF110054167037C6F
+    18DAF11E054167037C6F
+  expected_values:
+    ECT_1: 84
+    ECT_1_SUP: 1
+    ECT_2: 71
+    ECT_2_SUP: 1
+- response: 18DAF110054167037D69
+  expected_values:
+    ECT_1: 85
+    ECT_1_SUP: 1
+    ECT_2: 65
+    ECT_2_SUP: 1
+- response: |-
+    18DAF110054167037D6D
+    18DAF11E054167037D6D
+  expected_values:
+    ECT_1: 85
+    ECT_1_SUP: 1
+    ECT_2: 69
+    ECT_2_SUP: 1
+- response: |-
+    18DAF110054167037E74
+    18DAF11E054167037E74
+  expected_values:
+    ECT_1: 86
+    ECT_1_SUP: 1
+    ECT_2: 76
+    ECT_2_SUP: 1
+- response: 18DAF110054167037E77
+  expected_values:
+    ECT_1: 86
+    ECT_1_SUP: 1
+    ECT_2: 79
+    ECT_2_SUP: 1
+- response: |-
+    18DAF11005416703827C
+    18DAF11E05416703827C
+  expected_values:
+    ECT_1: 90
+    ECT_1_SUP: 1
+    ECT_2: 84
+    ECT_2_SUP: 1
