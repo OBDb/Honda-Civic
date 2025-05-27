@@ -1,6 +1,4 @@
 command_id: DB33.0149
-can_id_format: TWENTY_NINE_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: |-
     18DAF11003414930

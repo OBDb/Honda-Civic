@@ -1,0 +1,23 @@
+command_id: DB33.013C
+test_cases:
+- response: 18DAF11004413C0F2A
+  expected_values:
+    CATEMP11: 348.2
+- response: 18DAF11004413C129E
+  expected_values:
+    CATEMP11: 436.6
+- response: 18DAF11004413C1596
+  expected_values:
+    CATEMP11: 512.6
+- response: 18DAF11004413C16E3
+  expected_values:
+    CATEMP11: 545.9
+- response: 18DAF11004413C1850
+  expected_values:
+    CATEMP11: 582.4
+- response: 18DAF11004413C18B3
+  expected_values:
+    CATEMP11: 592.3
+- response: 18DAF11004413C18F2
+  expected_values:
+    CATEMP11: 598.6

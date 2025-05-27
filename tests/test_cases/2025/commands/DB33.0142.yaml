@@ -1,19 +1,71 @@
 command_id: DB33.0142
-can_id_format: TWENTY_NINE_BIT
-extended_addressing_enabled: false
 test_cases:
+- response: 18DAF11E0441423575
+  expected_values:
+    VPWR: 13.685
 - response: |-
-    18DAF1EF044142325A
-    18DAF11E0441423246
-    18DAF110044142326B
+    18DAF1EF0441422E68
+    18DAF1100441422E79
+    18DAF11E0441422E74
   expected_values:
-    VPWR: 12.907
-- response: 18DAF1EF044142389A
+    VPWR: 11.892
+- response: 18DAF1EF0441422F7B
   expected_values:
-    VPWR: 14.49
+    VPWR: 12.155
 - response: |-
-    18DAF1EF04414238A6
-    18DAF11E04414238C9
-    18DAF110044142389C
+    18DAF1EF0441423034
+    18DAF110044142303E
+    18DAF11E0441423018
   expected_values:
-    VPWR: 14.492
+    VPWR: 12.312
+- response: |-
+    18DAF1EF0441423034
+    18DAF110044142304F
+    18DAF11E0441423057
+  expected_values:
+    VPWR: 12.375
+- response: |-
+    18DAF1EF0441423048
+    18DAF11E0441423031
+    18DAF110044142304A
+  expected_values:
+    VPWR: 12.362
+- response: 18DAF1EF0441423101
+  expected_values:
+    VPWR: 12.545
+- response: |-
+    18DAF1EF0441423423
+    18DAF1100441423408
+    18DAF11E0441423403
+  expected_values:
+    VPWR: 13.315
+- response: |-
+    18DAF1EF04414237DE
+    18DAF11004414237CD
+    18DAF11E0441423818
+  expected_values:
+    VPWR: 14.36
+- response: |-
+    18DAF1EF04414237F7
+    18DAF110044142380B
+    18DAF11E044142384A
+  expected_values:
+    VPWR: 14.41
+- response: 18DAF1EF04414237FF
+  expected_values:
+    VPWR: 14.335
+- response: 18DAF1EF0441423804
+  expected_values:
+    VPWR: 14.34
+- response: |-
+    18DAF1EF044142380E
+    18DAF11E044142386A
+    18DAF110044142383D
+  expected_values:
+    VPWR: 14.397
+- response: |-
+    18DAF1EF044142384A
+    18DAF11E0441423838
+    18DAF11004414237F2
+  expected_values:
+    VPWR: 14.322
