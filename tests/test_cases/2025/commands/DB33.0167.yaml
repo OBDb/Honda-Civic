@@ -1,6 +1,4 @@
 command_id: DB33.0167
-can_id_format: TWENTY_NINE_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: |-
     18DAF1EF054167034D3F
@@ -26,20 +24,20 @@ test_cases:
     ECT_1_SUP: 1
     ECT_2: 23
     ECT_2_SUP: 1
-- response: |-
-    18DAF1EF05416703633B
-    18DAF11005416703633B
-    18DAF11E05416703633B
-  expected_values:
-    ECT_1: 59
-    ECT_1_SUP: 1
-    ECT_2: 19
-    ECT_2_SUP: 1
 - response: 18DAF1EF054167037538
   expected_values:
     ECT_1: 77
     ECT_1_SUP: 1
     ECT_2: 16
+    ECT_2_SUP: 1
+- response: |-
+    18DAF1EF054167037637
+    18DAF110054167037637
+    18DAF11E054167037637
+  expected_values:
+    ECT_1: 78
+    ECT_1_SUP: 1
+    ECT_2: 15
     ECT_2_SUP: 1
 - response: 18DAF1EF054167037D52
   expected_values:
