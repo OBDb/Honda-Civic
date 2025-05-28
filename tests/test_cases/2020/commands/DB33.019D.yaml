@@ -4,38 +4,6 @@ test_cases:
   expected_values:
     FUEL_RATE_ALT: 0
     VFUEL_RATE: 0
-- response: 18DAF11006419D000B000B
-  expected_values:
-    FUEL_RATE_ALT: 0.22
-    VFUEL_RATE: 0.22
-- response: 18DAF11006419D000F000F
-  expected_values:
-    FUEL_RATE_ALT: 0.3
-    VFUEL_RATE: 0.3
-- response: 18DAF11006419D00100010
-  expected_values:
-    FUEL_RATE_ALT: 0.32
-    VFUEL_RATE: 0.32
-- response: 18DAF11006419D00110011
-  expected_values:
-    FUEL_RATE_ALT: 0.34
-    VFUEL_RATE: 0.34
-- response: 18DAF11006419D00120012
-  expected_values:
-    FUEL_RATE_ALT: 0.36
-    VFUEL_RATE: 0.36
-- response: 18DAF11006419D00130013
-  expected_values:
-    FUEL_RATE_ALT: 0.38
-    VFUEL_RATE: 0.38
-- response: 18DAF11006419D00140014
-  expected_values:
-    FUEL_RATE_ALT: 0.4
-    VFUEL_RATE: 0.4
-- response: 18DAF11006419D00160016
-  expected_values:
-    FUEL_RATE_ALT: 0.44
-    VFUEL_RATE: 0.44
 - response: 18DAF11006419D002F002F
   expected_values:
     FUEL_RATE_ALT: 0.94
