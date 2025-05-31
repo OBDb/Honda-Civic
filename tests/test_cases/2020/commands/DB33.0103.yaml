@@ -8,3 +8,7 @@ test_cases:
   expected_values:
     FUELSYS1: CL
     FUELSYS2: 'OFF'
+- response: 18DAF1100441030400
+  expected_values:
+    FUELSYS1: OL-Drive
+    FUELSYS2: 'OFF'
