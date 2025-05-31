@@ -37,6 +37,10 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
+  - DB33.010D:VSS
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
+  - DB33.0142:VPWR
 unsupported_commands_by_ecu:
   DA10:
   - DA10.000010.222610
