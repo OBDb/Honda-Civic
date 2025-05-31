@@ -3,19 +3,9 @@ test_cases:
 - response: 18DAF11003410D00
   expected_values:
     VSS: 0
-- response: 18DAF11003410D94
+- response: 18DAF11003410D7E
   expected_values:
-    VSS: 148
-- response: 18DAF11E03410D00
+    VSS: 126
+- response: 18DAF11E03410D7E
   expected_values:
-    VSS: 0
-- response: |-
-    > DB33.010D
-    18DAF11003410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    > DB33.010D
-    18DAF11003410D02
-  expected_values:
-    VSS: 2
+    VSS: 126

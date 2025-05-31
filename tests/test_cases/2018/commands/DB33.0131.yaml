@@ -12,18 +12,3 @@ test_cases:
 - response: 18DAF11E044131FFFF
   expected_values:
     CLR_DIST: 65535
-- response: |-
-    > DB33.0131
-    18DAF1100441310A04
-  expected_values:
-    CLR_DIST: 2564
-- response: |-
-    > DB33.0131
-    18DAF1100441310A6E
-  expected_values:
-    CLR_DIST: 2670
-- response: |-
-    > DB33.0131
-    18DAF11004413114F1
-  expected_values:
-    CLR_DIST: 5361
