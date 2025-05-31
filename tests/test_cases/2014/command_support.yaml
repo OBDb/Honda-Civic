@@ -28,11 +28,14 @@ supported_commands_by_ecu:
   - DB33.010D:VSS
   - DB33.010F:IAT
   - DB33.0110:MAF
+  - DB33.0111:TP
   - DB33.011C:OBDSUP
   - DB33.0121:MIL_DIST
   - DB33.0123:FRP
   - DB33.012C:EGR_PCT
   - DB33.012D:EGR_ERR
+  - DB33.0145:TP_R
+  - DB33.0147:TP_B
   - DB33.014C:TAC_PCT
 unsupported_commands_by_ecu:
   DA10:

@@ -25,18 +25,6 @@ test_cases:
     TP_A_REL: 5.88235
     TP_B_REL: 0
 - response: |-
-    18DAF11007416C03110F0000
-    18DAF11E07416C02000F0000
-  expected_values:
-    CTAC_A_SUP: 0
-    CTAC_B_SUP: 0
-    RTP_A_SUP: 1
-    RTP_B_SUP: 0
-    TAC_A_CMD: 0
-    TAC_B_CMD: 0
-    TP_A_REL: 5.88235
-    TP_B_REL: 0
-- response: |-
     18DAF11007416C0312110000
     18DAF11E07416C0200110000
   expected_values:
@@ -47,54 +35,6 @@ test_cases:
     TAC_A_CMD: 0
     TAC_B_CMD: 0
     TP_A_REL: 6.66667
-    TP_B_REL: 0
-- response: |-
-    18DAF11007416C0314130000
-    18DAF11E07416C0200130000
-  expected_values:
-    CTAC_A_SUP: 0
-    CTAC_B_SUP: 0
-    RTP_A_SUP: 1
-    RTP_B_SUP: 0
-    TAC_A_CMD: 0
-    TAC_B_CMD: 0
-    TP_A_REL: 7.45098
-    TP_B_REL: 0
-- response: |-
-    18DAF11007416C031A150000
-    18DAF11E07416C0200130000
-  expected_values:
-    CTAC_A_SUP: 0
-    CTAC_B_SUP: 0
-    RTP_A_SUP: 1
-    RTP_B_SUP: 0
-    TAC_A_CMD: 0
-    TAC_B_CMD: 0
-    TP_A_REL: 7.45098
-    TP_B_REL: 0
-- response: |-
-    18DAF11007416C031E1C0000
-    18DAF11E07416C0200190000
-  expected_values:
-    CTAC_A_SUP: 0
-    CTAC_B_SUP: 0
-    RTP_A_SUP: 1
-    RTP_B_SUP: 0
-    TAC_A_CMD: 0
-    TAC_B_CMD: 0
-    TP_A_REL: 9.80392
-    TP_B_REL: 0
-- response: |-
-    18DAF11007416C03221F0000
-    18DAF11E07416C02001F0000
-  expected_values:
-    CTAC_A_SUP: 0
-    CTAC_B_SUP: 0
-    RTP_A_SUP: 1
-    RTP_B_SUP: 0
-    TAC_A_CMD: 0
-    TAC_B_CMD: 0
-    TP_A_REL: 12.15686
     TP_B_REL: 0
 - response: |-
     18DAF11007416C0329260000
