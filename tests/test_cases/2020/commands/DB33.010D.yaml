@@ -9,18 +9,18 @@ test_cases:
   expected_values:
     VSS: 0
 - response: |-
-    18DAF11003410D23
-    18DAF11E03410D23
+    18DAF11003410D22
+    18DAF11E03410D22
   expected_values:
-    VSS: 35
+    VSS: 34
 - response: |-
-    18DAF11003410D28
-    18DAF11E03410D28
+    18DAF11003410D29
+    18DAF11E03410D29
   expected_values:
-    VSS: 40
-- response: 18DAF11003410D56
+    VSS: 41
+- response: 18DAF11003410D78
   expected_values:
-    VSS: 86
+    VSS: 120
 - response: 18DAF11E03410D00
   expected_values:
     VSS: 0

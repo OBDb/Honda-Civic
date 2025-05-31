@@ -6,6 +6,9 @@ test_cases:
 - response: 18DAF1100341629A
   expected_values:
     TQ_ACT: 29
+- response: 18DAF1100341629C
+  expected_values:
+    TQ_ACT: 31
 - response: 18DAF110034162A1
   expected_values:
     TQ_ACT: 36

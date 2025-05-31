@@ -12,3 +12,6 @@ test_cases:
 - response: 18DAF11003413081
   expected_values:
     WARM_UPS: 129
+- response: 18DAF11003413085
+  expected_values:
+    WARM_UPS: 133

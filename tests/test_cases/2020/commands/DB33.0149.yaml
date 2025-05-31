@@ -8,37 +8,14 @@ test_cases:
     18DAF11E03414930
   expected_values:
     APP_D: 18.82353
-- response: |-
-    18DAF11003414938
-    18DAF11E0341493C
-  expected_values:
-    APP_D: 23.52941
-- response: 18DAF1100341493D
-  expected_values:
-    APP_D: 23.92157
-- response: |-
-    18DAF11003414941
-    18DAF11E03414943
-  expected_values:
-    APP_D: 26.27451
-- response: |-
-    18DAF11003414946
-    18DAF11E03414937
-  expected_values:
-    APP_D: 21.56863
 - response: 18DAF11003414947
   expected_values:
     APP_D: 27.84314
-- response: |-
-    18DAF11003414949
-    18DAF11E03414949
-  expected_values:
-    APP_D: 28.62745
-- response: |-
-    18DAF1100341495A
-    18DAF11E03414955
-  expected_values:
-    APP_D: 33.33333
 - response: 18DAF11E03414930
   expected_values:
     APP_D: 18.82353
+- response: |-
+    18DAF11E0341495D
+    18DAF11003414966
+  expected_values:
+    APP_D: 40

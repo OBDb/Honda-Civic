@@ -9,6 +9,9 @@ test_cases:
 - response: 18DAF11003410E86
   expected_values:
     SPARKADV: 3
+- response: 18DAF11003410E87
+  expected_values:
+    SPARKADV: 3.5
 - response: 18DAF11003410E91
   expected_values:
     SPARKADV: 8.5

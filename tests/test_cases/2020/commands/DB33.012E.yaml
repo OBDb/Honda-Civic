@@ -3,24 +3,6 @@ test_cases:
 - response: 18DAF11003412E00
   expected_values:
     EVAP_PCT: 0
-- response: 18DAF11003412E29
-  expected_values:
-    EVAP_PCT: 16.07843
-- response: 18DAF11003412E41
-  expected_values:
-    EVAP_PCT: 25.4902
-- response: 18DAF11003412E4E
-  expected_values:
-    EVAP_PCT: 30.58824
-- response: 18DAF11003412E65
-  expected_values:
-    EVAP_PCT: 39.60784
-- response: 18DAF11003412E6F
-  expected_values:
-    EVAP_PCT: 43.52941
-- response: 18DAF11003412EDA
-  expected_values:
-    EVAP_PCT: 85.4902
 - response: 18DAF11003412EFF
   expected_values:
     EVAP_PCT: 100

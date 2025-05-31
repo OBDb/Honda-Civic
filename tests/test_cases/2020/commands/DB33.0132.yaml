@@ -12,12 +12,18 @@ test_cases:
 - response: 18DAF110044132ED17
   expected_values:
     EVAP_VP: -1.21025
+- response: 18DAF110044132F428
+  expected_values:
+    EVAP_VP: -0.758
 - response: 18DAF110044132F9FA
   expected_values:
     EVAP_VP: -0.3855
 - response: 18DAF110044132FA64
   expected_values:
     EVAP_VP: -0.359
+- response: 18DAF110044132FB04
+  expected_values:
+    EVAP_VP: -0.319
 - response: 18DAF110044132FCE2
   expected_values:
     EVAP_VP: -0.1995
