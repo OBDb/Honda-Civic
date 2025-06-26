@@ -1,9 +1,6 @@
 command_id: DB33.016C
 test_cases:
-- response: |-
-    18DAF11007416C0306050000
-    18DAF11E07416C0200050000
-  expected_values:
+- expected_values:
     CTAC_A_SUP: 0
     CTAC_B_SUP: 0
     RTP_A_SUP: 1
@@ -12,3 +9,6 @@ test_cases:
     TAC_B_CMD: 0
     TP_A_REL: 1.96078
     TP_B_REL: 0
+  response: |-
+    18DAF11007416C0306050000
+    18DAF11E07416C0200050000
