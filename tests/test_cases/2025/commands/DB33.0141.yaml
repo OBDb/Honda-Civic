@@ -1,9 +1,6 @@
 command_id: DB33.0141
 test_cases:
-- response: |-
-    18DAF110064141000540A4
-    18DAF11E06414100040000
-  expected_values:
+- expected_values:
     ACRFCMPL: 0
     ACRF_ENA: 0
     AIR_CMPL: 0
@@ -27,10 +24,10 @@ test_cases:
     MIS_ENA: 0
     O2S_CMPL: 0
     O2S_ENA: 0
-- response: |-
+  response: |-
+    18DAF110064141000540A4
     18DAF11E06414100040000
-    18DAF1100641410027E1A5
-  expected_values:
+- expected_values:
     ACRFCMPL: 0
     ACRF_ENA: 0
     AIR_CMPL: 0
@@ -54,3 +51,6 @@ test_cases:
     MIS_ENA: 1
     O2S_CMPL: 1
     O2S_ENA: 1
+  response: |-
+    18DAF11E06414100040000
+    18DAF1100641410027E1A5

@@ -1,26 +1,30 @@
 command_id: DB33.0124
 test_cases:
-- response: 18DAF11006412473554324
-  expected_values:
-    LAMBDA11_WIDE: 0.90103
-    O2S11_WIDE: 2.09712
-- response: 18DAF110064124761F44FB
-  expected_values:
+- expected_values:
+    LAMBDA11_WIDE: 0.79584
+    O2S11_WIDE: 1.98377
+  response: 18DAF11006412465DE3F83
+- expected_values:
+    LAMBDA11_WIDE: 0.86774
+    O2S11_WIDE: 2.0643
+  response: 18DAF1100641246F124217
+- expected_values:
     LAMBDA11_WIDE: 0.92282
     O2S11_WIDE: 2.15459
-- response: 18DAF11006412477FF47B7
-  expected_values:
+  response: 18DAF110064124761F44FB
+- expected_values:
     LAMBDA11_WIDE: 0.93747
     O2S11_WIDE: 2.24
-- response: 18DAF1100641247C1D4A1A
-  expected_values:
-    LAMBDA11_WIDE: 0.96964
-    O2S11_WIDE: 2.31454
-- response: 18DAF1100641248F134D44
-  expected_values:
-    LAMBDA11_WIDE: 1.11777
-    O2S11_WIDE: 2.41337
-- response: 18DAF110064124FFFF7020
-  expected_values:
+  response: 18DAF11006412477FF47B7
+- expected_values:
+    LAMBDA11_WIDE: 0.9697
+    O2S11_WIDE: 2.28038
+  response: 18DAF1100641247C1F4902
+- expected_values:
     LAMBDA11_WIDE: 1.99
     O2S11_WIDE: 3.5022
+  response: 18DAF110064124FFFF7020
+- expected_values:
+    LAMBDA11_WIDE: 1.99
+    O2S11_WIDE: 3.71852
+  response: 18DAF110064124FFFF770D

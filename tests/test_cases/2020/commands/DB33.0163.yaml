@@ -1,14 +1,26 @@
 command_id: DB33.0163
 test_cases:
-- response: 18DAF1100441630090
-  expected_values:
+- expected_values:
     TQ_REF: 144
-- response: 18DAF1100441630097
-  expected_values:
+  response: 18DAF1100441630090
+- expected_values:
     TQ_REF: 151
-- response: 18DAF11004416300A2
-  expected_values:
+  response: 18DAF1100441630097
+- expected_values:
     TQ_REF: 162
-- response: 18DAF11004416300B3
-  expected_values:
+  response: 18DAF11004416300A2
+- expected_values:
+    TQ_REF: 165
+  response: 18DAF11004416300A5
+- expected_values:
+    TQ_REF: 168
+  response: 18DAF11004416300A8
+- expected_values:
+    TQ_REF: 178
+  response: 18DAF11004416300B2
+- expected_values:
     TQ_REF: 179
+  response: 18DAF11004416300B3
+- expected_values:
+    TQ_REF: 183
+  response: 18DAF11004416300B7

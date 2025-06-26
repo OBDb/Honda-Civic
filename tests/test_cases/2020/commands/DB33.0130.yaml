@@ -1,17 +1,8 @@
 command_id: DB33.0130
 test_cases:
-- response: 18DAF11003413075
-  expected_values:
+- expected_values:
     WARM_UPS: 117
-- response: 18DAF11003413079
-  expected_values:
-    WARM_UPS: 121
-- response: 18DAF11003413080
-  expected_values:
-    WARM_UPS: 128
-- response: 18DAF11003413081
-  expected_values:
-    WARM_UPS: 129
-- response: 18DAF11003413085
-  expected_values:
-    WARM_UPS: 133
+  response: 18DAF11003413075
+- expected_values:
+    WARM_UPS: 167
+  response: 18DAF110034130A7
