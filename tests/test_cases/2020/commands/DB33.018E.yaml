@@ -1,17 +1,29 @@
 command_id: DB33.018E
 test_cases:
-- response: 18DAF11003418E8B
-  expected_values:
+- expected_values:
+    TQ_FR: 13
+  response: 18DAF11003418E8A
+- expected_values:
     TQ_FR: 14
-- response: 18DAF11003418E8C
-  expected_values:
+  response: 18DAF11003418E8B
+- expected_values:
     TQ_FR: 15
-- response: 18DAF11003418E92
-  expected_values:
+  response: 18DAF11003418E8C
+- expected_values:
+    TQ_FR: 17
+  response: 18DAF11003418E8E
+- expected_values:
     TQ_FR: 21
-- response: 18DAF11003418E94
-  expected_values:
+  response: 18DAF11003418E92
+- expected_values:
     TQ_FR: 23
-- response: 18DAF11003418E98
-  expected_values:
+  response: 18DAF11003418E94
+- expected_values:
+    TQ_FR: 26
+  response: 18DAF11003418E97
+- expected_values:
     TQ_FR: 27
+  response: 18DAF11003418E98
+- expected_values:
+    TQ_FR: 28
+  response: 18DAF11003418E99

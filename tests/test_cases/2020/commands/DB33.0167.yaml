@@ -1,50 +1,52 @@
 command_id: DB33.0167
 test_cases:
-- response: |-
-    18DAF110054167036F4B
-    18DAF11E054167036F4B
-  expected_values:
+- expected_values:
+    ECT_1: 51
+    ECT_1_SUP: 1
+    ECT_2: 28
+    ECT_2_SUP: 1
+  response: |-
+    18DAF110054167035B44
+    18DAF11E054167035B44
+- expected_values:
     ECT_1: 71
     ECT_1_SUP: 1
     ECT_2: 35
     ECT_2_SUP: 1
-- response: |-
-    18DAF11005416703714E
-    18DAF11E05416703714E
-  expected_values:
+  response: |-
+    18DAF110054167036F4B
+    18DAF11E054167036F4B
+- expected_values:
     ECT_1: 73
     ECT_1_SUP: 1
     ECT_2: 38
     ECT_2_SUP: 1
-- response: 18DAF110054167037A6C
-  expected_values:
+  response: |-
+    18DAF11005416703714E
+    18DAF11E05416703714E
+- expected_values:
     ECT_1: 82
     ECT_1_SUP: 1
-    ECT_2: 68
+    ECT_2: 50
     ECT_2_SUP: 1
-- response: 18DAF110054167037D69
-  expected_values:
-    ECT_1: 85
-    ECT_1_SUP: 1
-    ECT_2: 65
-    ECT_2_SUP: 1
-- response: 18DAF110054167037E77
-  expected_values:
+  response: 18DAF110054167037A5A
+- expected_values:
     ECT_1: 86
     ECT_1_SUP: 1
     ECT_2: 79
     ECT_2_SUP: 1
-- response: |-
-    18DAF11005416703827C
-    18DAF11E05416703827C
-  expected_values:
+  response: 18DAF110054167037E77
+- expected_values:
     ECT_1: 90
     ECT_1_SUP: 1
     ECT_2: 84
     ECT_2_SUP: 1
-- response: 18DAF11E054167037B6A
-  expected_values:
-    ECT_1: 83
+  response: |-
+    18DAF11005416703827C
+    18DAF11E05416703827C
+- expected_values:
+    ECT_1: 82
     ECT_1_SUP: 1
-    ECT_2: 66
+    ECT_2: 50
     ECT_2_SUP: 1
+  response: 18DAF11E054167037A5A
