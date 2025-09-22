@@ -1,0 +1,19 @@
+command_id: DB33.011C
+test_cases:
+- expected_values:
+    OBDSUP: OBD II
+  response: |-
+    18DAF1EF03411C01
+    18DAF11003411C01
+- expected_values:
+    OBDSUP: EOBD
+  response: 18DAF1EF03411C06
+- expected_values:
+    OBDSUP: EOBD
+  response: |-
+    18DAF1EF03411C06
+    18DAF10703411C06
+    18DAF10603411C06
+    18DAF11003411C06
+    18DAF10103411C06
+    18DAF10203411C06

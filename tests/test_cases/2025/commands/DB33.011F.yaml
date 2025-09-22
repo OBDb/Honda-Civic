@@ -10,3 +10,8 @@ test_cases:
   response: |-
     18DAF11004411F03F4
     18DAF11E04411F03F4
+- expected_values:
+    RUNTM: 2690
+  response: |-
+    18DAF11004411F0A82
+    18DAF11E04411F0A82

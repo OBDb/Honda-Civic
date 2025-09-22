@@ -1,14 +1,77 @@
 command_id: DB33.0131
 test_cases:
 - expected_values:
-    CLR_DIST: 10425
-  response: 18DAF11004413128B9
+    CLR_DIST: 34094
+  response: 18DAF107044131852E
+- expected_values:
+    CLR_DIST: 34088
+  response: |-
+    18DAF107044131852E
+    18DAF1010441318528
+    18DAF1100441318528
+    18DAF1020441318528
+    18DAF1060441318528
+- expected_values:
+    CLR_DIST: 34096
+  response: |-
+    18DAF1070441318536
+    18DAF1100441318530
+    18DAF1010441318530
+    18DAF1020441318530
+    18DAF1060441318530
+- expected_values:
+    CLR_DIST: 34155
+  response: |-
+    18DAF1070441318572
+    18DAF101044131856B
+    18DAF102044131856B
+    18DAF106044131856B
+    18DAF110044131856B
+- expected_values:
+    CLR_DIST: 34189
+  response: |-
+    18DAF1070441318594
+    18DAF101044131858D
+    18DAF110044131858D
+    18DAF102044131858D
+    18DAF106044131858D
+- expected_values:
+    CLR_DIST: 34244
+  response: |-
+    18DAF10704413185CB
+    18DAF10604413185C4
+    18DAF10104413185C4
+    18DAF11004413185C4
+    18DAF10204413185C4
+- expected_values:
+    CLR_DIST: 51234
+  response: |-
+    18DAF11004413127F8
+    18DAF11E044131C822
+- expected_values:
+    CLR_DIST: 10264
+  response: 18DAF1100441312818
 - expected_values:
     CLR_DIST: 10495
   response: 18DAF11004413128FF
 - expected_values:
     CLR_DIST: 10496
   response: 18DAF1100441312900
+- expected_values:
+    CLR_DIST: 52521
+  response: |-
+    18DAF1100441312CFF
+    18DAF11E044131CD29
+- expected_values:
+    CLR_DIST: 53239
+  response: |-
+    18DAF1100441312FCD
+    18DAF11E044131CFF7
+- expected_values:
+    CLR_DIST: 53250
+  response: |-
+    18DAF1100441312FD8
+    18DAF11E044131D002
 - expected_values:
     CLR_DIST: 65535
   response: |-
@@ -20,6 +83,14 @@ test_cases:
     18DAF1100441313800
     18DAF11E044131FFFF
 - expected_values:
+    CLR_DIST: 10264
+  response: |-
+    18DAF11E044131C842
+    18DAF1100441312818
+- expected_values:
+    CLR_DIST: 51269
+  response: 18DAF11E044131C845
+- expected_values:
     CLR_DIST: 65535
   response: 18DAF11E044131FFFF
 - expected_values:
@@ -27,8 +98,3 @@ test_cases:
   response: |-
     18DAF11E044131FFFF
     18DAF1100441313741
-- expected_values:
-    CLR_DIST: 16649
-  response: |-
-    18DAF11E044131FFFF
-    18DAF1100441314109
