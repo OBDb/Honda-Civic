@@ -46,7 +46,7 @@ unsupported_commands_by_ecu:
   - DA0E.222662
   - DA0E.22266D
   "DA10":
-  - DA10.222660
+  - DA10.10.222660:CIVIC_ODO,CIVIC_RUNTM
   "DA1D":
   - DA1D.222221:CURRENT_GEAR
   "DA26":
