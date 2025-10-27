@@ -59,6 +59,9 @@ supported_commands_by_ecu:
   - DB33.0131:CLR_DIST
   - DB33.0142:VPWR
 unsupported_commands_by_ecu:
+  "DA10":
+  - DA10.10.222611:CIVIC_AIRGAS_RATIO
+  - DA10.10.222660:CIVIC_ODO,CIVIC_RUNTM
   "DA11":
   - DA11.000011.222666
   "DA1D":
