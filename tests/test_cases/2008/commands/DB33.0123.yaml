@@ -7,8 +7,8 @@ test_cases:
     FRP: 35820
   response: 18DAF1100441230DFE
 - expected_values:
-    FRP: 110100
-  response: 18DAF1100441232B02
+    FRP: 51200
+  response: 18DAF1100441231400
 - expected_values:
-    FRP: 135600
-  response: 18DAF11004412334F8
+    FRP: 134720
+  response: 18DAF11004412334A0

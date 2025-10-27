@@ -1,29 +1,24 @@
 command_id: DB33.011F
 test_cases:
 - expected_values:
-    RUNTM: 61
-  response: 18DAF11004411F003D
-- expected_values:
-    RUNTM: 62
+    RUNTM: 16
   response: |-
-    18DAF11004411F003E
-    18DAF11E04411F003E
+    18DAF11004411F0010
+    18DAF11E04411F0010
+- expected_values:
+    RUNTM: 46
+  response: 18DAF11004411F002E
 - expected_values:
     RUNTM: 257
   response: 18DAF11004411F0101
-- expected_values:
-    RUNTM: 1051
-  response: |-
-    18DAF11004411F041B
-    18DAF11E04411F041B
 - expected_values:
     RUNTM: 1276
   response: |-
     18DAF11004411F04FD
     18DAF11E04411F04FC
 - expected_values:
-    RUNTM: 1791
-  response: 18DAF11004411F06FF
+    RUNTM: 1535
+  response: 18DAF11004411F05FF
 - expected_values:
     RUNTM: 3718
   response: |-
@@ -33,10 +28,10 @@ test_cases:
     RUNTM: 5390
   response: 18DAF11004411F150E
 - expected_values:
+    RUNTM: 102
+  response: 18DAF11E04411F0066
+- expected_values:
     RUNTM: 196
   response: |-
     18DAF11E04411F00C3
     18DAF11004411F00C4
-- expected_values:
-    RUNTM: 208
-  response: 18DAF11E04411F00D0
