@@ -1,0 +1,32 @@
+command_id: DB33.015B
+test_cases:
+- expected_values:
+    BAT_SOC: 39.21569
+  response: |-
+    18DAF10103415B6455555555
+    18DAF10E03415B6455555555
+- expected_values:
+    BAT_SOC: 43.13725
+  response: |-
+    18DAF10103415B6E55555555
+    18DAF10E03415B6E55555555
+- expected_values:
+    BAT_SOC: 77.2549
+  response: |-
+    18DAF10103415BC555555555
+    18DAF10E03415BC555555555
+- expected_values:
+    BAT_SOC: 38.03922
+  response: |-
+    18DAF10E03415B6155555555
+    18DAF10103415B6155555555
+- expected_values:
+    BAT_SOC: 50.19608
+  response: |-
+    18DAF10E03415B8055555555
+    18DAF10103415B8055555555
+- expected_values:
+    BAT_SOC: 78.82353
+  response: |-
+    18DAF10E03415BC955555555
+    18DAF10103415BC955555555
