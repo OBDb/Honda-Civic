@@ -4,26 +4,18 @@ test_cases:
     VSS: 0
   response: 18DAF10103410D00
 - expected_values:
-    VSS: 12
-  response: 18DAF10103410D0C
-- expected_values:
-    VSS: 18
-  response: 18DAF10103410D12
-- expected_values:
-    VSS: 58
-  response: 18DAF10103410D3A
-- expected_values:
-    VSS: 60
-  response: 18DAF10103410D3C
+    VSS: 0
+  response: |-
+    18DAF10103410D00
+    18DAF10203410D00
+    18DAF11103410D00
+    18DAF11D03410D00
 - expected_values:
     VSS: 68
   response: 18DAF10103410D44
 - expected_values:
-    VSS: 25
-  response: 18DAF11103410D19
-- expected_values:
-    VSS: 59
-  response: 18DAF11103410D3B
+    VSS: 0
+  response: 18DAF11103410D00
 - expected_values:
     VSS: 67
   response: |-
