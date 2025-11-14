@@ -5,13 +5,9 @@ test_cases:
     IAT_11_SUP: 1
     IAT_12: 46
     IAT_12_SUP: 1
-    IAT_13: -40
     IAT_13_SUP: 0
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     18DAF1101009416803595600
@@ -21,13 +17,9 @@ test_cases:
     IAT_11_SUP: 1
     IAT_12: 46
     IAT_12_SUP: 1
-    IAT_13: -40
     IAT_13_SUP: 0
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     18DAF11010094168035A5600
@@ -37,13 +29,9 @@ test_cases:
     IAT_11_SUP: 1
     IAT_12: 50
     IAT_12_SUP: 1
-    IAT_13: -40
     IAT_13_SUP: 0
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     18DAF11010094168035A5A00
@@ -53,13 +41,9 @@ test_cases:
     IAT_11_SUP: 1
     IAT_12: 50
     IAT_12_SUP: 1
-    IAT_13: -40
     IAT_13_SUP: 0
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     18DAF11010094168035B5A00
@@ -69,13 +53,9 @@ test_cases:
     IAT_11_SUP: 1
     IAT_12: 58
     IAT_12_SUP: 1
-    IAT_13: -40
     IAT_13_SUP: 0
-    IAT_21: -40
     IAT_21_SUP: 0
-    IAT_22: -40
     IAT_22_SUP: 0
-    IAT_23: -40
     IAT_23_SUP: 0
   response: |-
     18DAF1101009416803616200
