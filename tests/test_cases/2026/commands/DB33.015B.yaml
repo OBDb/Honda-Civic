@@ -10,6 +10,12 @@ test_cases:
     18DAF10103415B94
     18DAF11003415B94
 - expected_values:
+    BAT_SOC: 62.7451
+  response: |-
+    18DAF10703415BA0
+    18DAF10103415BA0
+    18DAF11003415BA0
+- expected_values:
     BAT_SOC: 73.33333
   response: |-
     18DAF10703415BBC
