@@ -6,8 +6,8 @@ test_cases:
     18DAF1100341054B
     18DAF11E0341054B
 - expected_values:
-    ECT: 43
-  response: 18DAF11003410553
+    ECT: 41
+  response: 18DAF11003410551
 - expected_values:
     ECT: 74
   response: |-
