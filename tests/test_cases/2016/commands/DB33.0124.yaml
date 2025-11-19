@@ -1,0 +1,26 @@
+command_id: DB33.0124
+test_cases:
+- expected_values:
+    LAMBDA11_VOLT: 0.88528
+    O2S11_VOLT: 2.01794
+  response: 18DAF1100641247151409B
+- expected_values:
+    LAMBDA11_VOLT: 0.93759
+    O2S11_VOLT: 2.22169
+  response: 18DAF11006412478034721
+- expected_values:
+    LAMBDA11_VOLT: 0.98569
+    O2S11_VOLT: 2.27416
+  response: 18DAF1100641247E2B48CF
+- expected_values:
+    LAMBDA11_VOLT: 0.9902
+    O2S11_VOLT: 2.28392
+  response: 18DAF1100641247EBF491F
+- expected_values:
+    LAMBDA11_VOLT: 1.00742
+    O2S11_VOLT: 2.3243
+  response: 18DAF11006412480F34A6A
+- expected_values:
+    LAMBDA11_VOLT: 1.02841
+    O2S11_VOLT: 2.34871
+  response: 18DAF11006412483A34B32
