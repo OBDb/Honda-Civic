@@ -1,11 +1,11 @@
 command_id: DB33.0105
 test_cases:
 - expected_values:
-    ECT: 21
+    ECT: 9
   response: |-
-    18DAF1010341053D
-    18DAF1020341053D
-    18DAF1060341053D
+    18DAF10103410531
+    18DAF10203410531
+    18DAF10603410531
 - expected_values:
     ECT: 38
   response: |-
