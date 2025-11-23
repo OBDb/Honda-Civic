@@ -2,7 +2,7 @@ command_id: DB33.012D
 test_cases:
 - expected_values:
     EGR_ERR: -100
-  response: 18DAF11003412D03
+  response: 18DAF11003412D01
 - expected_values:
     EGR_ERR: 29.03125
   response: 18DAF11003412DC9
