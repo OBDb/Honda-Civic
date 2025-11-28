@@ -62,6 +62,7 @@ unsupported_commands_by_ecu:
   "DA10":
   - DA10.000010.222611
   - DA10.000010.222660
+  - DA10.10.222615:CIVIC_ACTIVE_CYL
   "DA11":
   - DA11.000011.222666
   "DA1D":

@@ -14,9 +14,6 @@ test_cases:
     18DAF1100441423252
     18DAF11E0441423232
 - expected_values:
-    VPWR: 13.057
-  response: 18DAF1100441423301
-- expected_values:
     VPWR: 14.335
   response: 18DAF11004414237FF
 - expected_values:
@@ -40,3 +37,6 @@ test_cases:
   response: |-
     18DAF11E0441423043
     18DAF110044142302A
+- expected_values:
+    VPWR: 14.592
+  response: 18DAF11E0441423900
