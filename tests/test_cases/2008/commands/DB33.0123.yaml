@@ -10,5 +10,5 @@ test_cases:
     FRP: 51200
   response: 18DAF1100441231400
 - expected_values:
-    FRP: 134720
-  response: 18DAF11004412334A0
+    FRP: 137140
+  response: 18DAF1100441233592
