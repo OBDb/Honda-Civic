@@ -3,3 +3,36 @@ test_cases:
 - expected_values:
     LOAD_PCT: 0
   response: 18DAF1110341040055555555
+- expected_values:
+    LOAD_PCT: 31.76471
+  response: 18DAF1110341045155555555
+- expected_values:
+    LOAD_PCT: 32.54902
+  response: |-
+    18DAF1110341045255555555
+    18DAF11D0341045355555555
+- expected_values:
+    LOAD_PCT: 33.72549
+  response: 18DAF1110341045655555555
+- expected_values:
+    LOAD_PCT: 34.90196
+  response: 18DAF1110341045955555555
+- expected_values:
+    LOAD_PCT: 36.47059
+  response: 18DAF1110341045D55555555
+- expected_values:
+    LOAD_PCT: 40
+  response: 18DAF1110341046655555555
+- expected_values:
+    LOAD_PCT: 41.17647
+  response: 18DAF1110341046955555555
+- expected_values:
+    LOAD_PCT: 35.29412
+  response: |-
+    18DAF11D0341045955555555
+    18DAF1110341045A55555555
+- expected_values:
+    LOAD_PCT: 36.07843
+  response: |-
+    18DAF11D0341045D55555555
+    18DAF1110341045C55555555
