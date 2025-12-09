@@ -67,5 +67,5 @@ test_cases:
     18DAF10203410D3D
     18DAF10603410D3D
 - expected_values:
-    VSS: 140
-  response: 18DAF1EF03410D8C
+    VSS: 152
+  response: 18DAF1EF03410D98
