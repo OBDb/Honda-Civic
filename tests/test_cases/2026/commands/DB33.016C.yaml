@@ -20,3 +20,13 @@ test_cases:
     TP_A_REL: 7.84314
     TP_B_REL: 0
   response: 18DAF11007416C0301140000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 5.09804
+    TAC_B_CMD: 0
+    TP_A_REL: 4.70588
+    TP_B_REL: 0
+  response: 18DAF11007416C030D0C0000
