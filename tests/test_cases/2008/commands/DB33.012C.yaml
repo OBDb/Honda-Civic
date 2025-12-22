@@ -4,5 +4,5 @@ test_cases:
     EGR_PCT: 4.70588
   response: 18DAF11003412C0C
 - expected_values:
-    EGR_PCT: 51.76471
-  response: 18DAF11003412C84
+    EGR_PCT: 53.72549
+  response: 18DAF11003412C89
