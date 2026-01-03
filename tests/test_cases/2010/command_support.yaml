@@ -60,6 +60,7 @@ supported_commands_by_ecu:
   - DB33.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - DB33.0142:VPWR
   - DB33.0144:EQ_RAT
+  - DB33.0147:TP_B
 unsupported_commands_by_ecu:
   "DA10":
   - DA10.000010.222610
