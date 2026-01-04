@@ -4,15 +4,21 @@ test_cases:
     TP_B: 30.58824
   response: 18DAF1110341474E55555555
 - expected_values:
-    TP_B: 31.76471
+    TP_B: 30.19608
   response: |-
-    18DAF1110341475155555555
-    18DAF11D0341475155555555
+    18DAF1110341474E55555555
+    18DAF11D0341474D55555555
 - expected_values:
     TP_B: 33.33333
   response: |-
     18DAF1110341475555555555
     18DAF1110341475555555555
+- expected_values:
+    TP_B: 33.33333
+  response: |-
+    18DAF1110341475655555555
+    18DAF1110341475655555555
+    18DAF11D0341475555555555
 - expected_values:
     TP_B: 37.2549
   response: |-
@@ -23,6 +29,9 @@ test_cases:
   response: |-
     18DAF1110341476555555555
     18DAF11D0341476455555555
+- expected_values:
+    TP_B: 43.13725
+  response: 18DAF1110341476E55555555
 - expected_values:
     TP_B: 30.19608
   response: 18DAF11D0341474D55555555
@@ -41,6 +50,3 @@ test_cases:
   response: |-
     18DAF11D0341476B55555555
     18DAF1110341476B55555555
-- expected_values:
-    TP_B: 43.13725
-  response: 18DAF11D0341476E55555555
