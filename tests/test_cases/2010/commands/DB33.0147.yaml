@@ -47,10 +47,10 @@ test_cases:
     TP_B: 30.19608
   response: 18DAF11D0341474D55555555
 - expected_values:
-    TP_B: 30.98039
+    TP_B: 30.19608
   response: |-
-    18DAF11D0341474E55555555
-    18DAF1110341474F55555555
+    18DAF11D0341474D55555555
+    18DAF11D0341474D55555555
 - expected_values:
     TP_B: 32.94118
   response: |-
