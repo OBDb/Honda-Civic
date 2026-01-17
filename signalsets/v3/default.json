@@ -51,11 +51,11 @@
     {"id": "CIVIC_KNOCK_CONTROL_V2", "path": "Engine", "fmt": {"bix": 80, "len": 8,  "max": 1.99,             "mul": 1.99, "div": 255,             "unit": "scalar"  }, "name": "Knock control"},
     {"id": "CIVIC_CAT_T",            "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2201"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "years": [2009], "from": 2012 },
+{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2201"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "from": 2012 },
   "signals": [
     {"id": "CIVIC_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2221"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "years": [2009], "from": 2012 },
+{ "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2221"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "from": 2012 },
   "signals": [
     {"id": "CIVIC_GEAR_1D", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
