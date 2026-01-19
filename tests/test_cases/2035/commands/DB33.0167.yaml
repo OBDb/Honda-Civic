@@ -1,6 +1,24 @@
 command_id: DB33.0167
 test_cases:
 - expected_values:
+    ECT_1: 21
+    ECT_1_SUP: 1
+    ECT_2: 2
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF054167033D2A
+    18DAF11E054167033D2A
+    18DAF110054167033D2A
+- expected_values:
+    ECT_1: 40
+    ECT_1_SUP: 1
+    ECT_2: 2
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF05416703502A
+    18DAF11E05416703502A
+    18DAF11005416703502A
+- expected_values:
     ECT_1: 54
     ECT_1_SUP: 1
     ECT_2: 3
