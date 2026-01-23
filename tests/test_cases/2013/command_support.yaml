@@ -41,6 +41,7 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
   - 015B:BAT_SOC
+  - DB33.0144:EQ_RAT
 unsupported_commands_by_ecu:
   "DA10":
   - DA10.000010.222610
