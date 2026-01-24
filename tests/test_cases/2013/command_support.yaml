@@ -41,6 +41,14 @@ supported_commands_by_ecu:
   - 014C:TAC_PCT
   - 0151:FUEL_TYP
   - 015B:BAT_SOC
+  - DB33.0104:LOAD_PCT
+  - DB33.0105:ECT
+  - DB33.0106:SHRTFT1
+  - DB33.010D:VSS
+  - DB33.0110:MAF
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
+  - DB33.0134:LAMBDA11_CURRENT,O2S11_CURRENT
   - DB33.0144:EQ_RAT
 unsupported_commands_by_ecu:
   "DA10":
@@ -76,5 +84,3 @@ unsupported_commands_by_ecu:
   - DA60.000060.227028
   - DA60.000060.227029
   - DA60.227029
-  "DB33":
-  - DB33.012F:FLI
