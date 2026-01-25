@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Honda_Civic"
+
 generations:
   - name: "First Generation"
     start_year: 1972
