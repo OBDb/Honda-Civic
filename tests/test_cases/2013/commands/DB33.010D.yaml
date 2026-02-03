@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     VSS: 37
   response: 18DAF10E03410D25
+- expected_values:
+    VSS: 52
+  response: 18DAF10E03410D34
+- expected_values:
+    VSS: 72
+  response: 18DAF10E03410D48
