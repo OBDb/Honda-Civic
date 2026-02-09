@@ -1,4 +1,15 @@
 { "commands": [
+{ "hdr": "DA01", "dbg": true, "cmd": {"22": "202A"}, "freq": 1,
+  "signals": [
+    {"id": "CIVIC_SOC",          "path": "Battery", "fmt": {"bix": 400,  "len": 8,  "max": 100,                                           "unit": "percent"     }, "name": "State of charge",                                 "suggestedMetric": "stateOfCharge"},
+    {"id": "CIVIC_HVB_C_TOTAL",  "path": "Battery", "fmt": {"bix": 456,  "len": 16, "max": 200,    "min": -100, "div": 50,  "sign": true, "unit": "amps"        }, "name": "High voltage battery total current",              "suggestedMetric": "tractionBatteryCurrent"},
+    {"id": "CIVIC_HVB_V",        "path": "Battery", "fmt": {"bix": 488,  "len": 16, "max": 400,                 "div": 20,                "unit": "volts"       }, "name": "High voltage battery voltage",                    "suggestedMetric": "tractionBatteryVoltage"},
+    {"id": "CIVIC_CELL_MAX_SOC", "path": "Battery", "fmt": {"bix": 584,  "len": 16, "max": 100,                 "div": 100,               "unit": "percent"     }, "name": "High voltage battery cells, max state of charge"},
+    {"id": "CIVIC_CELL_MIN_SOC", "path": "Battery", "fmt": {"bix": 600,  "len": 16, "max": 100,                 "div": 100,               "unit": "percent"     }, "name": "High voltage battery cells, max state of charge"},
+    {"id": "CIVIC_AAT_CABIN",    "path": "Engine",  "fmt": {"bix": 832,  "len": 8,  "max": 127,    "min": -40,              "sign": true, "unit": "celsius"     }, "name": "Ambient air temperature, cabin"},
+    {"id": "CIVIC_AAT",          "path": "Engine",  "fmt": {"bix": 840,  "len": 8,  "max": 127,    "min": -40,              "sign": true, "unit": "celsius"     }, "name": "Ambient air temperature, outside"},
+    {"id": "CIVIC_HVB_CAPACITY", "path": "Battery", "fmt": {"bix": 1336, "len": 16, "max": 655.35,              "div": 100,               "unit": "ampereHours" }, "name": "High voltage battery total capacity"}
+  ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2013, 2014, 2015, 2021, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034], "from": 2036 },
   "signals": [
     {"id": "CIVIC_GENERATOR", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
