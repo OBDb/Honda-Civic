@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "DA01", "rax": "01", "dbg": true, "cmd": {"22": "2028"}, "freq": 1,
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "2028"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_CEL_V_A1",  "path": "Battery.Cells", "fmt": {"bix": 216,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A1"},
     {"id": "CIVIC_CEL_V_A2",  "path": "Battery.Cells", "fmt": {"bix": 232,  "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A2"},
@@ -86,7 +86,7 @@
     {"id": "CIVIC_CEL_V_A83", "path": "Battery.Cells", "fmt": {"bix": 1528, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A83"},
     {"id": "CIVIC_CEL_V_A84", "path": "Battery.Cells", "fmt": {"bix": 1544, "len": 16, "max": 5000, "div": 5, "unit": "millivolts" }, "name": "Individual cell voltage A84"}
   ]},
-{ "hdr": "DA01", "rax": "01", "dbg": true, "cmd": {"22": "202A"}, "freq": 1,
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_SOC",          "path": "Battery", "fmt": {"bix": 400,  "len": 8,  "max": 100,                                           "unit": "percent"     }, "name": "State of charge",                                 "suggestedMetric": "stateOfCharge"},
     {"id": "CIVIC_HVB_C_TOTAL",  "path": "Battery", "fmt": {"bix": 456,  "len": 16, "max": 200,    "min": -100, "div": 50,  "sign": true, "unit": "amps"        }, "name": "High voltage battery total current",              "suggestedMetric": "tractionBatteryCurrent"},
@@ -97,7 +97,7 @@
     {"id": "CIVIC_AAT_OUT",      "path": "Engine",  "fmt": {"bix": 840,  "len": 8,  "max": 127,    "min": -40,              "sign": true, "unit": "celsius"     }, "name": "Ambient air temperature, outside"},
     {"id": "CIVIC_HVB_CAP",      "path": "Battery", "fmt": {"bix": 1336, "len": 16, "max": 655.35,              "div": 100,               "unit": "ampereHours" }, "name": "High voltage battery total capacity"}
   ]},
-{ "hdr": "DA01", "rax": "01", "dbg": true, "cmd": {"22": "202C"}, "freq": 1,
+{ "hdr": "DA01", "rax": "01", "cmd": {"22": "202C"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_HVB_MOD_1A_T", "path": "Battery", "fmt": {"bix": 472,  "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery module 1A temperature"},
     {"id": "CIVIC_HVB_MOD_3A_T", "path": "Battery", "fmt": {"bix": 504,  "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery module 3A temperature"},
@@ -289,22 +289,22 @@
   "signals": [
     {"id": "CIVIC_ODO_V2", "path": "Trips", "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4004"}, "freq": 1,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4004"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_BRK_SW", "path": "Electrical", "fmt": {"bix": 127, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "DA28", "rax": "28", "dbg": true, "cmd": {"22": "4005"}, "freq": 1,
+{ "hdr": "DA28", "rax": "28", "cmd": {"22": "4005"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_BRK_P", "path": "Electrical", "fmt": {"bix": 56, "len": 16, "max": 120, "add": -25, "unit": "bars" }, "name": "Brake pressure"}
   ]},
-{ "hdr": "DA2A", "rax": "2A", "dbg": true, "cmd": {"22": "4201"}, "freq": 1,
+{ "hdr": "DA2A", "rax": "2A", "cmd": {"22": "4201"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_BRK_PED_STK",  "path": "Electrical", "fmt": {"bix": 88,  "len": 16, "max": 50,     "div": 10,  "unit": "millimeters" }, "name": "Brake pedal stroke"},
     {"id": "CIVIC_BRK_FLD_P",    "path": "Electrical", "fmt": {"bix": 168, "len": 16, "max": 5,      "div": 100, "unit": "unknown"     }, "name": "Brake fluid pressure"},
     {"id": "CIVIC_MSTR_CYL_STK", "path": "Electrical", "fmt": {"bix": 232, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Master cylinder stroke"},
     {"id": "CIVIC_SLV_CYL_STK",  "path": "Electrical", "fmt": {"bix": 248, "len": 16, "max": 6553.5, "div": 10,  "unit": "millimeters" }, "name": "Slave cylinder stroke"}
   ]},
-{ "hdr": "DA60", "rax": "60", "dbg": true, "cmd": {"22": "7022"}, "freq": 1,
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7022"}, "freq": 1, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_ODO_V3", "path": "Trips", "fmt": {"bix": 48, "len": 24, "max": 200000, "unit": "miles" }, "name": "Odometer, variation 3"}
   ]},
