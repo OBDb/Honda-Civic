@@ -89,9 +89,8 @@ unsupported_commands_by_ecu:
   "DA26":
   - DA26.226001
   "DA60":
-  - DA60.000060.227029
   - DA60.227028
-  - DA60.227029
+  - DA60.227029:CIVIC_FUEL_LVL
   "DB33":
   - DB33.222615
   - DB33.223083
