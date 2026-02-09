@@ -10,42 +10,6 @@ test_cases:
     18DAF110054167033D28
     18DAF11E054167033D28
 - expected_values:
-    ECT_1: 26
-    ECT_1_SUP: 1
-    ECT_2: 0
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167034228
-    18DAF110054167034228
-    18DAF11E054167034228
-- expected_values:
-    ECT_1: 29
-    ECT_1_SUP: 1
-    ECT_2: 0
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167034528
-    18DAF110054167034528
-    18DAF11E054167034528
-- expected_values:
-    ECT_1: 33
-    ECT_1_SUP: 1
-    ECT_2: 0
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167034928
-    18DAF110054167034928
-    18DAF11E054167034928
-- expected_values:
-    ECT_1: 38
-    ECT_1_SUP: 1
-    ECT_2: 0
-    ECT_2_SUP: 1
-  response: |-
-    18DAF1EF054167034E28
-    18DAF110054167034E28
-    18DAF11E054167034E28
-- expected_values:
     ECT_1: 40
     ECT_1_SUP: 1
     ECT_2: 0
@@ -64,23 +28,41 @@ test_cases:
     18DAF11E054167035129
     18DAF110054167035129
 - expected_values:
-    ECT_1: 48
+    ECT_1: 46
     ECT_1_SUP: 1
-    ECT_2: 1
+    ECT_2: 8
     ECT_2_SUP: 1
   response: |-
-    18DAF1EF054167035829
-    18DAF11E054167035829
-    18DAF110054167035829
+    18DAF1EF054167035630
+    18DAF11E054167035630
+    18DAF110054167035630
 - expected_values:
-    ECT_1: 49
+    ECT_1: 69
     ECT_1_SUP: 1
-    ECT_2: 1
+    ECT_2: 7
     ECT_2_SUP: 1
   response: |-
-    18DAF1EF054167035929
-    18DAF110054167035929
-    18DAF11E054167035929
+    18DAF1EF054167036D2F
+    18DAF110054167036D2F
+    18DAF11E054167036D2F
+- expected_values:
+    ECT_1: 71
+    ECT_1_SUP: 1
+    ECT_2: 4
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF054167036F2C
+    18DAF110054167036F2C
+    18DAF11E054167036F2C
+- expected_values:
+    ECT_1: 72
+    ECT_1_SUP: 1
+    ECT_2: 4
+    ECT_2_SUP: 1
+  response: |-
+    18DAF1EF05416703702C
+    18DAF11005416703702C
+    18DAF11E05416703702C
 - expected_values:
     ECT_1: 85
     ECT_1_SUP: 1
