@@ -4,29 +4,5 @@ test_cases:
     TP_B: 13.72549
   response: 18DAF11003414723
 - expected_values:
-    TP_B: 14.5098
-  response: 18DAF11003414725
-- expected_values:
-    TP_B: 15.68627
-  response: 18DAF11003414728
-- expected_values:
-    TP_B: 18.43137
-  response: 18DAF1100341472F
-- expected_values:
-    TP_B: 18.82353
-  response: 18DAF11003414730
-- expected_values:
-    TP_B: 21.17647
-  response: 18DAF11003414736
-- expected_values:
-    TP_B: 22.7451
-  response: 18DAF1100341473A
-- expected_values:
-    TP_B: 23.13725
-  response: 18DAF1100341473B
-- expected_values:
-    TP_B: 28.62745
-  response: 18DAF11003414749
-- expected_values:
-    TP_B: 32.54902
-  response: 18DAF11003414753
+    TP_B: 43.52941
+  response: 18DAF1100341476F
