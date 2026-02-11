@@ -110,7 +110,7 @@
   "signals": [
     {"id": "CIVIC_BAT_DIST", "path": "Battery", "fmt": {"bix": 80, "len": 32, "max": 250000, "unit": "kilometers" }, "name": "Distance traveled since last charge"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2613"}, "freq": 1,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "CIVIC_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
