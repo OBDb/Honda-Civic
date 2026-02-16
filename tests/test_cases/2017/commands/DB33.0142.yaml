@@ -43,10 +43,10 @@ test_cases:
     VPWR: 12.25
   response: 18DAF11E0441422FDA
 - expected_values:
-    VPWR: 12.355
+    VPWR: 12.405
   response: |-
-    18DAF11E0441423011
-    18DAF1100441423043
+    18DAF11E0441422FEB
+    18DAF1100441423075
 - expected_values:
     VPWR: 12.757
   response: |-
