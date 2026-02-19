@@ -106,11 +106,11 @@
     {"id": "CIVIC_ECT_3",        "path": "Engine",  "fmt": {"bix": 1640, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 3",        "suggestedMetric": "engineCoolantTemperature"},
     {"id": "CIVIC_ECT_4",        "path": "Engine",  "fmt": {"bix": 1656, "len": 16, "max": 215, "min": -40, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature sensor 4",        "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "2240"}, "freq": 1,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2240"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "CIVIC_BAT_DIST", "path": "Battery", "fmt": {"bix": 80, "len": 32, "max": 250000, "unit": "kilometers" }, "name": "Distance traveled since last charge"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014], "from": 2016 },
   "signals": [
     {"id": "CIVIC_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
