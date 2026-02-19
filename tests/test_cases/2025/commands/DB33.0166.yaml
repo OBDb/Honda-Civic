@@ -1,26 +1,26 @@
 command_id: DB33.0166
 test_cases:
 - expected_values:
-    MAFA: 2.6875
+    MAFA: 1.6875
     MAFA_SUP: 1
     MAFB: 0
     MAFB_SUP: 0
-  response: 18DAF1100741660100560000
+  response: 18DAF1100741660100360000
 - expected_values:
-    MAFA: 7.6875
+    MAFA: 15.875
     MAFA_SUP: 1
     MAFB: 0
     MAFB_SUP: 0
-  response: 18DAF1100741660100F60000
+  response: 18DAF1100741660101FC0000
 - expected_values:
-    MAFA: 8.3125
+    MAFA: 16
     MAFA_SUP: 1
     MAFB: 0
     MAFB_SUP: 0
-  response: 18DAF11007416601010A0000
+  response: 18DAF1100741660102000000
 - expected_values:
-    MAFA: 16.625
+    MAFA: 62.84375
     MAFA_SUP: 1
     MAFB: 0
     MAFB_SUP: 0
-  response: 18DAF1100741660102140000
+  response: 18DAF1100741660107DB0000
