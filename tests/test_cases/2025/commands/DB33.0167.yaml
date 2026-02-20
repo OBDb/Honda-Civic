@@ -27,12 +27,12 @@ test_cases:
 - expected_values:
     ECT_1: 72
     ECT_1_SUP: 1
-    ECT_2: 19
+    ECT_2: 18
     ECT_2_SUP: 1
   response: |-
-    18DAF1EF05416703703B
-    18DAF11E05416703703B
-    18DAF11005416703703B
+    18DAF1EF05416703703A
+    18DAF11E05416703703A
+    18DAF11005416703703A
 - expected_values:
     ECT_1: 77
     ECT_1_SUP: 1
