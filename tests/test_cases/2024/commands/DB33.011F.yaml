@@ -14,11 +14,6 @@ test_cases:
     18DAF11004411F0100
     18DAF11E04411F00FF
 - expected_values:
-    RUNTM: 509
-  response: |-
-    18DAF11004411F01FE
-    18DAF11E04411F01FD
-- expected_values:
     RUNTM: 1535
   response: 18DAF11004411F05FF
 - expected_values:
@@ -42,3 +37,8 @@ test_cases:
   response: |-
     18DAF11E04411F0027
     18DAF11004411F0028
+- expected_values:
+    RUNTM: 2815
+  response: |-
+    18DAF11E04411F0AFF
+    18DAF11004411F0AFF
