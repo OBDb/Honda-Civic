@@ -22,13 +22,13 @@ test_cases:
     18DAF11004411F1003
     18DAF11E04411F1003
 - expected_values:
-    RUNTM: 4361
-  response: |-
-    18DAF11004411F110A
-    18DAF11E04411F1109
-- expected_values:
     RUNTM: 5390
   response: 18DAF11004411F150E
+- expected_values:
+    RUNTM: 6171
+  response: |-
+    18DAF11004411F181C
+    18DAF11E04411F181B
 - expected_values:
     RUNTM: 0
   response: 18DAF11E04411F0000
