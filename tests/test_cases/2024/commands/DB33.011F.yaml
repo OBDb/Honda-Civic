@@ -12,10 +12,10 @@ test_cases:
     RUNTM: 1535
   response: 18DAF11004411F05FF
 - expected_values:
-    RUNTM: 4086
+    RUNTM: 4081
   response: |-
-    18DAF11004411F0FF6
-    18DAF11E04411F0FF6
+    18DAF11004411F0FF1
+    18DAF11E04411F0FF1
 - expected_values:
     RUNTM: 4099
   response: |-
@@ -33,10 +33,10 @@ test_cases:
     RUNTM: 0
   response: 18DAF11E04411F0000
 - expected_values:
-    RUNTM: 40
+    RUNTM: 38
   response: |-
-    18DAF11E04411F0027
-    18DAF11004411F0028
+    18DAF11E04411F0026
+    18DAF11004411F0026
 - expected_values:
     RUNTM: 768
   response: |-
