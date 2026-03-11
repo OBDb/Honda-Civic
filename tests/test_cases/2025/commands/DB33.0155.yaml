@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     STSO2FT1: -1.5625
   response: 18DAF1100341557E
+- expected_values:
+    STSO2FT1: 0
+  response: 18DAF11003415580
