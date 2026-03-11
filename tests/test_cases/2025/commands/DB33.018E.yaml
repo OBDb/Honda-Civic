@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     TQ_FR: 10
   response: 18DAF11003418E87
+- expected_values:
+    TQ_FR: 11
+  response: 18DAF11003418E88
