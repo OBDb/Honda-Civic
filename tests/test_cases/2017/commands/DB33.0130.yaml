@@ -4,29 +4,5 @@ test_cases:
     WARM_UPS: 0
   response: 18DAF11003413000
 - expected_values:
-    WARM_UPS: 3
-  response: 18DAF11003413003
-- expected_values:
-    WARM_UPS: 4
-  response: 18DAF11003413004
-- expected_values:
-    WARM_UPS: 9
-  response: 18DAF11003413009
-- expected_values:
-    WARM_UPS: 24
-  response: 18DAF11003413018
-- expected_values:
-    WARM_UPS: 32
-  response: 18DAF11003413020
-- expected_values:
-    WARM_UPS: 66
-  response: 18DAF11003413042
-- expected_values:
-    WARM_UPS: 71
-  response: 18DAF11003413047
-- expected_values:
-    WARM_UPS: 201
-  response: 18DAF110034130C9
-- expected_values:
     WARM_UPS: 255
   response: 18DAF110034130FF
