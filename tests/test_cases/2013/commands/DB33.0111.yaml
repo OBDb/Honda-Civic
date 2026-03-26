@@ -4,5 +4,5 @@ test_cases:
     TP: 13.33333
   response: 18DAF10E03411122
 - expected_values:
-    TP: 72.94118
-  response: 18DAF10E034111BA
+    TP: 73.72549
+  response: 18DAF10E034111BC
