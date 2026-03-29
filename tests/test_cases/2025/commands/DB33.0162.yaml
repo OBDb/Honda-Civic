@@ -4,5 +4,5 @@ test_cases:
     TQ_ACT: -5
   response: 18DAF11003416278
 - expected_values:
-    TQ_ACT: 96
-  response: 18DAF110034162DD
+    TQ_ACT: 97
+  response: 18DAF110034162DE
