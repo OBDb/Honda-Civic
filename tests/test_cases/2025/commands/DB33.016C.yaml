@@ -7,8 +7,80 @@ test_cases:
     RTP_B_SUP: 0
     TAC_A_CMD: 0
     TAC_B_CMD: 0
-    TP_A_REL: 1.96078
+    TP_A_REL: 1.56863
     TP_B_REL: 0
   response: |-
-    18DAF11007416C0306050000
-    18DAF11E07416C0200050000
+    18DAF11007416C0305040000
+    18DAF11E07416C0200040000
+- expected_values:
+    CTAC_A_SUP: 0
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 0
+    TAC_B_CMD: 0
+    TP_A_REL: 92.54902
+    TP_B_REL: 0
+  response: |-
+    18DAF11007416C03FFEC0000
+    18DAF11E07416C0200EC0000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 1.96078
+    TAC_B_CMD: 0
+    TP_A_REL: 1.56863
+    TP_B_REL: 0
+  response: |-
+    18DAF11E07416C0200040000
+    18DAF11007416C0305040000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 6.66667
+    TAC_B_CMD: 0
+    TP_A_REL: 6.27451
+    TP_B_REL: 0
+  response: |-
+    18DAF11E07416C0200120000
+    18DAF11007416C0311100000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 6.27451
+    TAC_B_CMD: 0
+    TP_A_REL: 5.88235
+    TP_B_REL: 0
+  response: |-
+    18DAF11E07416C0200140000
+    18DAF11007416C03100F0000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 18.43137
+    TAC_B_CMD: 0
+    TP_A_REL: 17.2549
+    TP_B_REL: 0
+  response: |-
+    18DAF11E07416C02002D0000
+    18DAF11007416C032F2C0000
+- expected_values:
+    CTAC_A_SUP: 1
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 1
+    RTP_B_SUP: 0
+    TAC_A_CMD: 59.21569
+    TAC_B_CMD: 0
+    TP_A_REL: 55.29412
+    TP_B_REL: 0
+  response: |-
+    18DAF11E07416C02008C0000
+    18DAF11007416C03978D0000
