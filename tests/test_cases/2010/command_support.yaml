@@ -27,6 +27,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 011F:RUNTM
   - 0121:MIL_DIST
+  - 0123:FRP
   - 012C:EGR_PCT
   - 012D:EGR_ERR
   - 012E:EVAP_PCT
