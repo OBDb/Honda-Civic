@@ -1,32 +1,14 @@
 command_id: DB33.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.98393
-  response: 18DAF10E0441447DF1
+    EQ_RAT: 0.95833
+  response: 18DAF10E0441447AAA
 - expected_values:
-    EQ_RAT: 0.9912
-  response: 18DAF10E0441447EDF
+    EQ_RAT: 0.9843
+  response: 18DAF10E0441447DFD
 - expected_values:
-    EQ_RAT: 0.99174
-  response: 18DAF10E0441447EF1
+    EQ_RAT: 1.0161
+  response: 18DAF10E044144820F
 - expected_values:
-    EQ_RAT: 0.99351
-  response: 18DAF10E0441447F2B
-- expected_values:
-    EQ_RAT: 0.99391
-  response: 18DAF10E0441447F38
-- expected_values:
-    EQ_RAT: 0.9973
-  response: 18DAF10E0441447FA7
-- expected_values:
-    EQ_RAT: 1.00279
-  response: 18DAF10E044144805B
-- expected_values:
-    EQ_RAT: 1.00322
-  response: 18DAF10E0441448069
-- expected_values:
-    EQ_RAT: 1.00584
-  response: 18DAF10E04414480BF
-- expected_values:
-    EQ_RAT: 1.01918
-  response: 18DAF10E0441448274
+    EQ_RAT: 1.03178
+  response: 18DAF10E0441448411
