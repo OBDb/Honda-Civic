@@ -9,6 +9,9 @@ test_cases:
     EQ_RAT: 0.9651
   response: 18DAF1110441447B88555555
 - expected_values:
+    EQ_RAT: 0.96699
+  response: 18DAF1110441447BC6
+- expected_values:
     EQ_RAT: 0.97655
   response: 18DAF1110441447CFF555555
 - expected_values:
@@ -26,9 +29,6 @@ test_cases:
   response: |-
     18DAF1110441447DAF555555
     18DAF1110441447DAF555555
-- expected_values:
-    EQ_RAT: 0.98213
-  response: 18DAF1110441447DB6
 - expected_values:
     EQ_RAT: 0.9839
   response: |-
