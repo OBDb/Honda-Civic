@@ -25,13 +25,13 @@ test_cases:
     18DAF1110341067655555555
     18DAF1110341067655555555
 - expected_values:
-    SHRTFT1: -7.03125
-  response: 18DAF11103410677
-- expected_values:
     SHRTFT1: -0.78125
   response: |-
     18DAF1110341067F55555555
     18DAF1110341067F55555555
+- expected_values:
+    SHRTFT1: 0
+  response: 18DAF11103410680
 - expected_values:
     SHRTFT1: 0
   response: |-
