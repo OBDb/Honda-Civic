@@ -4,26 +4,31 @@ test_cases:
     VPWR: 12.557
   response: 18DAF110044142310D
 - expected_values:
-    VPWR: 14.28
+    VPWR: 14.067
   response: |-
-    18DAF11004414237CD
-    18DAF11E04414237C8
+    18DAF11004414236EC
+    18DAF11E04414236F3
 - expected_values:
     VPWR: 14.335
   response: 18DAF11004414237FF
 - expected_values:
+    VPWR: 14.342
+  response: |-
+    18DAF11004414237FF
+    18DAF11E0441423806
+- expected_values:
     VPWR: 14.36
   response: 18DAF1100441423818
 - expected_values:
-    VPWR: 14.455
+    VPWR: 14.525
+  response: |-
+    18DAF1100441423818
+    18DAF11E04414238BD
+- expected_values:
+    VPWR: 14.58
   response: |-
     18DAF110044142384A
-    18DAF11E0441423877
-- expected_values:
-    VPWR: 14.512
-  response: |-
-    18DAF11004414238E2
-    18DAF11E04414238B0
+    18DAF11E04414238F4
 - expected_values:
     VPWR: 12.512
   response: 18DAF11E04414230E0
@@ -31,12 +36,7 @@ test_cases:
     VPWR: 12.8
   response: 18DAF11E0441423200
 - expected_values:
-    VPWR: 14.537
+    VPWR: 14.41
   response: |-
-    18DAF11E04414238A9
-    18DAF11004414238C9
-- expected_values:
-    VPWR: 14.562
-  response: |-
-    18DAF11E04414238A9
-    18DAF11004414238E2
+    18DAF11E0441423872
+    18DAF110044142384A
