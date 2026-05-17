@@ -18,6 +18,12 @@ test_cases:
     18DAF11E03414932
     18DAF160220AB70A9D0AC50A
 - expected_values:
+    APP_D: 30.98039
+  response: |-
+    18DAF1100341494E
+    18DAF11E0341494F
+    18DAF1282800000000000000
+- expected_values:
     APP_D: 19.21569
   response: |-
     18DAF11E03414931
