@@ -1,8 +1,8 @@
 command_id: DB33.0104
 test_cases:
 - expected_values:
-    LOAD_PCT: 20.39216
-  response: 18DAF11E03410434
+    LOAD_PCT: 16.07843
+  response: 18DAF11E03410429
 - expected_values:
     LOAD_PCT: 0
   response: 18DAF1EF03410400
