@@ -1,25 +1,25 @@
 command_id: DB33.0142
 test_cases:
 - expected_values:
-    VPWR: 12.375
+    VPWR: 12.367
   response: |-
     18DAF1100441422EFE
-    18DAF11E0441423057
+    18DAF11E044142304F
 - expected_values:
     VPWR: 12.175
   response: |-
     18DAF1100441422F94
     18DAF11E0441422F8F
 - expected_values:
-    VPWR: 12.317
-  response: |-
-    18DAF1100441422FAD
-    18DAF11E044142301D
-- expected_values:
     VPWR: 12.275
   response: |-
     18DAF1100441422FC6
     18DAF11E0441422FF3
+- expected_values:
+    VPWR: 12.292
+  response: |-
+    18DAF1100441422FF8
+    18DAF11E0441423004
 - expected_values:
     VPWR: 12.537
   response: |-
@@ -30,10 +30,11 @@ test_cases:
     VPWR: 12.557
   response: 18DAF110044142310D
 - expected_values:
-    VPWR: 13.22
+    VPWR: 14.242
   response: |-
-    18DAF1100441423301
-    18DAF11E04414233A4
+    18DAF1100441423782
+    18DAF11E04414237A2
+    18DAF1602400000000000000
 - expected_values:
     VPWR: 14.525
   response: |-
@@ -49,6 +50,12 @@ test_cases:
     18DAF11004414237FF
     18DAF11E04414237D4
 - expected_values:
+    VPWR: 14.537
+  response: |-
+    18DAF11004414237FF
+    18DAF11E04414238C9
+    18DAF1602500000000000000
+- expected_values:
     VPWR: 14.36
   response: 18DAF1100441423818
 - expected_values:
@@ -58,10 +65,21 @@ test_cases:
     18DAF11E04414238B0
     18DAF128227D7D7D7D7D7D00
 - expected_values:
-    VPWR: 12.23
+    VPWR: 14.55
   response: |-
-    18DAF11E0441422FFF
-    18DAF1100441422FC6
+    18DAF11004414238B0
+    18DAF11E04414238D6
+    18DAF1602800005555555555
+- expected_values:
+    VPWR: 14.562
+  response: |-
+    18DAF1100441423914
+    18DAF11E04414238E2
+- expected_values:
+    VPWR: 12.305
+  response: |-
+    18DAF11E0441422FEB
+    18DAF1100441423011
 - expected_values:
     VPWR: 12.512
   response: 18DAF11E04414230E0
@@ -69,7 +87,13 @@ test_cases:
     VPWR: 12.8
   response: 18DAF11E0441423200
 - expected_values:
-    VPWR: 14.437
+    VPWR: 14.462
   response: |-
-    18DAF11E0441423908
-    18DAF1100441423865
+    18DAF11E04414237E6
+    18DAF110044142387E
+    18DAF1602800005555555555
+- expected_values:
+    VPWR: 14.36
+  response: |-
+    18DAF11E0441423900
+    18DAF1100441423818
