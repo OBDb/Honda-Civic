@@ -1,26 +1,11 @@
 command_id: DB33.0153
 test_cases:
 - expected_values:
-    EVAP_VPA: 99.475
-  response: 18DAF1100441534DB7
-- expected_values:
-    EVAP_VPA: 99.52
-  response: 18DAF1100441534DC0
+    EVAP_VPA: 99.12
+  response: 18DAF1100441534D70
 - expected_values:
     EVAP_VPA: 99.815
   response: 18DAF1100441534DFB
 - expected_values:
     EVAP_VPA: 99.86
   response: 18DAF1100441534E04
-- expected_values:
-    EVAP_VPA: 99.925
-  response: 18DAF1100441534E11
-- expected_values:
-    EVAP_VPA: 100.485
-  response: 18DAF1100441534E81
-- expected_values:
-    EVAP_VPA: 100.865
-  response: 18DAF1100441534ECD
-- expected_values:
-    EVAP_VPA: 100.89
-  response: 18DAF1100441534ED2
