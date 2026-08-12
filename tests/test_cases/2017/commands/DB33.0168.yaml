@@ -20,3 +20,15 @@ test_cases:
     IAT_22_SUP: 0
     IAT_23_SUP: 0
   response: 18DAF11009416803444200000000
+- expected_values:
+    IAT_11: 43
+    IAT_11_SUP: 1
+    IAT_12: 41
+    IAT_12_SUP: 1
+    IAT_13_SUP: 0
+    IAT_21_SUP: 0
+    IAT_22_SUP: 0
+    IAT_23_SUP: 0
+  response: |-
+    18DAF1101009416803535100
+    18DAF1102100000055555555
