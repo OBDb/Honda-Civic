@@ -316,7 +316,7 @@
   "signals": [
     {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2021, 2022], "from": 2024 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2022], "from": 2024 },
   "signals": [
     {"id": "CIVIC_MAINT_OIL_FLT",   "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, oil & filter"},
     {"id": "CIVIC_MAINT_SPARK",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, spark plugs & valves"},
