@@ -7,5 +7,8 @@ test_cases:
     WARM_UPS: 56
   response: 18DAF1100341303855555555
 - expected_values:
+    WARM_UPS: 183
+  response: 18DAF110034130B7
+- expected_values:
     WARM_UPS: 255
   response: 18DAF110034130FF
