@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - DB33.0104:LOAD_PCT
   - DB33.0105:ECT
   - DB33.0106:SHRTFT1
+  - DB33.010C:RPM
   - DB33.010D:VSS
   - DB33.010E:SPARKADV
   - DB33.0110:MAF
