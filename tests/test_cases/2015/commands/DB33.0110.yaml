@@ -10,8 +10,8 @@ test_cases:
     MAF: 0.52
   response: 18DAF1100441100034
 - expected_values:
-    MAF: 10.22
-  response: 18DAF11004411003FE
+    MAF: 2.55
+  response: 18DAF11004411000FF
 - expected_values:
     MAF: 92.05
   response: 18DAF11004411023F5
