@@ -17,9 +17,9 @@ test_cases:
     18DAF11010094168033F44FF
     18DAF11021FFFFFF55555555
 - expected_values:
-    IAT_11: 23
+    IAT_11: 63
     IAT_11_SUP: 1
-    IAT_12: 29
+    IAT_12: 59
     IAT_12_SUP: 1
     IAT_13: 215
     IAT_13_SUP: 0
@@ -30,5 +30,21 @@ test_cases:
     IAT_23: 215
     IAT_23_SUP: 0
   response: |-
-    18DAF11010094168033F45FF
+    18DAF11010094168036763FF
+    18DAF11021FFFFFF55555555
+- expected_values:
+    IAT_11: 63
+    IAT_11_SUP: 1
+    IAT_12: 60
+    IAT_12_SUP: 1
+    IAT_13: 215
+    IAT_13_SUP: 0
+    IAT_21: 215
+    IAT_21_SUP: 0
+    IAT_22: 215
+    IAT_22_SUP: 0
+    IAT_23: 215
+    IAT_23_SUP: 0
+  response: |-
+    18DAF11010094168036764FF
     18DAF11021FFFFFF55555555
