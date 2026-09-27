@@ -1,7 +1,8 @@
 { "ecu": [
     { "hdr": "DA01", "type": "battery" },
     { "hdr": "DA0E", "type": "engine" },
-    { "hdr": "DA10", "type": "engine" }
+    { "hdr": "DA10", "type": "engine" },
+    { "hdr": "DA1E", "type": "transmission" }
   ],
   "commands": [
 { "hdr": "DA01", "rax": "01", "cmd": {"22": "2028"}, "freq": 1, "filter": { "from": 2023 }, "dbgfilter": { "years": [2024], "from": 2027 },
