@@ -135,7 +135,7 @@
     {"id": "CIVIC_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
     {"id": "CIVIC_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2020, 2021], "from": 2026 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021], "from": 2027 },
   "signals": [
     {"id": "CIVIC_VTEC_CTRL", "path": "ECU", "fmt": {"bix": 168, "len": 8, "max": 255, "unit": "scalar" }, "name": "Variable valve control"}
   ]},
@@ -169,7 +169,7 @@
     {"id": "CIVIC_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "CIVIC_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
     {"id": "CIVIC_GEN",    "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Generator"},
     {"id": "CIVIC_AC_CLU", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                         "unit": "offon"   }, "name": "Air conditioner clutch"}
@@ -192,7 +192,7 @@
     {"id": "CIVIC_CAT_T",             "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"},
     {"id": "CIVIC_VARIABLE_TIM_CTRL", "path": "Engine", "fmt": {"bix": 224, "len": 8,  "max": 100,              "mul": 20,   "div": 51,              "unit": "percent" }, "name": "Variable timing control duty"}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1_VAR_3", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1,, variant 3"},
     {"id": "CIVIC_MIS_CNT_2_VAR_3", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2,, variant 3"},
