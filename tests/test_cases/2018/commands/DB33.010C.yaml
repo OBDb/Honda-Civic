@@ -19,9 +19,6 @@ test_cases:
     RPM: 721
   response: 18DAF11004410C0B44
 - expected_values:
-    RPM: 783
-  response: 18DAF11004410C0C3C
-- expected_values:
     RPM: 895
   response: 18DAF11004410C0DFC
 - expected_values:
@@ -42,8 +39,8 @@ test_cases:
     18DAF11E04410C1460
     18DAF1602400000000000000
 - expected_values:
-    RPM: 1630
-  response: 18DAF11004410C1978
+    RPM: 1793
+  response: 18DAF11004410C1C04
 - expected_values:
     RPM: 2046
   response: |-
@@ -55,6 +52,9 @@ test_cases:
     18DAF11004410C24E8
     18DAF11E04410C2498
     18DAF1602300000000000000
+- expected_values:
+    RPM: 2638
+  response: 18DAF11004410C2938
 - expected_values:
     RPM: 657
   response: |-
