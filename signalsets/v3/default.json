@@ -132,8 +132,7 @@
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2611"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "CIVIC_FUEL_AIR_RATIO", "path": "Fuel",   "fmt": {           "len": 8,  "max": 255,                             "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"},
-    {"id": "CIVIC_AIRGAS_RATIO",   "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
+    {"id": "CIVIC_AIRGAS_RATIO", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2612"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2021], "from": 2027 },
   "signals": [
@@ -169,7 +168,7 @@
     {"id": "CIVIC_EOT_VAR_3", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "CIVIC_EOT_VAR_4", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2009 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2610"}, "freq": 1, "filter": { "to": 2011 }, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
     {"id": "CIVIC_GEN",    "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Generator"},
     {"id": "CIVIC_AC_CLU", "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                         "unit": "offon"   }, "name": "Air conditioner clutch"}
@@ -178,7 +177,7 @@
   "signals": [
     {"id": "CIVIC_AIRGAS_RATIO_V2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2612"}, "freq": 1, "filter": { "to": 2011, "years": [2013, 2015, 2021], "from": 2022 }, "dbgfilter": { "to": 2006, "years": [2013, 2015, 2021], "from": 2026 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2612"}, "freq": 1, "filter": { "to": 2011, "from": 2022 }, "dbgfilter": { "to": 2006, "from": 2026 },
   "signals": [
     {"id": "CIVIC_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
   ]},
@@ -192,7 +191,7 @@
     {"id": "CIVIC_CAT_T",             "path": "Engine", "fmt": {"bix": 96,  "len": 16, "max": 1500, "min": -40,              "div": 10,  "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"},
     {"id": "CIVIC_VARIABLE_TIM_CTRL", "path": "Engine", "fmt": {"bix": 224, "len": 8,  "max": 100,              "mul": 20,   "div": 51,              "unit": "percent" }, "name": "Variable timing control duty"}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2663"}, "freq": 1, "dbgfilter": { "to": 2006, "from": 2009 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2663"}, "freq": 1, "filter": { "to": 2011 }, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1_VAR_3", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1,, variant 3"},
     {"id": "CIVIC_MIS_CNT_2_VAR_3", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2,, variant 3"},
@@ -207,13 +206,7 @@
     {"id": "CIVIC_MIS_CNT_5_VAR_2", "path": "Engine", "fmt": {"bix": 336, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 5,, variant 2"},
     {"id": "CIVIC_MIS_CNT_6_VAR_2", "path": "Engine", "fmt": {"bix": 352, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 6,, variant 2"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2666"}, "freq": 5,
-  "signals": [
-    {"id": "CIVIC_ENG_OIL_LEVEL", "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 127.5,             "div": 2,             "unit": "millimeters" }, "name": "Engine oil level"},
-    {"id": "CIVIC_EOT",           "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature"},
-    {"id": "CIVIC_EOT_VAR_2",     "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215,   "min": -40,           "add": -40, "unit": "celsius"     }, "name": "Engine oil temperature,, variant 2"}
-  ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "266C"}, "freq": 1,
+{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "266C"}, "freq": 1, "filter": { "to": 2011 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1_VAR_1", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count 1,, variant 1"},
     {"id": "CIVIC_MIS_CNT_2_VAR_1", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count 2,, variant 1"},
@@ -226,10 +219,6 @@
   "signals": [
     {"id": "CIVIC_ATF_T", "path": "Transmission", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2203"}, "freq": 1,
-  "signals": [
-    {"id": "CIVIC_OIL_P", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Oil pressure"}
-  ]},
 { "hdr": "DA1D", "rax": "1D", "cmd": {"22": "2221"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "from": 2012 },
   "signals": [
     {"id": "CIVIC_GEAR_1D", "path": "Transmission", "fmt": {"bix": 184, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
@@ -238,7 +227,7 @@
   "signals": [
     {"id": "CIVIC_ODO_V2", "path": "Trips", "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1,
+{ "hdr": "DA1D", "rax": "1D", "dbg": true, "cmd": {"22": "2663"}, "freq": 1, "filter": { "to": 2011 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1", "path": "Engine", "fmt": {"bix": 272, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 1"},
     {"id": "CIVIC_MIS_CNT_2", "path": "Engine", "fmt": {"bix": 288, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 2"},
@@ -298,7 +287,7 @@
   "signals": [
     {"id": "CIVIC_FLV", "path": "Fuel", "fmt": {"bix": 96, "len": 16, "max": 655, "div": 100, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020, 2022], "from": 2024 },
+{ "hdr": "DA60", "rax": "60", "cmd": {"22": "7060"}, "freq": 1, "filter": { "from": 2016 }, "dbgfilter": { "years": [2018, 2019, 2020, 2022], "from": 2024 },
   "signals": [
     {"id": "CIVIC_MAINT_OIL_FLT",   "path": "Engine", "fmt": {"bix": 112, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, oil & filter"},
     {"id": "CIVIC_MAINT_SPARK",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 9999, "unit": "unknown" }, "name": "Maintenance, spark plugs & valves"},

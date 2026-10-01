@@ -1,4 +1,4 @@
-command_id: DA11.11.222663
+command_id: DA11.11.222663|f=-2011
 test_cases:
 - expected_values:
     CIVIC_MIS_CNT_1_VAR_2: 0

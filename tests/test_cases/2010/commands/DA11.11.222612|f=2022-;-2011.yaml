@@ -1,4 +1,4 @@
-command_id: DA11.11.222612|f=2022-;-2011;2013;2015;2021
+command_id: DA11.11.222612|f=2022-;-2011
 test_cases:
 - expected_values:
     CIVIC_VTEC_VALVE_CTRL: 0
