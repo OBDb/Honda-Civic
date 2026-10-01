@@ -1,4 +1,4 @@
-command_id: DA60.60.227060
+command_id: DA60.60.227060|f=2016-
 test_cases:
 - expected_values:
     CIVIC_MAINT_AIR_CLN: 0
