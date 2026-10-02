@@ -123,7 +123,7 @@
   ]},
 { "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2014, 2016, 2017], "from": 2019 },
   "signals": [
-    {"id": "CIVIC_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 1000, "unit": "kilopascal" }, "name": "A/C pressure"}
+    {"id": "CIVIC_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
 { "hdr": "DA10", "rax": "10", "cmd": {"22": "2610"}, "freq": 1, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2011, 2013, 2014], "from": 2027 },
   "signals": [
@@ -282,7 +282,7 @@
   ]},
 { "hdr": "DA60", "rax": "60", "cmd": {"22": "7028"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "from": 2027 },
   "signals": [
-    {"id": "CIVIC_AAT", "path": "Climate", "fmt": {"bix": 136, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Outside air temperature"}
+    {"id": "CIVIC_AAT", "path": "Climate", "fmt": {"bix": 132, "len": 12, "max": 2047, "min": -40, "sign": true, "nullmax": 141, "unit": "fahrenheit" }, "name": "Outside air temperature"}
   ]},
 { "hdr": "DA60", "rax": "60", "cmd": {"22": "7029"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "from": 2027 },
   "signals": [
