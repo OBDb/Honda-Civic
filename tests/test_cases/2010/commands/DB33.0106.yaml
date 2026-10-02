@@ -64,6 +64,13 @@ test_cases:
     > DA60.60.227060
     CAN ERROR
 - expected_values:
+    SHRTFT1: -8.59375
+  response: |-
+    18DAF1110341066F55555555
+    18DAF1110341067555555555
+    > DA1E.1E.223086
+    CAN ERROR
+- expected_values:
     SHRTFT1: -10.9375
   response: |-
     18DAF1110341067255555555

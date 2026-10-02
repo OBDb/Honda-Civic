@@ -47,6 +47,13 @@ test_cases:
     > DA1E.1E.223083
     CAN ERROR
 - expected_values:
+    RPM: 1432
+  response: |-
+    18DAF11104410C0C80555555
+    18DAF11104410C1660555555
+    > DB33.012F
+    18DAF11103412F6355555555
+- expected_values:
     RPM: 1704
   response: |-
     18DAF11104410C0CAC555555
