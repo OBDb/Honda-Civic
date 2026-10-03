@@ -120,6 +120,7 @@ unsupported_commands_by_ecu:
   - DA0E.00000E.012F
   - DA0E.00000E.0131
   - DA0E.00000E.0134
+  - DA0E.00000E.0142
   - DA0E.00000E.0143
   - DA0E.00000E.0144
   "DA10":
