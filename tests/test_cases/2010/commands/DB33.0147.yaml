@@ -149,6 +149,12 @@ test_cases:
     18DAF1110341475655555555
     18DAF11D0341475555555555
 - expected_values:
+    TP_B: 33.72549
+  response: |-
+    18DAF1110341475655555555
+    > DA11.11.22266C|f=-2011
+    CAN ERROR
+- expected_values:
     TP_B: 37.2549
   response: |-
     18DAF1110341476055555555
