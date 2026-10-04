@@ -238,6 +238,14 @@ test_cases:
     EQ_RAT: 1.0078
   response: 18DAF11104414480FF
 - expected_values:
+    EQ_RAT: 1.04338
+  response: |-
+    18DAF111044144858D555555
+    > DB33.0110
+    18DAF11104411002EB555555
+    > DA1D.1D.222660|f=-2014
+    CAN ERROR
+- expected_values:
     EQ_RAT: 1.99
   response: 18DAF111044144FFFF
 - expected_values:
