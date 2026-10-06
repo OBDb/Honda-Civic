@@ -13,14 +13,14 @@ test_cases:
     ECT_2_SUP: 1
   response: 18DAF110054167037831
 - expected_values:
-    ECT_1: 88
+    ECT_1: 93
     ECT_1_SUP: 1
     ECT_2: 87
     ECT_2_SUP: 1
-  response: 18DAF11005416703807F
+  response: 18DAF11005416703857F
 - expected_values:
-    ECT_1: 90
+    ECT_1: 93
     ECT_1_SUP: 1
-    ECT_2: 84
+    ECT_2: 89
     ECT_2_SUP: 1
-  response: 18DAF11005416703827C
+  response: 18DAF110054167038581
