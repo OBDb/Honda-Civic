@@ -84,6 +84,14 @@ test_cases:
     > DA0E.0E.222612
     CAN ERROR
 - expected_values:
+    LOAD_ABS: 39.60784
+  response: |-
+    18DAF1110441430038555555
+    18DAF1110441430052555555
+    18DAF1110441430065555555
+    > DA10.10.222612
+    CAN ERROR
+- expected_values:
     LOAD_ABS: 25.09804
   response: |-
     18DAF111044143003E555555
