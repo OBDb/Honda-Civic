@@ -1,12 +1,12 @@
 command_id: DB33.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.95296
+    EQ_RAT: 0.95294
   response: |-
     18DAF11104414479FA555555
     18DAF11104414479FA555555
 - expected_values:
-    EQ_RAT: 0.95491
+    EQ_RAT: 0.9549
   response: 18DAF1110441447A3A
 - expected_values:
     EQ_RAT: 1.99
@@ -23,10 +23,10 @@ test_cases:
     > DA0E.0E.222613
     CAN ERROR
 - expected_values:
-    EQ_RAT: 0.9651
+    EQ_RAT: 0.96509
   response: 18DAF1110441447B88555555
 - expected_values:
-    EQ_RAT: 1.01201
+    EQ_RAT: 1.01199
   response: |-
     18DAF1110441447BB3555555
     18DAF1110441447E52555555
@@ -67,7 +67,7 @@ test_cases:
     18DAF111044144826B555555
     18DAF111044144FFFF555555
 - expected_values:
-    EQ_RAT: 1.04338
+    EQ_RAT: 1.04337
   response: |-
     18DAF1110441447C18555555
     18DAF1110441447E61555555
@@ -82,7 +82,7 @@ test_cases:
     > DA10.10.222612
     CAN ERROR
 - expected_values:
-    EQ_RAT: 1.01769
+    EQ_RAT: 1.01767
   response: |-
     18DAF1110441447C7A555555
     18DAF1110441447CF9555555
@@ -144,15 +144,15 @@ test_cases:
     18DAF111044144FFFF555555
     CAN ERROR
 - expected_values:
-    EQ_RAT: 0.97655
+    EQ_RAT: 0.97653
   response: 18DAF1110441447CFF555555
 - expected_values:
-    EQ_RAT: 0.97713
+    EQ_RAT: 0.97711
   response: |-
     18DAF1110441447D12555555
     18DAF1110441447D12555555
 - expected_values:
-    EQ_RAT: 1.00655
+    EQ_RAT: 1.00653
   response: |-
     18DAF1110441447D51555555
     18DAF1110441447D79555555
@@ -166,24 +166,24 @@ test_cases:
     > DA11.11.222610|f=-2011
     CAN ERROR
 - expected_values:
-    EQ_RAT: 0.98146
+    EQ_RAT: 0.98145
   response: |-
     18DAF1110441447DA0555555
     18DAF1110441447DA0555555
 - expected_values:
-    EQ_RAT: 0.98192
+    EQ_RAT: 0.9819
   response: |-
     18DAF1110441447DAF555555
     18DAF1110441447DAF555555
 - expected_values:
-    EQ_RAT: 0.9839
+    EQ_RAT: 0.98389
   response: |-
     18DAF1110441447DF0555555
     18DAF1110441447DF0555555
     18DAF1110441447DF0555555
     18DAF1110441447DF0555555
 - expected_values:
-    EQ_RAT: 1.02022
+    EQ_RAT: 1.0202
   response: |-
     18DAF1110441447E09555555
     18DAF1110441447ECE555555
@@ -197,7 +197,7 @@ test_cases:
     > DA1E.1E.223083
     CAN ERROR
 - expected_values:
-    EQ_RAT: 1.04338
+    EQ_RAT: 1.04337
   response: |-
     18DAF1110441447E50555555
     18DAF1110441447F4A555555
@@ -212,7 +212,7 @@ test_cases:
     > DA1D.1D.222663|f=-2011
     CAN ERROR
 - expected_values:
-    EQ_RAT: 1.00255
+    EQ_RAT: 1.00253
   response: |-
     18DAF1110441447E51555555
     18DAF1110441447E83555555
@@ -227,32 +227,32 @@ test_cases:
     > DA0E.0E.222612
     CAN ERROR
 - expected_values:
-    EQ_RAT: 0.99178
+    EQ_RAT: 0.99176
   response: |-
     18DAF1110441447EF2555555
     18DAF1110441447EF2555555
     18DAF1110441447EF2555555
 - expected_values:
-    EQ_RAT: 0.99184
+    EQ_RAT: 0.99182
   response: |-
     18DAF1110441447EF4555555
     18DAF1110441447EF4555555
     18DAF1110441447EF4555555
 - expected_values:
-    EQ_RAT: 0.9922
+    EQ_RAT: 0.99219
   response: 18DAF1110441447F00
 - expected_values:
-    EQ_RAT: 0.9922
+    EQ_RAT: 0.99219
   response: 18DAF1110441447F00555555
 - expected_values:
-    EQ_RAT: 0.99605
+    EQ_RAT: 0.99603
   response: |-
     18DAF1110441447F7E555555
     18DAF1110441447F7E555555
     18DAF1110441447F7E555555
     18DAF1110441447F7E555555
 - expected_values:
-    EQ_RAT: 1.01735
+    EQ_RAT: 1.01733
   response: |-
     18DAF1110441447FD6555555
     18DAF1110441448176555555
@@ -264,26 +264,26 @@ test_cases:
     > DA11.11.22266C|f=-2011
     CAN ERROR
 - expected_values:
-    EQ_RAT: 0.99977
+    EQ_RAT: 0.99976
   response: |-
     18DAF1110441447FF8555555
     18DAF1110441447FF8555555
 - expected_values:
-    EQ_RAT: 1.00026
+    EQ_RAT: 1.00024
   response: |-
     18DAF1110441448008555555
     > DA11.11.222663|f=-2011
     CAN ERROR
 - expected_values:
-    EQ_RAT: 1.00102
+    EQ_RAT: 1.00101
   response: |-
     18DAF1110441448021555555
     18DAF1110441448021555555
 - expected_values:
-    EQ_RAT: 1.0078
+    EQ_RAT: 1.00778
   response: 18DAF11104414480FF
 - expected_values:
-    EQ_RAT: 1.04338
+    EQ_RAT: 1.04337
   response: |-
     18DAF111044144858D555555
     > DB33.0110
