@@ -512,6 +512,12 @@ test_cases:
     > DA11.11.222610|f=-2011
     CAN ERROR
 - expected_values:
+    VSS: 0
+  response: |-
+    18DAF11103410D0055555555
+    > DA11.11.22266C|f=-2011
+    CAN ERROR
+- expected_values:
     VSS: 79
   response: |-
     18DAF11103410D0355555555

@@ -87,6 +87,14 @@ test_cases:
     > DA10.10.222612
     CAN ERROR
 - expected_values:
+    FLI: 18.03922
+  response: |-
+    18DAF11103412F2E55555555
+    > DB33.0104
+    18DAF1110341049355555555
+    > DA1E.1E.223083
+    CAN ERROR
+- expected_values:
     FLI: 18.43137
   response: |-
     18DAF11103412F2F55555555
