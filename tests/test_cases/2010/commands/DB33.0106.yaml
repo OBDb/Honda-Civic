@@ -244,6 +244,12 @@ test_cases:
     > DA0E.0E.222612
     CAN ERROR
 - expected_values:
+    SHRTFT1: -10.15625
+  response: |-
+    18DAF1110341067355555555
+    > DB33.0147
+    18DAF1110341475655555555
+- expected_values:
     SHRTFT1: 0
   response: |-
     18DAF1110341067455555555
