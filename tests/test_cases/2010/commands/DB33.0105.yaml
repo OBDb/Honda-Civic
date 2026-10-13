@@ -234,6 +234,12 @@ test_cases:
     18DAF1110341055655555555
     18DAF1110341055655555555
 - expected_values:
+    ECT: 50
+  response: |-
+    18DAF1110341055A55555555
+    > DA11.11.22266C|f=-2011
+    CAN ERROR
+- expected_values:
     ECT: 69
   response: |-
     18DAF1110341055E55555555

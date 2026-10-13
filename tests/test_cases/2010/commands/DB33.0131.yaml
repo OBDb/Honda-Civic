@@ -634,6 +634,14 @@ test_cases:
     > DA0E.0E.222612
     CAN ERROR
 - expected_values:
+    CLR_DIST: 2862
+  response: |-
+    18DAF11D0441310B2E555555
+    > DB33.010D
+    18DAF11103410D0455555555
+    > DB33.010C
+    18DAF11104410C1138555555
+- expected_values:
     CLR_DIST: 11242
   response: |-
     18DAF11D0441312BEA555555
