@@ -953,6 +953,16 @@ test_cases:
     > DA11.11.22266C|f=-2011
     CAN ERROR
 - expected_values:
+    VSS: 0
+  response: |-
+    18DAF11103410D0055555555
+    > DB33.0144
+    18DAF1110441447EAA555555
+    > DB33.0143
+    18DAF111044143002A555555
+    > DA11.11.22266C|f=-2011
+    CAN ERROR
+- expected_values:
     VSS: 51
   response: |-
     18DAF11103410D0155555555
