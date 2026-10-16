@@ -679,6 +679,13 @@ test_cases:
     > DA11.11.222663|f=-2011
     CAN ERROR
 - expected_values:
+    ECT: 70
+  response: |-
+    18DAF1110341056E55555555
+    18DAF11D0341056E55555555
+    > DA11.11.222663|f=-2011
+    CAN ERROR
+- expected_values:
     ECT: 72
   response: |-
     18DAF1110341056F55555555
