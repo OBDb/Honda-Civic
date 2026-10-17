@@ -495,6 +495,14 @@ test_cases:
     > DA11.11.222610|f=-2011
     CAN ERROR
 - expected_values:
+    LOAD_ABS: 28.23529
+  response: |-
+    18DAF1110441430048555555
+    > DB33.012F
+    18DAF11103412F2455555555
+    > DA11.11.222610|f=-2011
+    CAN ERROR
+- expected_values:
     LOAD_ABS: 74.5098
   response: |-
     18DAF111044143004E555555
