@@ -752,6 +752,14 @@ test_cases:
     > DA10.10.222612
     CAN ERROR
 - expected_values:
+    MAF: 10.01
+  response: |-
+    18DAF11104411003E9555555
+    > DB33.0144
+    18DAF1110441447C4D555555
+    > DA11.11.222663|f=-2011
+    CAN ERROR
+- expected_values:
     MAF: 15.36
   response: 18DAF1110441100600
 - expected_values:
