@@ -1225,6 +1225,14 @@ test_cases:
     18DAF11D04410C0DB4555555
     CAN ERROR
 - expected_values:
+    RPM: 1243
+  response: |-
+    18DAF11104410C136C555555
+    > DB33.0143
+    18DAF1110441430062555555
+    > DA10.10.222666
+    CAN ERROR
+- expected_values:
     RPM: 670
   response: 18DAF11D04410C0A78555555
 - expected_values:
