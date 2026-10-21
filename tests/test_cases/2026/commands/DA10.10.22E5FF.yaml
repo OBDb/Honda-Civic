@@ -1,0 +1,5 @@
+command_id: DA10.10.22E5FF
+test_cases:
+- expected_values:
+    CIVIC_RAW_10_E5FF: 0
+  response: 18DAF1100462E5FF00
