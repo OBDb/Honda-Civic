@@ -7,8 +7,8 @@ test_cases:
     CIVIC_RAW_10_E602: 10
   response: 18DAF1100662E6020AFC00
 - expected_values:
-    CIVIC_RAW_10_E602: 24
-  response: 18DAF1100662E602180000
+    CIVIC_RAW_10_E602: 11
+  response: 18DAF1100662E6020B0000
 - expected_values:
     CIVIC_RAW_10_E602: 46
   response: 18DAF1100662E6022EE000
