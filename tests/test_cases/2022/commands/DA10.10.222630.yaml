@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CIVIC_RAW_10_2630: 0
   response: 18DAF11006622630000000
+- expected_values:
+    CIVIC_RAW_10_2630: 5
+  response: 18DAF11006622630053300

@@ -275,7 +275,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2616", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2616", "description": "Captured to learn this reply's layout. Its listed contents: TMU Brake Pressure; TMU Brake Pressure Voltage; TMU EOP Speed; TMU Hi/Lo Solenoid Signal; TMU Brake Solenoid Signal."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2617"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2617"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2617", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2617", "description": "Captured to learn this reply's layout. Its listed contents: TC Boost Pressure Sensor Bank2; TC Boost Pressure Bank2; CMP Ctrl Bank2; MAF SENSOR Bank1; MAF SENSOR Bank2; IAT Sensor Bank2; TP Sensor A Bank2; TP Sensor B Bank2; Throttle VLV Bank2."}
   ]},
@@ -303,11 +303,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2624", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2624", "description": "Captured to learn this reply's layout. Its listed contents: A/C Compressor Speed; A/C Compressor Speed Command; IMA Output; IMA Output Command; A/C Power Consumption; Vehicle Status; IMA Battery Temperature; Target Engine Torque; IMA Motor Torque; Regeneration Torque; Requested IMA Motor Torque; Driving Status."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2625"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2625"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2625", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2625", "description": "Captured to learn this reply's layout. Its listed contents: Rear Rocker Arm Oil Pressure Switch; Front Rocker Arm Oil Pressure Switch; Rocker Arm Oil Control Solenoid B; Rocker Arm Oil Control Solenoid B Return; Rocker Arm Oil Control Solenoid A; Rocker Arm Oil Control Solenoid A Return; Rocker Arm Oil Pressure Sensor A; VPS Status; Neutral Position Sensor 1; TC Boost Pressure Sensor; TC Boost Pressure."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2627"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2627"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2627", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2627", "description": "Captured to learn this reply's layout. Its listed contents: TC Boost Pressure Sensor Bank2; TC Boost Pressure Bank2; MAF SENSOR Bank1; MAF SENSOR Bank2; IAT Sensor Bank2; TP Sensor A Bank2; TP Sensor B Bank2."}
   ]},
@@ -489,7 +489,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_268D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268D", "description": "Captured to learn this reply's layout. Its listed contents: Idle Stop Prohibition Integration Time (Transmission Judged); Idle Stop Prohibition Integration Time (Transmission)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268E"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268E"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268E", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268E", "description": "Captured to learn this reply's layout. Its listed contents: Fuel Pressure Converted From PF Sensor; Fuel Pressure Direct Injection System; Relief Valve; Downstream Voltage of the Injector Relay; Boost Voltage for Direct Injection."}
   ]},
@@ -529,7 +529,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2698", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2698", "description": "Captured to learn this reply's layout. Its listed contents: CNG Control Unit Battery Voltage; CNG Control Unit IG1 Voltage; CNG PRESSURE REGULATER SHUT OFF VALVE; CNG TANK SHUT OFF VALVE; CNG Tank Internal Combustion Pressure Sensor; CNG PF0 Sensor; CNG Injection Rail Internal Pressure Sensor; CNG PF2 Sensor; CNG Injection Rail Internal Temp Sensor; CNG Injection Rail Temperature."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2699"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2699"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2699", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2699", "description": "Captured to learn this reply's layout. Its listed contents: EWG Freezing Information; EWG Learned Information; EWG Voltage From Lift Sensor; EWG Actual Lift; EWG Target Lift; EWG Battery Voltage; EWG Learned Value; EWG Output Duty; Turbocharger Bypass Control Valve Status; Intake Air High Temperature History; MAP Sensor; EWG Freezing Information Bank2; EWG Learned Information  Bank2; EWG Voltage From Lift Sensor Bank2; EWG Actual Lift Bank2; ...."}
   ]},
