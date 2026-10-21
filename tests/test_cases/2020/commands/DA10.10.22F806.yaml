@@ -1,0 +1,5 @@
+command_id: DA10.10.22F806
+test_cases:
+- expected_values:
+    CIVIC_RAW_10_F806: 97
+  response: 18DAF1100762F806618A93DA
