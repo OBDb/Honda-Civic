@@ -1,20 +1,14 @@
 command_id: DA10.10.22E600
 test_cases:
 - expected_values:
-    CIVIC_RAW_10_E600: 48
-  response: 18DAF1100562E6003043
+    CIVIC_RAW_10_E600: 45
+  response: 18DAF1100562E6002DD2
 - expected_values:
-    CIVIC_RAW_10_E600: 48
-  response: 18DAF1100562E60030A7
+    CIVIC_RAW_10_E600: 47
+  response: 18DAF1100562E6002F17
 - expected_values:
-    CIVIC_RAW_10_E600: 49
-  response: 18DAF1100562E6003171
+    CIVIC_RAW_10_E600: 56
+  response: 18DAF1100562E600384A
 - expected_values:
-    CIVIC_RAW_10_E600: 49
-  response: 18DAF1100562E600318A
-- expected_values:
-    CIVIC_RAW_10_E600: 50
-  response: 18DAF1100562E6003220
-- expected_values:
-    CIVIC_RAW_10_E600: 55
-  response: 18DAF1100562E600379B
+    CIVIC_RAW_10_E600: 56
+  response: 18DAF1100562E60038FB
