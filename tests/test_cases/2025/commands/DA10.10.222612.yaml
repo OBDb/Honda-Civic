@@ -1,7 +1,8 @@
 command_id: DA10.10.222612
 test_cases:
 - expected_values:
-    CIVIC_VTEC_CTRL: 0
+    CIVIC_VTEC_PSW: 0
+    CIVIC_VTEC_SOL: 0
   response: |-
     18DAF1101039622612FFF3E0
     18DAF1102100024332190000
