@@ -1,0 +1,20 @@
+command_id: DA10.10.22E600
+test_cases:
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E6003908
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E6003944
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E600396C
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E6003980
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E6003994
+- expected_values:
+    CIVIC_RAW_10_E600: 57
+  response: 18DAF1100562E60039BC

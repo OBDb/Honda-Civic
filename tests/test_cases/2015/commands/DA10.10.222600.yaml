@@ -1,0 +1,7 @@
+command_id: DA10.10.222600
+test_cases:
+- expected_values:
+    CIVIC_RAW_10_2600: 53
+  response: |-
+    18DAF110100D622600351502
+    18DAF110210300EE0E000000
