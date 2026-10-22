@@ -240,11 +240,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2580", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2580", "description": "Captured to learn this reply's layout. Its listed contents: DPF Regeneration; DPF related parameter state."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2600"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2600"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2600", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2600", "description": "Captured to learn this reply's layout. Its listed contents: ECU identity / diagnostic identification."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2601"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2601"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2601", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2601", "description": "Captured to learn this reply's layout. Its listed contents: Fixed three-byte identity."}
   ]},
@@ -275,7 +275,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2616", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2616", "description": "Captured to learn this reply's layout. Its listed contents: TMU Brake Pressure; TMU Brake Pressure Voltage; TMU EOP Speed; TMU Hi/Lo Solenoid Signal; TMU Brake Solenoid Signal."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2617"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2617"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2617", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2617", "description": "Captured to learn this reply's layout. Its listed contents: TC Boost Pressure Sensor Bank2; TC Boost Pressure Bank2; CMP Ctrl Bank2; MAF SENSOR Bank1; MAF SENSOR Bank2; IAT Sensor Bank2; TP Sensor A Bank2; TP Sensor B Bank2; Throttle VLV Bank2."}
   ]},
@@ -283,19 +283,19 @@
   "signals": [
     {"id": "CIVIC_RAW_10_261A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 261A", "description": "Captured to learn this reply's layout. Its listed contents: Primary O2 Sensor / Primary HO2S (Sensor1); Oil Temperature sensor; Oil Temperature; Intake air temperature sensor(voltage); Intake air temperature sensor(temperature); Variable capacity engine oil pump output."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2620"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2620"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2620", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2620", "description": "Captured to learn this reply's layout. Its listed contents: TP Sensor; MAF Sensor; Baro Sensor; ECT Sensor 1; Rocker Arm Oil Pressure Sensor; IAT Sensor (1); Spark Advance; Spark Advance Exhaust Side; EGR L Command; EGR Valve Position Sensor (EGR Vls); MAP Sensor; Engine Speed; REL TP Sensor; F Injector; Battery; Vehicle Speed; Vehicle Speed(PCM)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2621"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2621"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2621", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2621", "description": "Captured to learn this reply's layout. Its listed contents: Fuel Alcohol Content Learned Condition; AF Lambda Cmd; AF B1 Lambda Cmd; AF FB Cmd B1; AF B2 Lambda Cmd; AF FB Cmd B2; AF FB Cmd; Engine Cold Start Condition; Subfuel Solenoid Operation; FSS B1; FSS B2; MAF Sensor (Hi Res); Fuel Alcohol Content Learned Value; AF FB (ST Fuel Trim); ST Fuel Trim B1; ST Fuel Trim B2; AF FB AVE (LT Fuel Trim); AF FB AVE(LT Fuel Trim) B1; AF FB AVE(LT Fuel Trim) B2; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2622"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2622"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2622", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2622", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor; APP Sensor A; APP Sensor B; VPS SOL; (Rocker Arm) Oil Pressure Sensor (B); Throttle VLV; TP Sensor A; TP Sensor B; Idle Target TH; Target TH VLV; F Injector Active Side; Rocker Arm Oil Pressure Switch B (Bank 1); Rocker Arm Oil Pressure Switch; Rocker Arm Oil Control Sol.  1; Solenoid 1 Return Signal; ROCKER ARM OIL CONTROL SOL.  2; SOLENOID 2 RETURN SIGNAL."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2623"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2623"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2623", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2623", "description": "Captured to learn this reply's layout. Its listed contents: EVAP PC Duty; FTP Sensor (Fine); Fuel Level; FP Sensor; Fuel Press.; FT Sensor."}
   ]},
@@ -303,11 +303,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2624", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2624", "description": "Captured to learn this reply's layout. Its listed contents: A/C Compressor Speed; A/C Compressor Speed Command; IMA Output; IMA Output Command; A/C Power Consumption; Vehicle Status; IMA Battery Temperature; Target Engine Torque; IMA Motor Torque; Regeneration Torque; Requested IMA Motor Torque; Driving Status."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2625"}, "freq": 60, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2625"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2018, 2019, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2625", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2625", "description": "Captured to learn this reply's layout. Its listed contents: Rear Rocker Arm Oil Pressure Switch; Front Rocker Arm Oil Pressure Switch; Rocker Arm Oil Control Solenoid B; Rocker Arm Oil Control Solenoid B Return; Rocker Arm Oil Control Solenoid A; Rocker Arm Oil Control Solenoid A Return; Rocker Arm Oil Pressure Sensor A; VPS Status; Neutral Position Sensor 1; TC Boost Pressure Sensor; TC Boost Pressure."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2627"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2627"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2627", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2627", "description": "Captured to learn this reply's layout. Its listed contents: TC Boost Pressure Sensor Bank2; TC Boost Pressure Bank2; MAF SENSOR Bank1; MAF SENSOR Bank2; IAT Sensor Bank2; TP Sensor A Bank2; TP Sensor B Bank2."}
   ]},
@@ -315,7 +315,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_262A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 262A", "description": "Captured to learn this reply's layout. Its listed contents: Primary O2 Sensor / Primary HO2S (Sensor1)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2630"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2630"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2630", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2630", "description": "Captured to learn this reply's layout. Its listed contents: Selected/latched confirmed Freeze DTC identifier (FRZDTC high/middle/low)."}
   ]},
@@ -340,11 +340,11 @@
     {"id": "CIVIC_MIS_3", "path": "Engine", "fmt": {"bix": 304, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #3"},
     {"id": "CIVIC_MIS_4", "path": "Engine", "fmt": {"bix": 320, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #4"}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2664"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2664"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2664", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2664", "description": "Captured to learn this reply's layout. Its listed contents: Battery Fan Command; Battery Fan Return Signal; Brake Switch B; Brake Switch; Cruise Brake Sw/Idle Stop Sw; C.C Cancel History.1; C.C Cancel History.2; C.C Cancel History.3; C.C Cancel History.4; C.C Cancel History.5; C.C Cancel History.6; C.C Cancel History.7; C.C Cancel History.8; C.C Cancel History.9; C.C Cancel History.10; Cruise Control System Switch Status; Shift/Clutch Sw; Idle Stop Sw; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2665"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2665"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2665", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2665", "description": "Captured to learn this reply's layout. Its listed contents: CATRT-B1; CATRT-B2; Drive Time; Over Eng Tm; Mildist; EGR Flow Open Ratio; Soak Time; Knock Sensor (Circuit Diag)-B1; Knock Sensor (Circuit Diag)-B2; Max Eng Spd; Air Temp."}
   ]},
@@ -373,7 +373,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_266E", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 266E", "description": "Captured to learn this reply's layout. Its listed contents: AF Heater; AF Sensor B1 Pump Cell; AF Sensor B2 Pump Cell; AF Sensor B1 Mode; AF Sensor B2 Mode; AF Sensor B1 Impedance; AF Sensor B2 Impedance; AF Sensor B1 Voltage Supply; AF Sensor B2 Voltage Supply; AF Sensor Voltage Supply; AF Sensor B1 VS Sell Signal; AF Sensor B2 VS Sell Signal."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "266F"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "266F"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_266F", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 266F", "description": "Captured to learn this reply's layout. Its listed contents: CKP A Noise; CMP Noise; CKP B Noise; CMP A No Pulse; CKP No Pulse; CMP B No Pulse; CMP 2 No Pulse; CKP Noise; CMP B Noise; CMP A Noise; CMP 2 Noise."}
   ]},
@@ -389,7 +389,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2672", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2672", "description": "Captured to learn this reply's layout. Its listed contents: Cata Monitor Condition B2."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2673"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2673"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2673", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2673", "description": "Captured to learn this reply's layout. Its listed contents: Cata Monitor Condition; Cata Monitor Condition B1; Cata Monitor Condition B2."}
   ]},
@@ -397,7 +397,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2674", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2674", "description": "Captured to learn this reply's layout. Its listed contents: RLTOK / RLTNG symbol families (HDS source symbols."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2676"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2676"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2676", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2676", "description": "Captured to learn this reply's layout. Its listed contents: maybe PSP Switch; Brake Switch; NP Switch; Cruise Brake Sw/Idle Stop Sw; Clutch Pedal Position Switch B Status; Clutch Pedal Position Switch A."}
   ]},
@@ -417,11 +417,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_267A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267A", "description": "Captured to learn this reply's layout. Its listed contents: Captured coolant-temperature data / Engine Coolant Temperature."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267B"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267B"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_267B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267B", "description": "Captured to learn this reply's layout. Its listed contents: Fuel Tank Pressure Sensor Rationality Monitor; Equivalent Duration the Pcs Duty Control; PURGE CORRECTION FACTOR (FOR BANK2)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267C"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267C"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_267C", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267C", "description": "Captured to learn this reply's layout. Its listed contents: EVAP cycle, signed delta and qualification-ratio snapshots; HDS layout alternatives retained)."}
   ]},
@@ -429,31 +429,31 @@
   "signals": [
     {"id": "CIVIC_RAW_10_267D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267D", "description": "Captured to learn this reply's layout. Its listed contents: Unknown."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267E"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267E"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_267E", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267E", "description": "Captured to learn this reply's layout. Its listed contents: i-VTEC Indicator Command; APP Sensor; Genertion Direction Value to ACG."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267F"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "267F"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_267F", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 267F", "description": "Captured to learn this reply's layout. Its listed contents: EXECMD; REQCMD; REQMD."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2680"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2680"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2680", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2680", "description": "Captured to learn this reply's layout. Its listed contents: Generation Stop On ACG; Turn Stop On ACG; Hight Temperature Abnormal On ACG; ACG Excitation Current; Genertion Direction Value to ACG."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2681"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2681"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2681", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2681", "description": "Captured to learn this reply's layout. Its listed contents: Reset on Battery Sensor; Survey Infomation Battery Management(3); Nonvolatile Memory Info (Battery Sensor); Current Detection Status; Battery Current (Battery Sensor); Estimated Battery Resistance (Battery Sensor); Survey Infomation Battery Management(2); Survey Infomation Battery Management(1); Temperature Detection Status; Estimated Battery Temperature; Voltage Detection Status; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "2682"}, "freq": 60,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2682"}, "freq": 60, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2682", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2682", "description": "Captured to learn this reply's layout. Its listed contents: Survey Infomation Battery Management(5); Survey Infomation Battery Management(4)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2683"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2683"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2683", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2683", "description": "Captured to learn this reply's layout. Its listed contents: Distance Traveled (City); Distance Traveled (Highway); Integrated Value of Engine Run Time (City); Integrated Value of Engine Run Time(Highway); Integrated Value of Time (Stopping: Idling Condition Status or Idling Stop Status); Fuel Consumption (City); Fuel Consumption (Highway); Fuel Consumption (Stopping: Idling Condition Status or Idling Stop Status)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2684"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2684"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2684", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2684", "description": "Captured to learn this reply's layout. Its listed contents: Distance Traveled Under ECON Control (City); Distance Traveled Under ECON Control (Highway); Integrated Value of Engine Run Time Under ECON Control (City); Integrated Value of Engine Run Time Under ECON Control (Highway); Fuel Consumption Under ECON Control (City); Fuel Consumption Under ECON Control (Highway)."}
   ]},
@@ -469,7 +469,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2688", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2688", "description": "Captured to learn this reply's layout. Its listed contents: After Fueling Driving Cycle  #90G; After Fueling Driving Cycle  #90H."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2689"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2689"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_2689", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2689", "description": "Captured to learn this reply's layout. Its listed contents: Idle Stop Prohibition by Air Conditioner.; Idle Stop Prohibition by Battery Management; Idle Stop Prohibition by DC-DC Converter.; Idle Stop Prohibition by EPS System.; Idle Stop Prohibition by Electric Brake Vacuum Pressure Management.; Idle Stop Prohibition Integration Time; Idle Stop Prohibition Integration Time When Speed Record Condition is not Correct; ...."}
   ]},
@@ -477,23 +477,23 @@
   "signals": [
     {"id": "CIVIC_RAW_10_268A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268A", "description": "Captured to learn this reply's layout. Its listed contents: FuelEconomyCapture."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268B"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268B"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268B", "description": "Captured to learn this reply's layout. Its listed contents: Idle Stop Inhibit (HVAC); Idle Stop Inhibit (Battery Management System); Idle Stop Inhibit (Idle Stop Cancel Switch); Idle Stop Inhibit (DC-DC Converter); Idle Stop Inhibit (Drive mode); Idle Stop Inhibit (EPS Unit); Idle Stop Inhibit (Hood Open); Idle Stop Inhibit (Starting Assist Brake); Idle Stop Inhibit (Barometric Air Pressure); Idle Stop Inhibit (PCU); Idle Stop Inhibit (Driving History); ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268C"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268C"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268C", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268C", "description": "Captured to learn this reply's layout. Its listed contents: BBC -ACG Cooperation Request; 12 Volt Battery Performance Degradation; Survey Infomation Battery Management(7); 12 Volt Battery Performance Degradation Status; Charge And Discharge (Ultracapacitor); Contactor ON Failure; Contactor OFF Failure; Drive Instruction Value (Ultracapacitor); DC-DC Converter Information(Cst Output); DC-DC Converter Cst Error; DC-DC Converter Internal Error; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268D"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268D"}, "freq": 60, "dbgfilter": { "to": 2021, "years": [2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268D", "description": "Captured to learn this reply's layout. Its listed contents: Idle Stop Prohibition Integration Time (Transmission Judged); Idle Stop Prohibition Integration Time (Transmission)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268E"}, "freq": 60, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268E"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268E", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268E", "description": "Captured to learn this reply's layout. Its listed contents: Fuel Pressure Converted From PF Sensor; Fuel Pressure Direct Injection System; Relief Valve; Downstream Voltage of the Injector Relay; Boost Voltage for Direct Injection."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "268F"}, "freq": 60,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268F"}, "freq": 60, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "CIVIC_RAW_10_268F", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268F", "description": "Captured to learn this reply's layout. Its listed contents: Entry of ACGF Duty Outputs Value; Secondary O2 Outputs Heater Voltage Value; Fuel Learning; Knocking Signal Input Which Was Processed; Cylinder1 individual lambda deviation; Cylinder2 individual lambda deviation; Cylinder3 individual lambda deviation; Cylinder4 individual lambda deviation."}
   ]},
@@ -529,15 +529,15 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2698", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2698", "description": "Captured to learn this reply's layout. Its listed contents: CNG Control Unit Battery Voltage; CNG Control Unit IG1 Voltage; CNG PRESSURE REGULATER SHUT OFF VALVE; CNG TANK SHUT OFF VALVE; CNG Tank Internal Combustion Pressure Sensor; CNG PF0 Sensor; CNG Injection Rail Internal Pressure Sensor; CNG PF2 Sensor; CNG Injection Rail Internal Temp Sensor; CNG Injection Rail Temperature."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2699"}, "freq": 60, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2699"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2018, 2019, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_2699", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2699", "description": "Captured to learn this reply's layout. Its listed contents: EWG Freezing Information; EWG Learned Information; EWG Voltage From Lift Sensor; EWG Actual Lift; EWG Target Lift; EWG Battery Voltage; EWG Learned Value; EWG Output Duty; Turbocharger Bypass Control Valve Status; Intake Air High Temperature History; MAP Sensor; EWG Freezing Information Bank2; EWG Learned Information  Bank2; EWG Voltage From Lift Sensor Bank2; EWG Actual Lift Bank2; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "269A"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "269A"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "CIVIC_RAW_10_269A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 269A", "description": "Captured to learn this reply's layout. Its listed contents: Torque Monitor(Acceletor Pedal Position); Torque Monitor(The Fast Torque Value); Torque Monitor(The Slow Torque Value); Tqrque Monitor(Accelerate Hazard Judging); Torque Monitor(Crank End Engine Torque); Torque Monitor(Accessories Friction); Torque Monitor(Engine Net Torque); TORQUE MONITOR(TAGET/ESTIMATED TORQUE); Torque Monitor(OBS Torque Monitor); Torque Monitor(Tm Ratio)."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "269B"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "269B"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_269B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 269B", "description": "Captured to learn this reply's layout. Its listed contents: CMP A No Pulse Bank2; CMP A Noise Bank2."}
   ]},
@@ -569,15 +569,15 @@
   "signals": [
     {"id": "CIVIC_RAW_10_26F4", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 26F4", "description": "Captured to learn this reply's layout. Its listed contents: ACCELGRD5; ACCELMSG5; BRKGRD5."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "3000"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "3000"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_3000", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 3000", "description": "Captured to learn this reply's layout. Its listed contents: Identity / version block."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "3001"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "3001"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_3001", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 3001", "description": "Captured to learn this reply's layout. Its listed contents: Feature / version triplet."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "300C"}, "freq": 60, "dbgfilter": { "to": 2019, "years": [2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "300C"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_300C", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 300C", "description": "Captured to learn this reply's layout. Its listed contents: Captured snapshot DTC."}
   ]},
@@ -597,7 +597,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E401", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E401", "description": "Captured to learn this reply's layout. Its listed contents: D/C Count."}
   ]},
-{ "hdr": "DA10", "rax": "10", "dbg": true, "cmd": {"22": "E402"}, "freq": 60,
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E402"}, "freq": 60, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E402", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E402", "description": "Captured to learn this reply's layout. Its listed contents: Latest - current history - Discharge; One before the latest - current history - Discharge; Two before the latest - current history - Discharge; Three before the latest - current history - Discharge; Four before the latest - current history - Discharge; Latest - current history - Duration; One before the latest - current history - Duration; Two before the latest - current history - Duration; ...."}
   ]},
@@ -609,7 +609,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E40F", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E40F", "description": "Captured to learn this reply's layout. Its listed contents: ECM Replace - Read."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E411"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E411"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E411", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E411", "description": "Captured to learn this reply's layout. Its listed contents: Ignition Cycle Counter(Engine Start)."}
   ]},
@@ -661,7 +661,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E5FF", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E5FF", "description": "Captured to learn this reply's layout. Its listed contents: DBW Stuck Status."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E600"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E600"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E600", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E600", "description": "Captured to learn this reply's layout. Its listed contents: Battery Voltage (related source wording; OEM record title unknown)."}
   ]},
@@ -669,11 +669,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E601", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E601", "description": "Captured to learn this reply's layout. Its listed contents: Reprogramming cool-time query."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E602"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E602"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E602", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E602", "description": "Captured to learn this reply's layout. Its listed contents: Engine Speed; Engine Idle Stop Mode Control."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E800"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E800"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E800", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E800", "description": "Captured to learn this reply's layout. Its listed contents: Stored parameter readback."}
   ]},
@@ -701,7 +701,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E809", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E809", "description": "Captured to learn this reply's layout. Its listed contents: ECM/PCM REPLACE; IQA DATA STATUS; OBTAIN DATA; WRITE DATA; WRITE IQA DATA."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E80E"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "E80E"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_E80E", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E80E", "description": "Captured to learn this reply's layout. Its listed contents: Stored parameter readback."}
   ]},
@@ -741,11 +741,11 @@
   "signals": [
     {"id": "CIVIC_RAW_10_E82C", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 E82C", "description": "Captured to learn this reply's layout. Its listed contents: AD Inhibit Status."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F100"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F100"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_F100", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F100", "description": "Captured to learn this reply's layout. Its listed contents: Number of erasing process; Number of rewrite events."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F110"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F110"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_F110", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F110", "description": "Captured to learn this reply's layout. Its listed contents: Part number."}
   ]},
@@ -757,7 +757,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_F114", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F114", "description": "Captured to learn this reply's layout. Its listed contents: ROM-to-RAM descriptor data."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F181"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "F181"}, "freq": 60, "dbgfilter": { "to": 2014, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_F181", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 F181", "description": "Captured to learn this reply's layout. Its listed contents: Application software identification."}
   ]},
@@ -839,51 +839,51 @@
   "signals": [
     {"id": "CIVIC_ATF_T_VAR_4", "path": "Engine", "fmt": {"bix": 208, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 4", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2300"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2300"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2300", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2300", "description": "Captured to learn this reply's layout. Its listed contents: Distinction code of transmission.(CVT)."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2301"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2301"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2301", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2301", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor A (V); APP Sensor B (V); APP Sensor (%); Output Shaft(Driven Pulley) Speed rpm; Input Shaft(Drive Pulley) Speed rpm; Electric Oil Pump(rpm); Electric Oil Pump Target Speed(rpm); Engine Speed; Atmospheric Pressure; BARO SENSOR (V); Manifold Absolute Pressure; MAP Sensor (V); Relative TP Sensor; Intake Air Temperature; IAT Sensor (V); CVTF Temperature; CVTF Temp Sensor (V); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2311"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2311"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2311", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2311", "description": "Captured to learn this reply's layout. Its listed contents: APP Sensor A (V); APP Sensor B (V); APP Sensor (%); Output Shaft(Driven Pulley) Speed rpm; Input Shaft(Drive Pulley) Speed rpm; Electric Oil Pump(rpm); Engine Speed; Atmospheric Pressure; BARO SENSOR (V); Manifold Absolute Pressure; MAP Sensor (V); Relative TP Sensor; Intake Air Temperature; IAT Sensor (V); CVTF Temperature; CVTF Temp Sensor (V); TP Sensor (1); TP Sensor (2); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2320"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2320"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2320", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2320", "description": "Captured to learn this reply's layout. Its listed contents: Accumulator Solenoid; Pressure Control Sol Actual; Driven Pulley Sol Actual; Drive Pulley Sol Actual; LCC Linear Sol Actual; Start Clutch Control Sol Actual; Pressure Control Sol Command; Driven Pulley Sol Command; Drive Pulley Sol Command; LCC Linear Sol Command; Start Clutch Control Sol Command; Inhibitor Sol; Shift Sol A; Shift Sol B; Shift Sol O/P; Shift Lock Sol."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2321"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2321"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2321", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2321", "description": "Captured to learn this reply's layout. Its listed contents: Shift position indicator all segment; D Indicator; L Indicator; N Indicator; P Indicator; R Indicator; S Indicator; A/T D Switch; Forward Switch; A/T L Switch; A/T N Switch; A/T P Switch; A/T R Switch; Reverse Switch(ATPRVS); A/T S Switch; Brake Switch; ECON Mode Indicator; ECON Mode Switch; LED A; LED B; LED C; Manual Mode Indicator; Park Pin Switch; Downshift Switch; Downshift Switch (ST); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2322"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2322"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2322", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2322", "description": "Captured to learn this reply's layout. Its listed contents: Non Creep Control Status; Transmission Warming-Up Status; Fuel Cut Decel; Pulley Ratio Rate; Vehicle-Speed Rate; Start Clutch Slip Ratio; Inclination Sensor Output Voltage; Target Revolution Speed Following Status; Torque Converter Turbine Speed; ABS Wheel Speed (rpm); Secondary Shaft Speed 1 (rpm); Secondary Shaft Speed 2 (rpm); Driven Pulley Pressure; Driven Pulley Pressure Sensor(V); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2323"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2323"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2323", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2323", "description": "Captured to learn this reply's layout. Its listed contents: The zone no. of slip state; Temperature state for no-Idling; status of rough road; IDLE STOP INHIBIT(COMPSTOP); The number of protection control execution to 'HMMF' high temperature.; The cumulative number of the slips at the time of low temperature; The cumulative number of the slips at the time of normal temperature; The cumulative number of the slips at the time of accidental state; ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2330"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2330"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2330", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2330", "description": "Captured to learn this reply's layout. Its listed contents: Accumulator Solenoid; Pressure Control Sol Actual; Driven Pulley Sol Actual; Drive Pulley Sol Actual; LCC Linear Sol Actual; Start Clutch Control Sol Actual; Pressure Control Sol Command; Driven Pulley Sol Command; Drive Pulley Sol Command; LCC Linear Sol Command; Start Clutch Control Sol Command; Inhibitor Sol; Shift Sol A; Shift Sol B; Shift Sol O/P; Shift Lock Sol."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2331"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2331"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2331", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2331", "description": "Captured to learn this reply's layout. Its listed contents: Shift position indicator all segment; D Indicator; L Indicator; N Indicator; P Indicator; R Indicator; S Indicator; A/T D Switch; Forward Switch; A/T L Switch; A/T N Switch; A/T P Switch; A/T R Switch; Reverse Switch(ATPRVS); A/T S Switch; Brake Switch; ECON Mode Indicator; ECON Mode Switch; LED A; LED B; LED C; Manual Mode Indicator; Park Pin Switch; Downshift Switch; Downshift Switch (ST); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2332"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2332"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2332", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2332", "description": "Captured to learn this reply's layout. Its listed contents: Non Creep Control Status; Transmission Warming-Up Status; Fuel Cut Decel; Pulley Ratio Rate; Vehicle-Speed Rate; Start Clutch Slip Ratio; Inclination Sensor Output Voltage; Target Revolution Speed Following Status; Torque Converter Turbine Speed; ABS Wheel Speed (rpm); Secondary Shaft Speed 1 (rpm); Secondary Shaft Speed 2 (rpm); Driven Pulley Pressure; Driven Pulley Pressure Sensor(V); ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2333"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2333"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2333", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2333", "description": "Captured to learn this reply's layout. Its listed contents: The zone no. of slip state; Temperature state for no-Idling; status of rough road; IDLE STOP INHIBIT(COMPSTOP); The number of protection control execution to 'HMMF' high temperature.; The cumulative number of the slips at the time of low temperature; The cumulative number of the slips at the time of normal temperature; The cumulative number of the slips at the time of accidental state; ...."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2340"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "2340"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_2340", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 2340", "description": "Captured to learn this reply's layout. Its listed contents: Status of Driving Inclination Sensor Learn; Cooling Control; Distance Traveled Since Battery Connected; Learn Condition; Fccomat; Start Clutch Status; Start Clutch Feedback Learn; Feedback Learn Error Code; State Of Feedback Learn; Start Clutch Status Diagnosis condition; Characteristic Status of Start Clutch; Sftcomat; Sft Error Code; Status of Initial Inclination Sensor Learn; ...."}
   ]},
@@ -909,15 +909,15 @@
         }}
     }
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA1E", "rax": "1E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_1E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 1E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
@@ -1124,7 +1124,7 @@
   "signals": [
     {"id": "CIVIC_RAW_53_8003", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8003", "description": "Captured to learn this reply's layout. Its listed contents: Failure Control Unit Check."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8005"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023], "from": 2025 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8005"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_53_8005", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8005", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Weight."}
   ]},
