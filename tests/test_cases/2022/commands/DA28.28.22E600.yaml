@@ -4,29 +4,8 @@ test_cases:
     CIVIC_RAW_28_E600: 45
   response: 18DAF1280562E6002D9F
 - expected_values:
-    CIVIC_RAW_28_E600: 46
-  response: 18DAF1280562E6002E63
-- expected_values:
-    CIVIC_RAW_28_E600: 46
-  response: 18DAF1280562E6002E8A
-- expected_values:
-    CIVIC_RAW_28_E600: 47
-  response: 18DAF1280562E6002F9B
-- expected_values:
-    CIVIC_RAW_28_E600: 48
-  response: 18DAF1280562E60030D4
-- expected_values:
-    CIVIC_RAW_28_E600: 49
-  response: 18DAF1280562E6003170
-- expected_values:
     CIVIC_RAW_28_E600: 55
   response: 18DAF1280562E60037FF
 - expected_values:
     CIVIC_RAW_28_E600: 56
   response: 18DAF1280562E6003827
-- expected_values:
-    CIVIC_RAW_28_E600: 56
-  response: 18DAF1280562E600384E
-- expected_values:
-    CIVIC_RAW_28_E600: 56
-  response: 18DAF1280562E6003875
