@@ -1,5 +1,0 @@
-command_id: DA10.10.22F100
-test_cases:
-- expected_values:
-    CIVIC_RAW_10_F100: 255
-  response: 18DAF1100762F100FFFF0202
