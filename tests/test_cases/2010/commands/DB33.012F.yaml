@@ -351,6 +351,12 @@ test_cases:
     FLI: 31.37255
   response: |-
     18DAF11103412F5055555555
+    > DA10.10.22E814
+    CAN ERROR
+- expected_values:
+    FLI: 31.37255
+  response: |-
+    18DAF11103412F5055555555
     > DA1E.1E.222321
     CAN ERROR
 - expected_values:
