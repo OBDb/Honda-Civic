@@ -176,15 +176,15 @@
   "signals": [
     {"id": "CIVIC_AC_P", "path": "Climate", "fmt": {"bix": 120, "len": 16, "max": 4000, "unit": "kilopascal" }, "name": "A/C pressure"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50A"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50B"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "dbg": true, "cmd": {"22": "E50D"}, "freq": 60,
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
@@ -1024,15 +1024,15 @@
   "signals": [
     {"id": "CIVIC_RAW_53_0006", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 0006", "description": "Captured to learn this reply's layout. Its listed contents: OPDS Initialization."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8000"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2018, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8000"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2018, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_53_8000", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8000", "description": "Captured to learn this reply's layout. Its listed contents: ECU Maker; Number of Front Passenger's Seat Weight Sensor."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8001"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2018, 2021, 2023, 2025], "from": 2027 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8001"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2018, 2021, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_53_8001", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8001", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Airbag ON/OFF Switch Status; Left Front Seat Belt Buckle; Right Front Seat Belt Buckle; Passenger's Sitting Switch; Driver Seat Position Sensor; Passenger's Side Airbag OFF Indicator."}
   ]},
-{ "hdr": "DA53", "rax": "53", "dbg": true, "cmd": {"22": "8003"}, "freq": 60,
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8003"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_53_8003", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8003", "description": "Captured to learn this reply's layout. Its listed contents: Failure Control Unit Check."}
   ]},
@@ -1040,7 +1040,7 @@
   "signals": [
     {"id": "CIVIC_RAW_53_8005", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8005", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Weight."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2015, "years": [2018], "from": 2021 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2018], "from": 2021 },
   "signals": [
     {"id": "CIVIC_RAW_53_8010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8010", "description": "Captured to learn this reply's layout. Its listed contents: Left Front Airbag, Left Front/Rear Seat Belt Tensioner and/or Left Knee Airbag Deployed; Left Knee Airbag Deployed; Right Front Airbag, Right Front/Rear Seat Belt Tensioner and/or Right Knee Airbag Deployed; Right Knee Airbag Deployed; Both or Only Side Curtain Airbag and Seat Belt Tensioner Deployed; ...."}
   ]},
