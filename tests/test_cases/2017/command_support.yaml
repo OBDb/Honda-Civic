@@ -269,6 +269,8 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   "7B0":
   - 7B0.7B8.221026
+  "7E0":
+  - 7E0.0144:EQ_RAT
   "DA01":
   - DA01.000001.222028
   - DA01.000001.22202A
