@@ -19,10 +19,10 @@ test_cases:
     18DAF11003410680
     18DAF11003410680
 - expected_values:
-    SHRTFT1: 0.78125
+    SHRTFT1: 0
   response: |-
-    18DAF11003410681
-    18DAF1602600000000000000
+    18DAF11003410680
+    18DAF1602100000002000000
 - expected_values:
     SHRTFT1: 2.34375
   response: |-
