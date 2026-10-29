@@ -369,7 +369,7 @@ test_cases:
     FLI: 31.37255
   response: |-
     18DAF11103412F5055555555
-    > DA60.60.2270A9
+    > DA60.60.227010
     CAN ERROR
 - expected_values:
     FLI: 31.37255
