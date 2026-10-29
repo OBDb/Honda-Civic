@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     CIVIC_RAW_28_E600: 56
   response: 18DAF1280562E6003863
+- expected_values:
+    CIVIC_RAW_28_E600: 56
+  response: 18DAF1280562E60038BA
+- expected_values:
+    CIVIC_RAW_28_E600: 56
+  response: 18DAF1280562E60038D0
