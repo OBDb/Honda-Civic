@@ -1,0 +1,8 @@
+command_id: DA28.28.22E600
+test_cases:
+- expected_values:
+    CIVIC_RAW_28_E600: 56
+  response: 18DAF1280562E600380C
+- expected_values:
+    CIVIC_RAW_28_E600: 56
+  response: 18DAF1280562E6003863
