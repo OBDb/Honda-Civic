@@ -842,7 +842,7 @@
   "signals": [
     {"id": "CIVIC_VTEC_VALVE_CTRL", "path": "Engine", "fmt": {"bix": 175, "len": 1, "max": 1, "unit": "offon" }, "name": "VTEC valve control", "description": "VTEC works by switching between two (or sometimes three) different camshaft profiles by engaging or disengaging a mechanism that locks the valve rocker arms together. When VTEC is OFF, the engine operates using the standard cam profile, which is typically optimized for fuel efficiency and low-end torque. When VTEC is ON, the system switches to a high-performance cam profile that allows the valves to open wider and for a longer duration, enabling better airflow at higher RPMs for increased power."}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2613"}, "freq": 1, "filter": { "to": 2014 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2613"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "from": 2009 },
   "signals": [
     {"id": "CIVIC_EVAP_PC_LOAD", "path": "Engine", "fmt": {"bix": 48,  "len": 8,  "max": 99.61, "mul": 100, "div": 255, "unit": "percent" }, "name": "Evaporative purge control load"},
     {"id": "CIVIC_AC_P_RAW_CNT", "path": "Engine", "fmt": {"bix": 120, "len": 16, "max": 65535,                         "unit": "scalar"  }, "name": "Air conditioning pressure, raw count"}
@@ -860,7 +860,7 @@
   "signals": [
     {"id": "CIVIC_RUNTM_V2", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2661"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2006, "from": 2008 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2661"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2006, "from": 2009 },
   "signals": [
     {"id": "CIVIC_ELD_ELEC_LOAD_DUTY", "path": "Engine", "fmt": {"bix": 136, "len": 8, "max": 127, "div": 2, "unit": "amps" }, "name": "Electric load detector current"}
   ]},
@@ -885,7 +885,7 @@
     {"id": "CIVIC_MIS_CNT_5_VAR_2", "path": "Engine", "fmt": {"bix": 336, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 5,, variant 2"},
     {"id": "CIVIC_MIS_CNT_6_VAR_2", "path": "Engine", "fmt": {"bix": 352, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count 6,, variant 2"}
   ]},
-{ "hdr": "DA11", "rax": "11", "dbg": true, "cmd": {"22": "2668"}, "freq": 1, "filter": { "to": 2014 },
+{ "hdr": "DA11", "rax": "11", "cmd": {"22": "2668"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2007, "from": 2009 },
   "signals": [
     {"id": "CIVIC_ELEC_MOTOR_LOAD", "path": "Engine", "fmt": {"bix": 216, "len": 8, "max": 100, "min": -100, "mul": 40, "div": 51, "add": -100, "unit": "percent" }, "name": "Electric motor load"}
   ]},
