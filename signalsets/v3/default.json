@@ -426,7 +426,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_2667", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 2667", "description": "Captured to learn this reply's layout. Its listed contents: Resolver Leraning-Accelerator Pedal Sensor; Resolver Leraning-O/D Clutch Condition; Resolver Leraning-Battery Charging Condition; Resolver Leraning-Vehicle Speed Condition; MOT ECU Failure; P Position; System Ready State; Soc (State of Charge) Condition; TMU Failure; Vehicle Interdiction; Resolver Zero Point Learning (TMU); Resolver Leraning Start by ECU; Generator Motor Learning Completion; ...."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2668"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2019, 2020, 2021, 2022, 2023], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "2668"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2019, 2021, 2022, 2023], "from": 2027 },
   "signals": [
     {"id": "CIVIC_ELEC_MOTOR_LOAD_DA10", "path": "Engine", "fmt": {"bix": 216, "len": 8, "max": 100, "min": -100, "mul": 40, "div": 51, "add": -100, "unit": "percent" }, "name": "Electric motor load"}
   ]},
