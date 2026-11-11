@@ -171,12 +171,12 @@
   "signals": [
     {"id": "CIVIC_RAW_0E_2340", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 2340", "description": "Captured to learn this reply's layout. Its listed contents: Status of Driving Inclination Sensor Learn; Cooling Control; Distance Traveled Since Battery Connected; Learn Condition; Fccomat; Start Clutch Status; Start Clutch Feedback Learn; Feedback Learn Error Code; State Of Feedback Learn; Start Clutch Status Diagnosis condition; Characteristic Status of Start Clutch; Sftcomat; Sft Error Code; Status of Initial Inclination Sensor Learn; ...."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2610"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2610"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_GENERATOR_PCM", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Generator"},
     {"id": "CIVIC_AC_CLU_PCM",    "path": "Engine", "fmt": {"bix": 262, "len": 1, "max": 1,                           "unit": "offon"   }, "name": "A/C clutch"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2611"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2611"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_AIRGAS_RAT_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "mul": 29.4, "div": 65535, "nullmax": 29.4, "unit": "scalar" }, "name": "Air/gas ratio"}
   ]},
@@ -193,21 +193,21 @@
   "signals": [
     {"id": "CIVIC_ACTIVE_CYL_PCM", "path": "Engine", "fmt": {"bix": 400, "len": 8, "max": 6, "unit": "scalar" }, "name": "Active cylinders"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2660"}, "freq": 30, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2660"}, "freq": 30, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_ODO_PCM",   "path": "Trips",  "fmt": {"bix": 344, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",                "suggestedMetric": "odometer"},
     {"id": "CIVIC_RUNTM_PCM", "path": "Clocks", "fmt": {"bix": 368, "len": 16, "max": 65535,    "unit": "seconds"    }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2661"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2661"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_FUELAIR_CAR_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 29.4, "div": 2229.08163265, "unit": "scalar" }, "name": "Fuel/air commanded equivalence ratio"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2662"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2662"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_KNOCK_CTRL_PCM", "path": "ECU",    "fmt": {"bix": 80,  "len": 8, "max": 2,   "mul": 2,   "div": 255, "unit": "scalar"  }, "name": "Knock control"},
     {"id": "CIVIC_VTC_DUTY_PCM",   "path": "Engine", "fmt": {"bix": 224, "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Variable valve timing duty"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2663"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "2663"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1, variant 3"},
     {"id": "CIVIC_MIS_CNT_2_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 176, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2, variant 3"},
@@ -223,26 +223,26 @@
     {"id": "CIVIC_EOT_VAR_3_PCM", "path": "Engine", "fmt": {"bix": 88,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 3"},
     {"id": "CIVIC_EOT_VAR_4_PCM", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature, variant 4"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266C"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266C"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_MIS_CNT_1_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #1, variant 1"},
     {"id": "CIVIC_MIS_CNT_2_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #2, variant 1"},
     {"id": "CIVIC_MIS_CNT_3_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #3, variant 1"},
     {"id": "CIVIC_MIS_CNT_4_VAR_1_PCM", "path": "Engine", "fmt": {"bix": 72, "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire count #4, variant 1"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266D"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "266D"}, "freq": 1, "filter": { "from": 2012, "to": 2015 }, "dbgfilter": { "from": 2014 },
   "signals": [
     {"id": "CIVIC_AIR_FUEL_MIXTURE", "path": "Fuel", "fmt": {"bix": 72, "len": 8, "max": 127, "div": 2, "unit": "percent" }, "name": "Air-fuel mixture heater"}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50A"}, "freq": 60, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50A", "description": "Captured to learn this reply's layout. Its listed contents: Invalid Judgement; Refrence Search Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50B"}, "freq": 60, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50B", "description": "Captured to learn this reply's layout. Its listed contents: 2nd Retry Judgement; 3rd Retry Judgement; 4th Retry Judgement; 5th Retry Judgement; 6th Retry Judgement; 7th Retry Judgement; Low Retry Judgement; Rvs Retry Judgement."}
   ]},
-{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "DA0E", "rax": "0E", "cmd": {"22": "E50D"}, "freq": 60, "dbgfilter": { "to": 2011, "from": 2014 },
   "signals": [
     {"id": "CIVIC_RAW_0E_E50D", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 0E 22 E50D", "description": "Captured to learn this reply's layout. Its listed contents: 1ST_CORERROR."}
   ]},
