@@ -1957,6 +1957,9 @@ test_cases:
     18DAF11104414483B7555555
     CAN ERROR
 - expected_values:
+    EQ_RAT: 0.98438
+  response: 18DAF1110441447E00
+- expected_values:
     EQ_RAT: 1.0202
   response: |-
     18DAF1110441447E09555555
@@ -2075,9 +2078,6 @@ test_cases:
     18DAF1110441447EF4555555
     18DAF1110441447EF4555555
     18DAF1110441447EF4555555
-- expected_values:
-    EQ_RAT: 0.99219
-  response: 18DAF1110441447F00
 - expected_values:
     EQ_RAT: 0.99219
   response: 18DAF1110441447F00555555

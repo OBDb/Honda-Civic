@@ -119,6 +119,9 @@ test_cases:
     > DA1E.1E.222201
     CAN ERROR
 - expected_values:
+    MAF: 1.76
+  response: 18DAF11104411000B0
+- expected_values:
     MAF: 1.78
   response: |-
     18DAF11104411000B2555555
@@ -569,9 +572,6 @@ test_cases:
     18DAF1110441100B00555555
     18DAF1110441100DEB555555
     CAN ERROR
-- expected_values:
-    MAF: 2.34
-  response: 18DAF11104411000EA
 - expected_values:
     MAF: 2.39
   response: |-

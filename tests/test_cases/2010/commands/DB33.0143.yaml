@@ -780,6 +780,9 @@ test_cases:
     18DAF11104414300B1555555
     CAN ERROR
 - expected_values:
+    LOAD_ABS: 14.90196
+  response: 18DAF1110441430026
+- expected_values:
     LOAD_ABS: 46.27451
   response: |-
     18DAF1110441430028555555
@@ -1060,6 +1063,9 @@ test_cases:
     18DAF1110441430066555555
     > DA1D.1D.222663|f=-2011
     CAN ERROR
+- expected_values:
+    LOAD_ABS: 20.39216
+  response: 18DAF1110441430034
 - expected_values:
     LOAD_ABS: 56.07843
   response: |-

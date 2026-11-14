@@ -1523,11 +1523,6 @@ test_cases:
     > DA11.11.222663|f=-2011
     CAN ERROR
 - expected_values:
-    ECT: 72
-  response: |-
-    18DAF11103410570
-    18DAF11D03410570
-- expected_values:
     ECT: 74
   response: |-
     18DAF1110341057255555555
@@ -1572,11 +1567,21 @@ test_cases:
     18DAF11D0341058355555555
     18DAF11D0341058355555555
 - expected_values:
+    ECT: 94
+  response: |-
+    18DAF11103410586
+    18DAF11D03410586
+- expected_values:
     ECT: 100
   response: |-
     18DAF1110341058C55555555
     18DAF11D0341058C55555555
     18DAF11D0341058C55555555
+- expected_values:
+    ECT: 101
+  response: |-
+    18DAF1110341058D
+    18DAF11D0341058D
 - expected_values:
     ECT: 101
   response: 18DAF1110341058D55555555
@@ -1618,8 +1623,3 @@ test_cases:
     18DAF11D0341056D55555555
     18DAF11D0341056D55555555
     18DAF11D0341056D55555555
-- expected_values:
-    ECT: 82
-  response: |-
-    18DAF11D0341057A
-    18DAF1110341057A
