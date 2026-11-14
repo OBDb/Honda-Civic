@@ -370,6 +370,11 @@ test_cases:
     18DAF11104410C1914555555
     CAN ERROR
 - expected_values:
+    RPM: 663
+  response: |-
+    18DAF11104410C0A5C
+    18DAF11D04410C0A5C
+- expected_values:
     RPM: 990
   response: |-
     18DAF11104410C0A60555555
@@ -1081,6 +1086,11 @@ test_cases:
     > DA1E.1E.222201
     CAN ERROR
 - expected_values:
+    RPM: 678
+  response: |-
+    18DAF11104410C0A98
+    18DAF11D04410C0A98
+- expected_values:
     RPM: 798
   response: |-
     18DAF11104410C0AAC555555
@@ -1637,6 +1647,11 @@ test_cases:
     18DAF11104410C1B5C555555
     CAN ERROR
 - expected_values:
+    RPM: 710
+  response: |-
+    18DAF11104410C0B18
+    18DAF11D04410C0B18
+- expected_values:
     RPM: 754
   response: |-
     18DAF11104410C0B68555555
@@ -1824,6 +1839,11 @@ test_cases:
     18DAF11D0341048155555555
     > DA1E.1E.222201
     CAN ERROR
+- expected_values:
+    RPM: 742
+  response: |-
+    18DAF11104410C0B98
+    18DAF11D04410C0B98
 - expected_values:
     RPM: 2560
   response: |-
@@ -2354,6 +2374,11 @@ test_cases:
 - expected_values:
     RPM: 670
   response: 18DAF11D04410C0A78555555
+- expected_values:
+    RPM: 671
+  response: |-
+    18DAF11D04410C0A7C
+    18DAF11104410C0A7C
 - expected_values:
     RPM: 1055
   response: |-
