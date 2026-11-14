@@ -1,13 +1,18 @@
 command_id: DB33.0133
 test_cases:
 - expected_values:
-    BARO: 100
-  response: 18DAF11003413364
+    BARO: 94
+  response: |-
+    18DAF1100341335E
+    18DAF11E0341335E
+- expected_values:
+    BARO: 96
+  response: |-
+    18DAF1100341335F
+    18DAF11E03413360
 - expected_values:
     BARO: 100
-  response: |-
-    18DAF11003413364
-    18DAF11E03413364
+  response: 18DAF11003413364
 - expected_values:
     BARO: 101
   response: 18DAF11003413365
@@ -17,18 +22,10 @@ test_cases:
     18DAF11003413365
     18DAF11E03413365
 - expected_values:
+    BARO: 94
+  response: |-
+    18DAF11E0341335E
+    18DAF1100341335E
+- expected_values:
     BARO: 100
   response: 18DAF11E03413364
-- expected_values:
-    BARO: 100
-  response: |-
-    18DAF11E03413364
-    18DAF11003413364
-- expected_values:
-    BARO: 101
-  response: 18DAF11E03413365
-- expected_values:
-    BARO: 101
-  response: |-
-    18DAF11E03413365
-    18DAF11003413365
