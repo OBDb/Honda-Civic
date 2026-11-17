@@ -551,7 +551,7 @@
   "signals": [
     {"id": "CIVIC_RAW_10_268A", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268A", "description": "Captured to learn this reply's layout. Its listed contents: FuelEconomyCapture."}
   ]},
-{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268B"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2021], "from": 2027 },
+{ "hdr": "DA10", "rax": "10", "cmd": {"22": "268B"}, "freq": 30, "filter": { "to": 2015, "from": 2022 }, "dbgfilter": { "to": 2014, "from": 2027 },
   "signals": [
     {"id": "CIVIC_RAW_10_268B", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 10 22 268B", "description": "Captured to learn this reply's layout. Its listed contents: Idle Stop Inhibit (HVAC); Idle Stop Inhibit (Battery Management System); Idle Stop Inhibit (Idle Stop Cancel Switch); Idle Stop Inhibit (DC-DC Converter); Idle Stop Inhibit (Drive mode); Idle Stop Inhibit (EPS Unit); Idle Stop Inhibit (Hood Open); Idle Stop Inhibit (Starting Assist Brake); Idle Stop Inhibit (Barometric Air Pressure); Idle Stop Inhibit (PCU); Idle Stop Inhibit (Driving History); ...."}
   ]},
@@ -1156,7 +1156,7 @@
   "signals": [
     {"id": "CIVIC_RAW_53_8005", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8005", "description": "Captured to learn this reply's layout. Its listed contents: Front Passenger's Weight."}
   ]},
-{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2021 },
+{ "hdr": "DA53", "rax": "53", "cmd": {"22": "8010"}, "freq": 60, "filter": { "to": 2021, "from": 2028 }, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2021 },
   "signals": [
     {"id": "CIVIC_RAW_53_8010", "path": "ECU", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw first byte of 53 22 8010", "description": "Captured to learn this reply's layout. Its listed contents: Left Front Airbag, Left Front/Rear Seat Belt Tensioner and/or Left Knee Airbag Deployed; Left Knee Airbag Deployed; Right Front Airbag, Right Front/Rear Seat Belt Tensioner and/or Right Knee Airbag Deployed; Right Knee Airbag Deployed; Both or Only Side Curtain Airbag and Seat Belt Tensioner Deployed; ...."}
   ]},

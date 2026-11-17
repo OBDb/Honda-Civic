@@ -1,4 +1,4 @@
-command_id: DA10.10.22268B
+command_id: DA10.10.22268B|f=2022-;-2015
 test_cases:
 - expected_values:
     CIVIC_RAW_10_268B: 255

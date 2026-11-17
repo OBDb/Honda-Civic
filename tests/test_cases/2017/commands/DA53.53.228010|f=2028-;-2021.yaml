@@ -1,4 +1,4 @@
-command_id: DA53.53.228010
+command_id: DA53.53.228010|f=2028-;-2021
 test_cases:
 - expected_values:
     CIVIC_RAW_53_8010: 170
